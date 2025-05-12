@@ -1,0 +1,819 @@
+/gate/source/addSource sphere0
+/gate/source/sphere0/attachTo Elliptube
+/gate/source/sphere0/setActivity 354.252 becquerel
+/gate/source/sphere0/gps/particle e+ 
+/gate/source/sphere0/setForcedUnstableFlag true
+/gate/source/sphere0/gps/energytype Fluor18
+/gate/source/sphere0/setForcedHalfLife 6586 s
+/gate/source/sphere0/gps/type Volume
+/gate/source/sphere0/gps/shape Sphere
+/gate/source/sphere0/gps/radius 2 mm
+/gate/source/sphere0/gps/angtype iso
+/gate/source/sphere0/gps/centre 0 90 0 mm
+
+/gate/source/addSource sphere1
+/gate/source/sphere1/attachTo Elliptube
+/gate/source/sphere1/setActivity 354.252 becquerel
+/gate/source/sphere1/gps/particle e+ 
+/gate/source/sphere1/setForcedUnstableFlag true
+/gate/source/sphere1/gps/energytype Fluor18
+/gate/source/sphere1/setForcedHalfLife 6586 s
+/gate/source/sphere1/gps/type Volume
+/gate/source/sphere1/gps/shape Sphere
+/gate/source/sphere1/gps/radius 2 mm
+/gate/source/sphere1/gps/angtype iso
+/gate/source/sphere1/gps/centre 12 90 0 mm
+
+/gate/source/addSource sphere2
+/gate/source/sphere2/attachTo Elliptube
+/gate/source/sphere2/setActivity 354.252 becquerel
+/gate/source/sphere2/gps/particle e+ 
+/gate/source/sphere2/setForcedUnstableFlag true
+/gate/source/sphere2/gps/energytype Fluor18
+/gate/source/sphere2/setForcedHalfLife 6586 s
+/gate/source/sphere2/gps/type Volume
+/gate/source/sphere2/gps/shape Sphere
+/gate/source/sphere2/gps/radius 2 mm
+/gate/source/sphere2/gps/angtype iso
+/gate/source/sphere2/gps/centre 6 99 0 mm
+
+/gate/source/addSource sphere3
+/gate/source/sphere3/attachTo Elliptube
+/gate/source/sphere3/setActivity 354.252 becquerel
+/gate/source/sphere3/gps/particle e+ 
+/gate/source/sphere3/setForcedUnstableFlag true
+/gate/source/sphere3/gps/energytype Fluor18
+/gate/source/sphere3/setForcedHalfLife 6586 s
+/gate/source/sphere3/gps/type Volume
+/gate/source/sphere3/gps/shape Sphere
+/gate/source/sphere3/gps/radius 2 mm
+/gate/source/sphere3/gps/angtype iso
+/gate/source/sphere3/gps/centre -6 99 0 mm
+
+/gate/source/addSource sphere4
+/gate/source/sphere4/attachTo Elliptube
+/gate/source/sphere4/setActivity 354.252 becquerel
+/gate/source/sphere4/gps/particle e+ 
+/gate/source/sphere4/setForcedUnstableFlag true
+/gate/source/sphere4/gps/energytype Fluor18
+/gate/source/sphere4/setForcedHalfLife 6586 s
+/gate/source/sphere4/gps/type Volume
+/gate/source/sphere4/gps/shape Sphere
+/gate/source/sphere4/gps/radius 2 mm
+/gate/source/sphere4/gps/angtype iso
+/gate/source/sphere4/gps/centre -12 90 0 mm
+
+/gate/source/addSource sphere5
+/gate/source/sphere5/attachTo Elliptube
+/gate/source/sphere5/setActivity 354.252 becquerel
+/gate/source/sphere5/gps/particle e+ 
+/gate/source/sphere5/setForcedUnstableFlag true
+/gate/source/sphere5/gps/energytype Fluor18
+/gate/source/sphere5/setForcedHalfLife 6586 s
+/gate/source/sphere5/gps/type Volume
+/gate/source/sphere5/gps/shape Sphere
+/gate/source/sphere5/gps/radius 2 mm
+/gate/source/sphere5/gps/angtype iso
+/gate/source/sphere5/gps/centre -6 81 0 mm
+
+/gate/source/addSource sphere6
+/gate/source/sphere6/attachTo Elliptube
+/gate/source/sphere6/setActivity 354.252 becquerel
+/gate/source/sphere6/gps/particle e+ 
+/gate/source/sphere6/setForcedUnstableFlag true
+/gate/source/sphere6/gps/energytype Fluor18
+/gate/source/sphere6/setForcedHalfLife 6586 s
+/gate/source/sphere6/gps/type Volume
+/gate/source/sphere6/gps/shape Sphere
+/gate/source/sphere6/gps/radius 2 mm
+/gate/source/sphere6/gps/angtype iso
+/gate/source/sphere6/gps/centre 6 81 0 mm
+
+/gate/source/addSource sphere7
+/gate/source/sphere7/attachTo Elliptube
+/gate/source/sphere7/setActivity 354.252 becquerel
+/gate/source/sphere7/gps/particle e+ 
+/gate/source/sphere7/setForcedUnstableFlag true
+/gate/source/sphere7/gps/energytype Fluor18
+/gate/source/sphere7/setForcedHalfLife 6586 s
+/gate/source/sphere7/gps/type Volume
+/gate/source/sphere7/gps/shape Sphere
+/gate/source/sphere7/gps/radius 2 mm
+/gate/source/sphere7/gps/angtype iso
+/gate/source/sphere7/gps/centre -90 63 0 mm
+
+/gate/source/addSource sphere8
+/gate/source/sphere8/attachTo Elliptube
+/gate/source/sphere8/setActivity 354.252 becquerel
+/gate/source/sphere8/gps/particle e+ 
+/gate/source/sphere8/setForcedUnstableFlag true
+/gate/source/sphere8/gps/energytype Fluor18
+/gate/source/sphere8/setForcedHalfLife 6586 s
+/gate/source/sphere8/gps/type Volume
+/gate/source/sphere8/gps/shape Sphere
+/gate/source/sphere8/gps/radius 2 mm
+/gate/source/sphere8/gps/angtype iso
+/gate/source/sphere8/gps/centre -78 63 0 mm
+
+/gate/source/addSource sphere9
+/gate/source/sphere9/attachTo Elliptube
+/gate/source/sphere9/setActivity 354.252 becquerel
+/gate/source/sphere9/gps/particle e+ 
+/gate/source/sphere9/setForcedUnstableFlag true
+/gate/source/sphere9/gps/energytype Fluor18
+/gate/source/sphere9/setForcedHalfLife 6586 s
+/gate/source/sphere9/gps/type Volume
+/gate/source/sphere9/gps/shape Sphere
+/gate/source/sphere9/gps/radius 2 mm
+/gate/source/sphere9/gps/angtype iso
+/gate/source/sphere9/gps/centre -84 72 0 mm
+
+/gate/source/addSource sphere10
+/gate/source/sphere10/attachTo Elliptube
+/gate/source/sphere10/setActivity 354.252 becquerel
+/gate/source/sphere10/gps/particle e+ 
+/gate/source/sphere10/setForcedUnstableFlag true
+/gate/source/sphere10/gps/energytype Fluor18
+/gate/source/sphere10/setForcedHalfLife 6586 s
+/gate/source/sphere10/gps/type Volume
+/gate/source/sphere10/gps/shape Sphere
+/gate/source/sphere10/gps/radius 2 mm
+/gate/source/sphere10/gps/angtype iso
+/gate/source/sphere10/gps/centre -96 72 0 mm
+
+/gate/source/addSource sphere11
+/gate/source/sphere11/attachTo Elliptube
+/gate/source/sphere11/setActivity 354.252 becquerel
+/gate/source/sphere11/gps/particle e+ 
+/gate/source/sphere11/setForcedUnstableFlag true
+/gate/source/sphere11/gps/energytype Fluor18
+/gate/source/sphere11/setForcedHalfLife 6586 s
+/gate/source/sphere11/gps/type Volume
+/gate/source/sphere11/gps/shape Sphere
+/gate/source/sphere11/gps/radius 2 mm
+/gate/source/sphere11/gps/angtype iso
+/gate/source/sphere11/gps/centre -102 63 0 mm
+
+/gate/source/addSource sphere12
+/gate/source/sphere12/attachTo Elliptube
+/gate/source/sphere12/setActivity 354.252 becquerel
+/gate/source/sphere12/gps/particle e+ 
+/gate/source/sphere12/setForcedUnstableFlag true
+/gate/source/sphere12/gps/energytype Fluor18
+/gate/source/sphere12/setForcedHalfLife 6586 s
+/gate/source/sphere12/gps/type Volume
+/gate/source/sphere12/gps/shape Sphere
+/gate/source/sphere12/gps/radius 2 mm
+/gate/source/sphere12/gps/angtype iso
+/gate/source/sphere12/gps/centre -96 54 0 mm
+
+/gate/source/addSource sphere13
+/gate/source/sphere13/attachTo Elliptube
+/gate/source/sphere13/setActivity 354.252 becquerel
+/gate/source/sphere13/gps/particle e+ 
+/gate/source/sphere13/setForcedUnstableFlag true
+/gate/source/sphere13/gps/energytype Fluor18
+/gate/source/sphere13/setForcedHalfLife 6586 s
+/gate/source/sphere13/gps/type Volume
+/gate/source/sphere13/gps/shape Sphere
+/gate/source/sphere13/gps/radius 2 mm
+/gate/source/sphere13/gps/angtype iso
+/gate/source/sphere13/gps/centre -84 54 0 mm
+
+/gate/source/addSource sphere14
+/gate/source/sphere14/attachTo Elliptube
+/gate/source/sphere14/setActivity 354.252 becquerel
+/gate/source/sphere14/gps/particle e+ 
+/gate/source/sphere14/setForcedUnstableFlag true
+/gate/source/sphere14/gps/energytype Fluor18
+/gate/source/sphere14/setForcedHalfLife 6586 s
+/gate/source/sphere14/gps/type Volume
+/gate/source/sphere14/gps/shape Sphere
+/gate/source/sphere14/gps/radius 2 mm
+/gate/source/sphere14/gps/angtype iso
+/gate/source/sphere14/gps/centre 90 63 0 mm
+
+/gate/source/addSource sphere15
+/gate/source/sphere15/attachTo Elliptube
+/gate/source/sphere15/setActivity 354.252 becquerel
+/gate/source/sphere15/gps/particle e+ 
+/gate/source/sphere15/setForcedUnstableFlag true
+/gate/source/sphere15/gps/energytype Fluor18
+/gate/source/sphere15/setForcedHalfLife 6586 s
+/gate/source/sphere15/gps/type Volume
+/gate/source/sphere15/gps/shape Sphere
+/gate/source/sphere15/gps/radius 2 mm
+/gate/source/sphere15/gps/angtype iso
+/gate/source/sphere15/gps/centre 102 63 0 mm
+
+/gate/source/addSource sphere16
+/gate/source/sphere16/attachTo Elliptube
+/gate/source/sphere16/setActivity 354.252 becquerel
+/gate/source/sphere16/gps/particle e+ 
+/gate/source/sphere16/setForcedUnstableFlag true
+/gate/source/sphere16/gps/energytype Fluor18
+/gate/source/sphere16/setForcedHalfLife 6586 s
+/gate/source/sphere16/gps/type Volume
+/gate/source/sphere16/gps/shape Sphere
+/gate/source/sphere16/gps/radius 2 mm
+/gate/source/sphere16/gps/angtype iso
+/gate/source/sphere16/gps/centre 96 72 0 mm
+
+/gate/source/addSource sphere17
+/gate/source/sphere17/attachTo Elliptube
+/gate/source/sphere17/setActivity 354.252 becquerel
+/gate/source/sphere17/gps/particle e+ 
+/gate/source/sphere17/setForcedUnstableFlag true
+/gate/source/sphere17/gps/energytype Fluor18
+/gate/source/sphere17/setForcedHalfLife 6586 s
+/gate/source/sphere17/gps/type Volume
+/gate/source/sphere17/gps/shape Sphere
+/gate/source/sphere17/gps/radius 2 mm
+/gate/source/sphere17/gps/angtype iso
+/gate/source/sphere17/gps/centre 84 72 0 mm
+
+/gate/source/addSource sphere18
+/gate/source/sphere18/attachTo Elliptube
+/gate/source/sphere18/setActivity 354.252 becquerel
+/gate/source/sphere18/gps/particle e+ 
+/gate/source/sphere18/setForcedUnstableFlag true
+/gate/source/sphere18/gps/energytype Fluor18
+/gate/source/sphere18/setForcedHalfLife 6586 s
+/gate/source/sphere18/gps/type Volume
+/gate/source/sphere18/gps/shape Sphere
+/gate/source/sphere18/gps/radius 2 mm
+/gate/source/sphere18/gps/angtype iso
+/gate/source/sphere18/gps/centre 78 63 0 mm
+
+/gate/source/addSource sphere19
+/gate/source/sphere19/attachTo Elliptube
+/gate/source/sphere19/setActivity 354.252 becquerel
+/gate/source/sphere19/gps/particle e+ 
+/gate/source/sphere19/setForcedUnstableFlag true
+/gate/source/sphere19/gps/energytype Fluor18
+/gate/source/sphere19/setForcedHalfLife 6586 s
+/gate/source/sphere19/gps/type Volume
+/gate/source/sphere19/gps/shape Sphere
+/gate/source/sphere19/gps/radius 2 mm
+/gate/source/sphere19/gps/angtype iso
+/gate/source/sphere19/gps/centre 84 54 0 mm
+
+/gate/source/addSource sphere20
+/gate/source/sphere20/attachTo Elliptube
+/gate/source/sphere20/setActivity 354.252 becquerel
+/gate/source/sphere20/gps/particle e+ 
+/gate/source/sphere20/setForcedUnstableFlag true
+/gate/source/sphere20/gps/energytype Fluor18
+/gate/source/sphere20/setForcedHalfLife 6586 s
+/gate/source/sphere20/gps/type Volume
+/gate/source/sphere20/gps/shape Sphere
+/gate/source/sphere20/gps/radius 2 mm
+/gate/source/sphere20/gps/angtype iso
+/gate/source/sphere20/gps/centre 96 54 0 mm
+
+/gate/source/addSource sphere21
+/gate/source/sphere21/attachTo Elliptube
+/gate/source/sphere21/setActivity 354.252 becquerel
+/gate/source/sphere21/gps/particle e+ 
+/gate/source/sphere21/setForcedUnstableFlag true
+/gate/source/sphere21/gps/energytype Fluor18
+/gate/source/sphere21/setForcedHalfLife 6586 s
+/gate/source/sphere21/gps/type Volume
+/gate/source/sphere21/gps/shape Sphere
+/gate/source/sphere21/gps/radius 2 mm
+/gate/source/sphere21/gps/angtype iso
+/gate/source/sphere21/gps/centre -132 0 0 mm
+
+/gate/source/addSource sphere22
+/gate/source/sphere22/attachTo Elliptube
+/gate/source/sphere22/setActivity 354.252 becquerel
+/gate/source/sphere22/gps/particle e+ 
+/gate/source/sphere22/setForcedUnstableFlag true
+/gate/source/sphere22/gps/energytype Fluor18
+/gate/source/sphere22/setForcedHalfLife 6586 s
+/gate/source/sphere22/gps/type Volume
+/gate/source/sphere22/gps/shape Sphere
+/gate/source/sphere22/gps/radius 2 mm
+/gate/source/sphere22/gps/angtype iso
+/gate/source/sphere22/gps/centre -120 0 0 mm
+
+/gate/source/addSource sphere23
+/gate/source/sphere23/attachTo Elliptube
+/gate/source/sphere23/setActivity 354.252 becquerel
+/gate/source/sphere23/gps/particle e+ 
+/gate/source/sphere23/setForcedUnstableFlag true
+/gate/source/sphere23/gps/energytype Fluor18
+/gate/source/sphere23/setForcedHalfLife 6586 s
+/gate/source/sphere23/gps/type Volume
+/gate/source/sphere23/gps/shape Sphere
+/gate/source/sphere23/gps/radius 2 mm
+/gate/source/sphere23/gps/angtype iso
+/gate/source/sphere23/gps/centre -126 9 0 mm
+
+/gate/source/addSource sphere24
+/gate/source/sphere24/attachTo Elliptube
+/gate/source/sphere24/setActivity 354.252 becquerel
+/gate/source/sphere24/gps/particle e+ 
+/gate/source/sphere24/setForcedUnstableFlag true
+/gate/source/sphere24/gps/energytype Fluor18
+/gate/source/sphere24/setForcedHalfLife 6586 s
+/gate/source/sphere24/gps/type Volume
+/gate/source/sphere24/gps/shape Sphere
+/gate/source/sphere24/gps/radius 2 mm
+/gate/source/sphere24/gps/angtype iso
+/gate/source/sphere24/gps/centre -138 9 0 mm
+
+/gate/source/addSource sphere25
+/gate/source/sphere25/attachTo Elliptube
+/gate/source/sphere25/setActivity 354.252 becquerel
+/gate/source/sphere25/gps/particle e+ 
+/gate/source/sphere25/setForcedUnstableFlag true
+/gate/source/sphere25/gps/energytype Fluor18
+/gate/source/sphere25/setForcedHalfLife 6586 s
+/gate/source/sphere25/gps/type Volume
+/gate/source/sphere25/gps/shape Sphere
+/gate/source/sphere25/gps/radius 2 mm
+/gate/source/sphere25/gps/angtype iso
+/gate/source/sphere25/gps/centre -144 0 0 mm
+
+/gate/source/addSource sphere26
+/gate/source/sphere26/attachTo Elliptube
+/gate/source/sphere26/setActivity 354.252 becquerel
+/gate/source/sphere26/gps/particle e+ 
+/gate/source/sphere26/setForcedUnstableFlag true
+/gate/source/sphere26/gps/energytype Fluor18
+/gate/source/sphere26/setForcedHalfLife 6586 s
+/gate/source/sphere26/gps/type Volume
+/gate/source/sphere26/gps/shape Sphere
+/gate/source/sphere26/gps/radius 2 mm
+/gate/source/sphere26/gps/angtype iso
+/gate/source/sphere26/gps/centre -138 -9 0 mm
+
+/gate/source/addSource sphere27
+/gate/source/sphere27/attachTo Elliptube
+/gate/source/sphere27/setActivity 354.252 becquerel
+/gate/source/sphere27/gps/particle e+ 
+/gate/source/sphere27/setForcedUnstableFlag true
+/gate/source/sphere27/gps/energytype Fluor18
+/gate/source/sphere27/setForcedHalfLife 6586 s
+/gate/source/sphere27/gps/type Volume
+/gate/source/sphere27/gps/shape Sphere
+/gate/source/sphere27/gps/radius 2 mm
+/gate/source/sphere27/gps/angtype iso
+/gate/source/sphere27/gps/centre -126 -9 0 mm
+
+/gate/source/addSource sphere28
+/gate/source/sphere28/attachTo Elliptube
+/gate/source/sphere28/setActivity 354.252 becquerel
+/gate/source/sphere28/gps/particle e+ 
+/gate/source/sphere28/setForcedUnstableFlag true
+/gate/source/sphere28/gps/energytype Fluor18
+/gate/source/sphere28/setForcedHalfLife 6586 s
+/gate/source/sphere28/gps/type Volume
+/gate/source/sphere28/gps/shape Sphere
+/gate/source/sphere28/gps/radius 2 mm
+/gate/source/sphere28/gps/angtype iso
+/gate/source/sphere28/gps/centre 0 0 0 mm
+
+/gate/source/addSource sphere29
+/gate/source/sphere29/attachTo Elliptube
+/gate/source/sphere29/setActivity 354.252 becquerel
+/gate/source/sphere29/gps/particle e+ 
+/gate/source/sphere29/setForcedUnstableFlag true
+/gate/source/sphere29/gps/energytype Fluor18
+/gate/source/sphere29/setForcedHalfLife 6586 s
+/gate/source/sphere29/gps/type Volume
+/gate/source/sphere29/gps/shape Sphere
+/gate/source/sphere29/gps/radius 2 mm
+/gate/source/sphere29/gps/angtype iso
+/gate/source/sphere29/gps/centre 12 0 0 mm
+
+/gate/source/addSource sphere30
+/gate/source/sphere30/attachTo Elliptube
+/gate/source/sphere30/setActivity 354.252 becquerel
+/gate/source/sphere30/gps/particle e+ 
+/gate/source/sphere30/setForcedUnstableFlag true
+/gate/source/sphere30/gps/energytype Fluor18
+/gate/source/sphere30/setForcedHalfLife 6586 s
+/gate/source/sphere30/gps/type Volume
+/gate/source/sphere30/gps/shape Sphere
+/gate/source/sphere30/gps/radius 2 mm
+/gate/source/sphere30/gps/angtype iso
+/gate/source/sphere30/gps/centre 6 9 0 mm
+
+/gate/source/addSource sphere31
+/gate/source/sphere31/attachTo Elliptube
+/gate/source/sphere31/setActivity 354.252 becquerel
+/gate/source/sphere31/gps/particle e+ 
+/gate/source/sphere31/setForcedUnstableFlag true
+/gate/source/sphere31/gps/energytype Fluor18
+/gate/source/sphere31/setForcedHalfLife 6586 s
+/gate/source/sphere31/gps/type Volume
+/gate/source/sphere31/gps/shape Sphere
+/gate/source/sphere31/gps/radius 2 mm
+/gate/source/sphere31/gps/angtype iso
+/gate/source/sphere31/gps/centre -6 9 0 mm
+
+/gate/source/addSource sphere32
+/gate/source/sphere32/attachTo Elliptube
+/gate/source/sphere32/setActivity 354.252 becquerel
+/gate/source/sphere32/gps/particle e+ 
+/gate/source/sphere32/setForcedUnstableFlag true
+/gate/source/sphere32/gps/energytype Fluor18
+/gate/source/sphere32/setForcedHalfLife 6586 s
+/gate/source/sphere32/gps/type Volume
+/gate/source/sphere32/gps/shape Sphere
+/gate/source/sphere32/gps/radius 2 mm
+/gate/source/sphere32/gps/angtype iso
+/gate/source/sphere32/gps/centre -12 0 0 mm
+
+/gate/source/addSource sphere33
+/gate/source/sphere33/attachTo Elliptube
+/gate/source/sphere33/setActivity 354.252 becquerel
+/gate/source/sphere33/gps/particle e+ 
+/gate/source/sphere33/setForcedUnstableFlag true
+/gate/source/sphere33/gps/energytype Fluor18
+/gate/source/sphere33/setForcedHalfLife 6586 s
+/gate/source/sphere33/gps/type Volume
+/gate/source/sphere33/gps/shape Sphere
+/gate/source/sphere33/gps/radius 2 mm
+/gate/source/sphere33/gps/angtype iso
+/gate/source/sphere33/gps/centre -6 -9 0 mm
+
+/gate/source/addSource sphere34
+/gate/source/sphere34/attachTo Elliptube
+/gate/source/sphere34/setActivity 354.252 becquerel
+/gate/source/sphere34/gps/particle e+ 
+/gate/source/sphere34/setForcedUnstableFlag true
+/gate/source/sphere34/gps/energytype Fluor18
+/gate/source/sphere34/setForcedHalfLife 6586 s
+/gate/source/sphere34/gps/type Volume
+/gate/source/sphere34/gps/shape Sphere
+/gate/source/sphere34/gps/radius 2 mm
+/gate/source/sphere34/gps/angtype iso
+/gate/source/sphere34/gps/centre 6 -9 0 mm
+
+/gate/source/addSource sphere35
+/gate/source/sphere35/attachTo Elliptube
+/gate/source/sphere35/setActivity 354.252 becquerel
+/gate/source/sphere35/gps/particle e+ 
+/gate/source/sphere35/setForcedUnstableFlag true
+/gate/source/sphere35/gps/energytype Fluor18
+/gate/source/sphere35/setForcedHalfLife 6586 s
+/gate/source/sphere35/gps/type Volume
+/gate/source/sphere35/gps/shape Sphere
+/gate/source/sphere35/gps/radius 2 mm
+/gate/source/sphere35/gps/angtype iso
+/gate/source/sphere35/gps/centre 132 0 0 mm
+
+/gate/source/addSource sphere36
+/gate/source/sphere36/attachTo Elliptube
+/gate/source/sphere36/setActivity 354.252 becquerel
+/gate/source/sphere36/gps/particle e+ 
+/gate/source/sphere36/setForcedUnstableFlag true
+/gate/source/sphere36/gps/energytype Fluor18
+/gate/source/sphere36/setForcedHalfLife 6586 s
+/gate/source/sphere36/gps/type Volume
+/gate/source/sphere36/gps/shape Sphere
+/gate/source/sphere36/gps/radius 2 mm
+/gate/source/sphere36/gps/angtype iso
+/gate/source/sphere36/gps/centre 144 0 0 mm
+
+/gate/source/addSource sphere37
+/gate/source/sphere37/attachTo Elliptube
+/gate/source/sphere37/setActivity 354.252 becquerel
+/gate/source/sphere37/gps/particle e+ 
+/gate/source/sphere37/setForcedUnstableFlag true
+/gate/source/sphere37/gps/energytype Fluor18
+/gate/source/sphere37/setForcedHalfLife 6586 s
+/gate/source/sphere37/gps/type Volume
+/gate/source/sphere37/gps/shape Sphere
+/gate/source/sphere37/gps/radius 2 mm
+/gate/source/sphere37/gps/angtype iso
+/gate/source/sphere37/gps/centre 138 9 0 mm
+
+/gate/source/addSource sphere38
+/gate/source/sphere38/attachTo Elliptube
+/gate/source/sphere38/setActivity 354.252 becquerel
+/gate/source/sphere38/gps/particle e+ 
+/gate/source/sphere38/setForcedUnstableFlag true
+/gate/source/sphere38/gps/energytype Fluor18
+/gate/source/sphere38/setForcedHalfLife 6586 s
+/gate/source/sphere38/gps/type Volume
+/gate/source/sphere38/gps/shape Sphere
+/gate/source/sphere38/gps/radius 2 mm
+/gate/source/sphere38/gps/angtype iso
+/gate/source/sphere38/gps/centre 126 9 0 mm
+
+/gate/source/addSource sphere39
+/gate/source/sphere39/attachTo Elliptube
+/gate/source/sphere39/setActivity 354.252 becquerel
+/gate/source/sphere39/gps/particle e+ 
+/gate/source/sphere39/setForcedUnstableFlag true
+/gate/source/sphere39/gps/energytype Fluor18
+/gate/source/sphere39/setForcedHalfLife 6586 s
+/gate/source/sphere39/gps/type Volume
+/gate/source/sphere39/gps/shape Sphere
+/gate/source/sphere39/gps/radius 2 mm
+/gate/source/sphere39/gps/angtype iso
+/gate/source/sphere39/gps/centre 120 0 0 mm
+
+/gate/source/addSource sphere40
+/gate/source/sphere40/attachTo Elliptube
+/gate/source/sphere40/setActivity 354.252 becquerel
+/gate/source/sphere40/gps/particle e+ 
+/gate/source/sphere40/setForcedUnstableFlag true
+/gate/source/sphere40/gps/energytype Fluor18
+/gate/source/sphere40/setForcedHalfLife 6586 s
+/gate/source/sphere40/gps/type Volume
+/gate/source/sphere40/gps/shape Sphere
+/gate/source/sphere40/gps/radius 2 mm
+/gate/source/sphere40/gps/angtype iso
+/gate/source/sphere40/gps/centre 126 -9 0 mm
+
+/gate/source/addSource sphere41
+/gate/source/sphere41/attachTo Elliptube
+/gate/source/sphere41/setActivity 354.252 becquerel
+/gate/source/sphere41/gps/particle e+ 
+/gate/source/sphere41/setForcedUnstableFlag true
+/gate/source/sphere41/gps/energytype Fluor18
+/gate/source/sphere41/setForcedHalfLife 6586 s
+/gate/source/sphere41/gps/type Volume
+/gate/source/sphere41/gps/shape Sphere
+/gate/source/sphere41/gps/radius 2 mm
+/gate/source/sphere41/gps/angtype iso
+/gate/source/sphere41/gps/centre 138 -9 0 mm
+
+/gate/source/addSource sphere42
+/gate/source/sphere42/attachTo Elliptube
+/gate/source/sphere42/setActivity 354.252 becquerel
+/gate/source/sphere42/gps/particle e+ 
+/gate/source/sphere42/setForcedUnstableFlag true
+/gate/source/sphere42/gps/energytype Fluor18
+/gate/source/sphere42/setForcedHalfLife 6586 s
+/gate/source/sphere42/gps/type Volume
+/gate/source/sphere42/gps/shape Sphere
+/gate/source/sphere42/gps/radius 2 mm
+/gate/source/sphere42/gps/angtype iso
+/gate/source/sphere42/gps/centre -90 -63 0 mm
+
+/gate/source/addSource sphere43
+/gate/source/sphere43/attachTo Elliptube
+/gate/source/sphere43/setActivity 354.252 becquerel
+/gate/source/sphere43/gps/particle e+ 
+/gate/source/sphere43/setForcedUnstableFlag true
+/gate/source/sphere43/gps/energytype Fluor18
+/gate/source/sphere43/setForcedHalfLife 6586 s
+/gate/source/sphere43/gps/type Volume
+/gate/source/sphere43/gps/shape Sphere
+/gate/source/sphere43/gps/radius 2 mm
+/gate/source/sphere43/gps/angtype iso
+/gate/source/sphere43/gps/centre -78 -63 0 mm
+
+/gate/source/addSource sphere44
+/gate/source/sphere44/attachTo Elliptube
+/gate/source/sphere44/setActivity 354.252 becquerel
+/gate/source/sphere44/gps/particle e+ 
+/gate/source/sphere44/setForcedUnstableFlag true
+/gate/source/sphere44/gps/energytype Fluor18
+/gate/source/sphere44/setForcedHalfLife 6586 s
+/gate/source/sphere44/gps/type Volume
+/gate/source/sphere44/gps/shape Sphere
+/gate/source/sphere44/gps/radius 2 mm
+/gate/source/sphere44/gps/angtype iso
+/gate/source/sphere44/gps/centre -84 -54 0 mm
+
+/gate/source/addSource sphere45
+/gate/source/sphere45/attachTo Elliptube
+/gate/source/sphere45/setActivity 354.252 becquerel
+/gate/source/sphere45/gps/particle e+ 
+/gate/source/sphere45/setForcedUnstableFlag true
+/gate/source/sphere45/gps/energytype Fluor18
+/gate/source/sphere45/setForcedHalfLife 6586 s
+/gate/source/sphere45/gps/type Volume
+/gate/source/sphere45/gps/shape Sphere
+/gate/source/sphere45/gps/radius 2 mm
+/gate/source/sphere45/gps/angtype iso
+/gate/source/sphere45/gps/centre -96 -54 0 mm
+
+/gate/source/addSource sphere46
+/gate/source/sphere46/attachTo Elliptube
+/gate/source/sphere46/setActivity 354.252 becquerel
+/gate/source/sphere46/gps/particle e+ 
+/gate/source/sphere46/setForcedUnstableFlag true
+/gate/source/sphere46/gps/energytype Fluor18
+/gate/source/sphere46/setForcedHalfLife 6586 s
+/gate/source/sphere46/gps/type Volume
+/gate/source/sphere46/gps/shape Sphere
+/gate/source/sphere46/gps/radius 2 mm
+/gate/source/sphere46/gps/angtype iso
+/gate/source/sphere46/gps/centre -102 -63 0 mm
+
+/gate/source/addSource sphere47
+/gate/source/sphere47/attachTo Elliptube
+/gate/source/sphere47/setActivity 354.252 becquerel
+/gate/source/sphere47/gps/particle e+ 
+/gate/source/sphere47/setForcedUnstableFlag true
+/gate/source/sphere47/gps/energytype Fluor18
+/gate/source/sphere47/setForcedHalfLife 6586 s
+/gate/source/sphere47/gps/type Volume
+/gate/source/sphere47/gps/shape Sphere
+/gate/source/sphere47/gps/radius 2 mm
+/gate/source/sphere47/gps/angtype iso
+/gate/source/sphere47/gps/centre -96 -72 0 mm
+
+/gate/source/addSource sphere48
+/gate/source/sphere48/attachTo Elliptube
+/gate/source/sphere48/setActivity 354.252 becquerel
+/gate/source/sphere48/gps/particle e+ 
+/gate/source/sphere48/setForcedUnstableFlag true
+/gate/source/sphere48/gps/energytype Fluor18
+/gate/source/sphere48/setForcedHalfLife 6586 s
+/gate/source/sphere48/gps/type Volume
+/gate/source/sphere48/gps/shape Sphere
+/gate/source/sphere48/gps/radius 2 mm
+/gate/source/sphere48/gps/angtype iso
+/gate/source/sphere48/gps/centre -84 -72 0 mm
+
+/gate/source/addSource sphere49
+/gate/source/sphere49/attachTo Elliptube
+/gate/source/sphere49/setActivity 354.252 becquerel
+/gate/source/sphere49/gps/particle e+ 
+/gate/source/sphere49/setForcedUnstableFlag true
+/gate/source/sphere49/gps/energytype Fluor18
+/gate/source/sphere49/setForcedHalfLife 6586 s
+/gate/source/sphere49/gps/type Volume
+/gate/source/sphere49/gps/shape Sphere
+/gate/source/sphere49/gps/radius 2 mm
+/gate/source/sphere49/gps/angtype iso
+/gate/source/sphere49/gps/centre 90 -63 0 mm
+
+/gate/source/addSource sphere50
+/gate/source/sphere50/attachTo Elliptube
+/gate/source/sphere50/setActivity 354.252 becquerel
+/gate/source/sphere50/gps/particle e+ 
+/gate/source/sphere50/setForcedUnstableFlag true
+/gate/source/sphere50/gps/energytype Fluor18
+/gate/source/sphere50/setForcedHalfLife 6586 s
+/gate/source/sphere50/gps/type Volume
+/gate/source/sphere50/gps/shape Sphere
+/gate/source/sphere50/gps/radius 2 mm
+/gate/source/sphere50/gps/angtype iso
+/gate/source/sphere50/gps/centre 102 -63 0 mm
+
+/gate/source/addSource sphere51
+/gate/source/sphere51/attachTo Elliptube
+/gate/source/sphere51/setActivity 354.252 becquerel
+/gate/source/sphere51/gps/particle e+ 
+/gate/source/sphere51/setForcedUnstableFlag true
+/gate/source/sphere51/gps/energytype Fluor18
+/gate/source/sphere51/setForcedHalfLife 6586 s
+/gate/source/sphere51/gps/type Volume
+/gate/source/sphere51/gps/shape Sphere
+/gate/source/sphere51/gps/radius 2 mm
+/gate/source/sphere51/gps/angtype iso
+/gate/source/sphere51/gps/centre 96 -54 0 mm
+
+/gate/source/addSource sphere52
+/gate/source/sphere52/attachTo Elliptube
+/gate/source/sphere52/setActivity 354.252 becquerel
+/gate/source/sphere52/gps/particle e+ 
+/gate/source/sphere52/setForcedUnstableFlag true
+/gate/source/sphere52/gps/energytype Fluor18
+/gate/source/sphere52/setForcedHalfLife 6586 s
+/gate/source/sphere52/gps/type Volume
+/gate/source/sphere52/gps/shape Sphere
+/gate/source/sphere52/gps/radius 2 mm
+/gate/source/sphere52/gps/angtype iso
+/gate/source/sphere52/gps/centre 84 -54 0 mm
+
+/gate/source/addSource sphere53
+/gate/source/sphere53/attachTo Elliptube
+/gate/source/sphere53/setActivity 354.252 becquerel
+/gate/source/sphere53/gps/particle e+ 
+/gate/source/sphere53/setForcedUnstableFlag true
+/gate/source/sphere53/gps/energytype Fluor18
+/gate/source/sphere53/setForcedHalfLife 6586 s
+/gate/source/sphere53/gps/type Volume
+/gate/source/sphere53/gps/shape Sphere
+/gate/source/sphere53/gps/radius 2 mm
+/gate/source/sphere53/gps/angtype iso
+/gate/source/sphere53/gps/centre 78 -63 0 mm
+
+/gate/source/addSource sphere54
+/gate/source/sphere54/attachTo Elliptube
+/gate/source/sphere54/setActivity 354.252 becquerel
+/gate/source/sphere54/gps/particle e+ 
+/gate/source/sphere54/setForcedUnstableFlag true
+/gate/source/sphere54/gps/energytype Fluor18
+/gate/source/sphere54/setForcedHalfLife 6586 s
+/gate/source/sphere54/gps/type Volume
+/gate/source/sphere54/gps/shape Sphere
+/gate/source/sphere54/gps/radius 2 mm
+/gate/source/sphere54/gps/angtype iso
+/gate/source/sphere54/gps/centre 84 -72 0 mm
+
+/gate/source/addSource sphere55
+/gate/source/sphere55/attachTo Elliptube
+/gate/source/sphere55/setActivity 354.252 becquerel
+/gate/source/sphere55/gps/particle e+ 
+/gate/source/sphere55/setForcedUnstableFlag true
+/gate/source/sphere55/gps/energytype Fluor18
+/gate/source/sphere55/setForcedHalfLife 6586 s
+/gate/source/sphere55/gps/type Volume
+/gate/source/sphere55/gps/shape Sphere
+/gate/source/sphere55/gps/radius 2 mm
+/gate/source/sphere55/gps/angtype iso
+/gate/source/sphere55/gps/centre 96 -72 0 mm
+
+/gate/source/addSource sphere56
+/gate/source/sphere56/attachTo Elliptube
+/gate/source/sphere56/setActivity 354.252 becquerel
+/gate/source/sphere56/gps/particle e+ 
+/gate/source/sphere56/setForcedUnstableFlag true
+/gate/source/sphere56/gps/energytype Fluor18
+/gate/source/sphere56/setForcedHalfLife 6586 s
+/gate/source/sphere56/gps/type Volume
+/gate/source/sphere56/gps/shape Sphere
+/gate/source/sphere56/gps/radius 2 mm
+/gate/source/sphere56/gps/angtype iso
+/gate/source/sphere56/gps/centre 0 -90 0 mm
+
+/gate/source/addSource sphere57
+/gate/source/sphere57/attachTo Elliptube
+/gate/source/sphere57/setActivity 354.252 becquerel
+/gate/source/sphere57/gps/particle e+ 
+/gate/source/sphere57/setForcedUnstableFlag true
+/gate/source/sphere57/gps/energytype Fluor18
+/gate/source/sphere57/setForcedHalfLife 6586 s
+/gate/source/sphere57/gps/type Volume
+/gate/source/sphere57/gps/shape Sphere
+/gate/source/sphere57/gps/radius 2 mm
+/gate/source/sphere57/gps/angtype iso
+/gate/source/sphere57/gps/centre 12 -90 0 mm
+
+/gate/source/addSource sphere58
+/gate/source/sphere58/attachTo Elliptube
+/gate/source/sphere58/setActivity 354.252 becquerel
+/gate/source/sphere58/gps/particle e+ 
+/gate/source/sphere58/setForcedUnstableFlag true
+/gate/source/sphere58/gps/energytype Fluor18
+/gate/source/sphere58/setForcedHalfLife 6586 s
+/gate/source/sphere58/gps/type Volume
+/gate/source/sphere58/gps/shape Sphere
+/gate/source/sphere58/gps/radius 2 mm
+/gate/source/sphere58/gps/angtype iso
+/gate/source/sphere58/gps/centre 6 -81 0 mm
+
+/gate/source/addSource sphere59
+/gate/source/sphere59/attachTo Elliptube
+/gate/source/sphere59/setActivity 354.252 becquerel
+/gate/source/sphere59/gps/particle e+ 
+/gate/source/sphere59/setForcedUnstableFlag true
+/gate/source/sphere59/gps/energytype Fluor18
+/gate/source/sphere59/setForcedHalfLife 6586 s
+/gate/source/sphere59/gps/type Volume
+/gate/source/sphere59/gps/shape Sphere
+/gate/source/sphere59/gps/radius 2 mm
+/gate/source/sphere59/gps/angtype iso
+/gate/source/sphere59/gps/centre -6 -81 0 mm
+
+/gate/source/addSource sphere60
+/gate/source/sphere60/attachTo Elliptube
+/gate/source/sphere60/setActivity 354.252 becquerel
+/gate/source/sphere60/gps/particle e+ 
+/gate/source/sphere60/setForcedUnstableFlag true
+/gate/source/sphere60/gps/energytype Fluor18
+/gate/source/sphere60/setForcedHalfLife 6586 s
+/gate/source/sphere60/gps/type Volume
+/gate/source/sphere60/gps/shape Sphere
+/gate/source/sphere60/gps/radius 2 mm
+/gate/source/sphere60/gps/angtype iso
+/gate/source/sphere60/gps/centre -12 -90 0 mm
+
+/gate/source/addSource sphere61
+/gate/source/sphere61/attachTo Elliptube
+/gate/source/sphere61/setActivity 354.252 becquerel
+/gate/source/sphere61/gps/particle e+ 
+/gate/source/sphere61/setForcedUnstableFlag true
+/gate/source/sphere61/gps/energytype Fluor18
+/gate/source/sphere61/setForcedHalfLife 6586 s
+/gate/source/sphere61/gps/type Volume
+/gate/source/sphere61/gps/shape Sphere
+/gate/source/sphere61/gps/radius 2 mm
+/gate/source/sphere61/gps/angtype iso
+/gate/source/sphere61/gps/centre -6 -99 0 mm
+
+/gate/source/addSource sphere62
+/gate/source/sphere62/attachTo Elliptube
+/gate/source/sphere62/setActivity 354.252 becquerel
+/gate/source/sphere62/gps/particle e+ 
+/gate/source/sphere62/setForcedUnstableFlag true
+/gate/source/sphere62/gps/energytype Fluor18
+/gate/source/sphere62/setForcedHalfLife 6586 s
+/gate/source/sphere62/gps/type Volume
+/gate/source/sphere62/gps/shape Sphere
+/gate/source/sphere62/gps/radius 2 mm
+/gate/source/sphere62/gps/angtype iso
+/gate/source/sphere62/gps/centre 6 -99 0 mm
+

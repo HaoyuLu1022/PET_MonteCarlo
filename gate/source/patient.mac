@@ -1,0 +1,66 @@
+
+#  Voxelised gamma source of 177Lu
+#  For 1MBq of 17Lu,
+#  Gamma activity = 0.172688 MBq (scale activity file accordingly)
+
+# Add new voxelised source
+/gate/source/addSource VS_gamma voxel
+/gate/source/VS_gamma/reader/insert image
+/gate/source/VS_gamma/imageReader/translator/insert range
+/gate/source/VS_gamma/imageReader/rangeTranslator/readTable source/patient/patient15_activity_235MBq.dat
+/gate/source/VS_gamma/imageReader/rangeTranslator/describe 1
+/gate/source/VS_gamma/imageReader/readFile source/patient/patient15_LuDOTATATE_src.h33
+
+# THE DEFAULT POSITION OF THE VOXELIZED SOURCE IS IN THE 1ST QUARTER
+# SO THE VOXELIZED SOURCE HAS TO BE SHIFTED OVER HALF ITS DIMENSION IN THE NEGATIVE DIRECTION ON EACH AXIS
+/gate/source/VS_gamma/setPosition -210.9402 -136.7205 -198.882 mm
+
+# Attach to voxel phantom
+/gate/source/VS_gamma/attachTo VoxAttn
+
+/gate/source/VS_gamma/gps/ang/type iso
+
+# Set verbosity (2 = every event)
+# Good to set to 2 initially to check output is as expected
+/gate/source/VS_gamma/gps/verbose 0
+
+# Force unstable
+/gate/source/VS_gamma/setForcedUnstableFlag  true
+# Half life is 6.647 days
+/gate/source/VS_gamma/setForcedHalfLife 574067.52 s
+
+/gate/source/VS_gamma/gps/particle    gamma
+/gate/source/VS_gamma/gps/ene/type  User
+/gate/source/VS_gamma/gps/hist/type    energy
+
+/gate/source/VS_gamma/gps/ene/min    0.07 MeV
+/gate/source/VS_gamma/gps/ene/max    0.321315901 MeV
+
+# ------------------hist of emissions----------------------------- #
+/gate/source/VS_gamma/gps/hist/point 0.0716419999 0.0
+/gate/source/VS_gamma/gps/hist/point 0.071642 0.164
+/gate/source/VS_gamma/gps/hist/point 0.0716420001 0.0
+
+/gate/source/VS_gamma/gps/hist/point 0.1129497999 0.0
+/gate/source/VS_gamma/gps/hist/point 0.1129498 6.23
+/gate/source/VS_gamma/gps/hist/point 0.11294980001 0.0
+
+/gate/source/VS_gamma/gps/hist/point 0.1367244999 0.0
+/gate/source/VS_gamma/gps/hist/point 0.1367245     0.0465
+/gate/source/VS_gamma/gps/hist/point 0.13672450001 0.0
+
+/gate/source/VS_gamma/gps/hist/point 0.2083661999 0.0
+/gate/source/VS_gamma/gps/hist/point 0.2083662     10.41
+/gate/source/VS_gamma/gps/hist/point 0.20836620001 0.0
+
+/gate/source/VS_gamma/gps/hist/point 0.2496741999 0.0
+/gate/source/VS_gamma/gps/hist/point 0.2496742     0.1997
+/gate/source/VS_gamma/gps/hist/point 0.24967420001 0.0
+
+/gate/source/VS_gamma/gps/hist/point 0.3213158999 0.0
+/gate/source/VS_gamma/gps/hist/point 0.3213159     0.2186
+/gate/source/VS_gamma/gps/hist/point 0.3213159001 0.0
+###################################################
+
+/gate/source/list
+/gate/source/VS_gamma/dump 1

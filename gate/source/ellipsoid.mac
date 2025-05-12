@@ -1,0 +1,32 @@
+/gate/source/addSource twogamma 
+/gate/source/twogamma/attachTo Elliptube
+/gate/source/twogamma/setActivity 2.989001010415431e+04 becquerel 
+
+# POSITION 
+/gate/source/twogamma/gps/centre 0. 0. 0. cm 
+
+# PARTICLE 
+/gate/source/twogamma/gps/particle e+ 
+/gate/source/twogamma/setForcedUnstableFlag true
+/gate/source/twogamma/gps/energytype Fluor18
+/gate/source/twogamma/setForcedHalfLife 6586 s
+
+# TYPE = Volume or Surface 
+/gate/source/twogamma/gps/type Volume 
+
+# SHAPE = Sphere or Cylinder 
+/gate/source/twogamma/gps/shape Ellipsoid 
+/gate/source/twogamma/gps/halfx 180 mm 
+/gate/source/twogamma/gps/halfy 150 mm 
+/gate/source/twogamma/gps/halfz 500 mm 
+
+# SET THE ANGULAR DISTRIBUTION OF EMISSION 
+/gate/source/twogamma/gps/angtype iso 
+
+# SET MIN AND MAX EMISSION ANGLES 
+/gate/source/twogamma/gps/mintheta 0. deg 
+/gate/source/twogamma/gps/maxtheta 180. deg 
+/gate/source/twogamma/gps/minphi 0. deg 
+/gate/source/twogamma/gps/maxphi 360. deg 
+
+/gate/source/list

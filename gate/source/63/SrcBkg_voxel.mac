@@ -1,0 +1,26 @@
+
+#=====================================================
+#  P A R T I C L E   S O U R C E
+#=====================================================
+
+ 
+/gate/source/addSource voxel_src_bkg voxel
+
+/gate/source/voxel_src_bkg/reader/insert image
+/gate/source/voxel_src_bkg/imageReader/translator/insert range
+/gate/source/voxel_src_bkg/imageReader/rangeTranslator/readTable source/63/activity_range_bkg.dat
+/gate/source/voxel_src_bkg/imageReader/rangeTranslator/describe 1
+/gate/source/voxel_src_bkg/imageReader/readFile source/63/src_bkg_Z1.h33
+/gate/source/voxel_src_bkg/setPosition   -158 -114 -131.5 mm
+
+
+/gate/source/voxel_src_bkg/gps/particle e+
+/gate/source/voxel_src_bkg/setForcedUnstableFlag true
+/gate/source/voxel_src_bkg/gps/energytype Fluor18
+/gate/source/voxel_src_bkg/setForcedHalfLife 6586 s
+/gate/source/voxel_src_bkg/gps/angtype iso
+
+
+
+
+

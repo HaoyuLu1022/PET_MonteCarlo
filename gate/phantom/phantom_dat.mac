@@ -1,0 +1,24 @@
+/gate/world/daughters/name dat_box
+/gate/world/daughters/insert box
+/gate/dat_box/placement/setTranslation 0.0 0.0 0.0 cm
+/gate/dat_box/geometry/setXLength 40. cm
+/gate/dat_box/geometry/setYLength 40. cm
+/gate/dat_box/geometry/setZLength 26.3 cm
+/gate/dat_box/setMaterial Air
+/gate/dat_box/vis/forceWireframe
+/gate/dat_box/vis/setColor gray
+
+/gate/dat_box/daughters/name VoxAttn
+/gate/dat_box/daughters/insert ImageNestedParametrisedVolume # Or ImageRegularParametrisedVolume
+/gate/VoxAttn/geometry/setImage phantom/dat/DaT_Attenuation_72x90x77.h33
+/gate/VoxAttn/geometry/setRangeToMaterialFile phantom/dat/Attenuation_Brain_Range.dat
+/gate/VoxAttn/placement/setTranslation  0. 0. 0. cm
+/gate/VoxAttn/attachPhantomSD
+
+/gate/actor/addActor PhaseSpaceActor MyActor
+/gate/actor/MyActor/save {root_fn}.psa.root
+/gate/actor/MyActor/attachTo dat_box
+/gate/actor/MyActor/enableProductionVolume   false
+/gate/actor/MyActor/enableProductionProcess  false
+/gate/actor/MyActor/enableParticleName       false
+/gate/actor/MyActor/enableWeight             false

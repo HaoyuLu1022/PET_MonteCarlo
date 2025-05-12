@@ -1,0 +1,78 @@
+/gate/source/addSource 0
+/gate/source/0/setActivity +6.44657717e+03 becquerel
+/gate/source/0/gps/particle e+
+/gate/source/0/setForcedUnstableFlag true
+/gate/source/0/gps/energytype Fluor18
+/gate/source/0/setForcedHalfLife 6586 s
+/gate/source/0/gps/type Volume
+/gate/source/0/gps/shape Sphere
+/gate/source/0/gps/radius +5.00000000e+00 mm
+/gate/source/0/gps/angtype iso
+/gate/source/0/gps/centre -2.50029143e-06 +5.72000008e+01 +3.70000000e+01 mm
+/gate/source/0/visualize 1000 red 2
+
+/gate/source/addSource 1
+/gate/source/1/setActivity +1.41631300e+04 becquerel
+/gate/source/1/gps/particle e+
+/gate/source/1/setForcedUnstableFlag true
+/gate/source/1/gps/energytype Fluor18
+/gate/source/1/setForcedHalfLife 6586 s
+/gate/source/1/gps/type Volume
+/gate/source/1/gps/shape Sphere
+/gate/source/1/gps/radius +6.50000000e+00 mm
+/gate/source/1/gps/angtype iso
+/gate/source/1/gps/centre -4.95366516e+01 +2.86000042e+01 +3.70000000e+01 mm
+/gate/source/1/visualize 1000 red 2
+
+/gate/source/addSource 2
+/gate/source/2/setActivity +3.16720336e+04 becquerel
+/gate/source/2/gps/particle e+
+/gate/source/2/setForcedUnstableFlag true
+/gate/source/2/gps/energytype Fluor18
+/gate/source/2/setForcedHalfLife 6586 s
+/gate/source/2/gps/type Volume
+/gate/source/2/gps/shape Sphere
+/gate/source/2/gps/radius +8.50000000e+00 mm
+/gate/source/2/gps/angtype iso
+/gate/source/2/gps/centre -4.95366516e+01 -2.85999985e+01 +3.70000000e+01 mm
+/gate/source/2/visualize 1000 red 2
+
+/gate/source/addSource 3
+/gate/source/3/setActivity +3.26538473e+05 becquerel
+/gate/source/3/gps/particle e+
+/gate/source/3/setForcedUnstableFlag true
+/gate/source/3/gps/energytype Fluor18
+/gate/source/3/setForcedHalfLife 6586 s
+/gate/source/3/gps/type Volume
+/gate/source/3/gps/shape Sphere
+/gate/source/3/gps/radius +1.85000000e+01 mm
+/gate/source/3/gps/angtype iso
+/gate/source/3/gps/centre +6.82103177e-07 -5.72000008e+01 +3.70000000e+01 mm
+/gate/source/3/visualize 1000 red 2
+
+/gate/source/addSource 4
+/gate/source/4/setActivity +1.41515262e+05 becquerel
+/gate/source/4/gps/particle e+
+/gate/source/4/setForcedUnstableFlag true
+/gate/source/4/gps/energytype Fluor18
+/gate/source/4/setForcedHalfLife 6586 s
+/gate/source/4/gps/type Volume
+/gate/source/4/gps/shape Sphere
+/gate/source/4/gps/radius +1.40000000e+01 mm
+/gate/source/4/gps/angtype iso
+/gate/source/4/gps/centre +4.95366478e+01 -2.86000099e+01 +3.70000000e+01 mm
+/gate/source/4/visualize 1000 red 2
+
+/gate/source/addSource 5
+/gate/source/5/setActivity +6.86431537e+04 becquerel
+/gate/source/5/gps/particle e+
+/gate/source/5/setForcedUnstableFlag true
+/gate/source/5/gps/energytype Fluor18
+/gate/source/5/setForcedHalfLife 6586 s
+/gate/source/5/gps/type Volume
+/gate/source/5/gps/shape Sphere
+/gate/source/5/gps/radius +1.10000000e+01 mm
+/gate/source/5/gps/angtype iso
+/gate/source/5/gps/centre +4.95366669e+01 +2.85999794e+01 +3.70000000e+01 mm
+/gate/source/5/visualize 100000 red 2
+

@@ -1,0 +1,20 @@
+#=====================================================
+#  P H A N T O M
+#=====================================================
+#elliptical tube phantom
+
+/gate/world/daughters/name rod
+/gate/world/daughters/insert cylinder
+/gate/rod/geometry/setRmax 2 mm
+/gate/rod/geometry/setHeight 263 mm
+/gate/rod/placement/setTranslation 0 0 0 mm
+/gate/rod/setMaterial Water
+/gate/rod/vis/forceSolid
+/gate/rod/vis/setColor red
+
+/gate/rod/moves/insert eccent-rot
+/gate/rod/eccent-rot/setShiftXYZ -280. 0. 0. mm
+/gate/rod/eccent-rot/setSpeed 1 deg/s
+
+/gate/rod/attachPhantomSD
+

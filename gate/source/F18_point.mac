@@ -1,0 +1,12 @@
+/gate/source/addSource sphere0
+/gate/source/sphere0/attachTo Elliptube
+/gate/source/sphere0/gps/particle e+
+/gate/source/sphere0/setForcedUnstableFlag true
+/gate/source/sphere0/gps/energytype Fluor18
+/gate/source/sphere0/setForcedHalfLife 23414400 s
+/gate/source/sphere0/setActivity 1e5 becquerel
+/gate/source/sphere0/gps/type Point
+/gate/source/sphere0/gps/angtype iso
+/gate/source/sphere0/gps/centre 0 0 0 mm
+/gate/source/sphere0/visualize 100000 red 2
+

@@ -1,0 +1,220 @@
+/gate/source/addSource sphere0
+/gate/source/sphere0/gps/particle e+
+/gate/source/sphere0/setForcedUnstableFlag true
+/gate/source/sphere0/gps/energytype Fluor18
+/gate/source/sphere0/setForcedHalfLife 23414400 s
+/gate/source/sphere0/setActivity 1e5 becquerel
+/gate/source/sphere0/gps/type Point
+/gate/source/sphere0/gps/angtype iso
+/gate/source/sphere0/gps/centre 0.00 0.00 0.00 mm
+/gate/source/sphere0/visualize 100 green 2
+
+/gate/source/addSource sphere1
+/gate/source/sphere1/gps/particle e+
+/gate/source/sphere1/setForcedUnstableFlag true
+/gate/source/sphere1/gps/energytype Fluor18
+/gate/source/sphere1/setForcedHalfLife 23414400 s
+/gate/source/sphere1/setActivity 1e5 becquerel
+/gate/source/sphere1/gps/type Point
+/gate/source/sphere1/gps/angtype iso
+/gate/source/sphere1/gps/centre 10.00 0.00 0.00 mm
+/gate/source/sphere1/visualize 100 green 2
+
+/gate/source/addSource sphere2
+/gate/source/sphere2/gps/particle e+
+/gate/source/sphere2/setForcedUnstableFlag true
+/gate/source/sphere2/gps/energytype Fluor18
+/gate/source/sphere2/setForcedHalfLife 23414400 s
+/gate/source/sphere2/setActivity 1e5 becquerel
+/gate/source/sphere2/gps/type Point
+/gate/source/sphere2/gps/angtype iso
+/gate/source/sphere2/gps/centre 20.00 0.00 0.00 mm
+/gate/source/sphere2/visualize 100 green 2
+
+/gate/source/addSource sphere3
+/gate/source/sphere3/gps/particle e+
+/gate/source/sphere3/setForcedUnstableFlag true
+/gate/source/sphere3/gps/energytype Fluor18
+/gate/source/sphere3/setForcedHalfLife 23414400 s
+/gate/source/sphere3/setActivity 1e5 becquerel
+/gate/source/sphere3/gps/type Point
+/gate/source/sphere3/gps/angtype iso
+/gate/source/sphere3/gps/centre 30.00 0.00 0.00 mm
+/gate/source/sphere3/visualize 100 green 2
+
+/gate/source/addSource sphere4
+/gate/source/sphere4/gps/particle e+
+/gate/source/sphere4/setForcedUnstableFlag true
+/gate/source/sphere4/gps/energytype Fluor18
+/gate/source/sphere4/setForcedHalfLife 23414400 s
+/gate/source/sphere4/setActivity 1e5 becquerel
+/gate/source/sphere4/gps/type Point
+/gate/source/sphere4/gps/angtype iso
+/gate/source/sphere4/gps/centre 40.00 0.00 0.00 mm
+/gate/source/sphere4/visualize 100 green 2
+
+/gate/source/addSource sphere5
+/gate/source/sphere5/gps/particle e+
+/gate/source/sphere5/setForcedUnstableFlag true
+/gate/source/sphere5/gps/energytype Fluor18
+/gate/source/sphere5/setForcedHalfLife 23414400 s
+/gate/source/sphere5/setActivity 1e5 becquerel
+/gate/source/sphere5/gps/type Point
+/gate/source/sphere5/gps/angtype iso
+/gate/source/sphere5/gps/centre 50.00 0.00 0.00 mm
+/gate/source/sphere5/visualize 100 green 2
+
+/gate/source/addSource sphere6
+/gate/source/sphere6/gps/particle e+
+/gate/source/sphere6/setForcedUnstableFlag true
+/gate/source/sphere6/gps/energytype Fluor18
+/gate/source/sphere6/setForcedHalfLife 23414400 s
+/gate/source/sphere6/setActivity 1e5 becquerel
+/gate/source/sphere6/gps/type Point
+/gate/source/sphere6/gps/angtype iso
+/gate/source/sphere6/gps/centre 60.00 0.00 0.00 mm
+/gate/source/sphere6/visualize 100 green 2
+
+/gate/source/addSource sphere7
+/gate/source/sphere7/gps/particle e+
+/gate/source/sphere7/setForcedUnstableFlag true
+/gate/source/sphere7/gps/energytype Fluor18
+/gate/source/sphere7/setForcedHalfLife 23414400 s
+/gate/source/sphere7/setActivity 1e5 becquerel
+/gate/source/sphere7/gps/type Point
+/gate/source/sphere7/gps/angtype iso
+/gate/source/sphere7/gps/centre 70.00 0.00 0.00 mm
+/gate/source/sphere7/visualize 100 green 2
+
+/gate/source/addSource sphere8
+/gate/source/sphere8/gps/particle e+
+/gate/source/sphere8/setForcedUnstableFlag true
+/gate/source/sphere8/gps/energytype Fluor18
+/gate/source/sphere8/setForcedHalfLife 23414400 s
+/gate/source/sphere8/setActivity 1e5 becquerel
+/gate/source/sphere8/gps/type Point
+/gate/source/sphere8/gps/angtype iso
+/gate/source/sphere8/gps/centre 80.00 0.00 0.00 mm
+/gate/source/sphere8/visualize 100 green 2
+
+/gate/source/addSource sphere9
+/gate/source/sphere9/gps/particle e+
+/gate/source/sphere9/setForcedUnstableFlag true
+/gate/source/sphere9/gps/energytype Fluor18
+/gate/source/sphere9/setForcedHalfLife 23414400 s
+/gate/source/sphere9/setActivity 1e5 becquerel
+/gate/source/sphere9/gps/type Point
+/gate/source/sphere9/gps/angtype iso
+/gate/source/sphere9/gps/centre 90.00 0.00 0.00 mm
+/gate/source/sphere9/visualize 100 green 2
+
+/gate/source/addSource sphere10
+/gate/source/sphere10/gps/particle e+
+/gate/source/sphere10/setForcedUnstableFlag true
+/gate/source/sphere10/gps/energytype Fluor18
+/gate/source/sphere10/setForcedHalfLife 23414400 s
+/gate/source/sphere10/setActivity 1e5 becquerel
+/gate/source/sphere10/gps/type Point
+/gate/source/sphere10/gps/angtype iso
+/gate/source/sphere10/gps/centre 100.00 0.00 0.00 mm
+/gate/source/sphere10/visualize 100 green 2
+
+/gate/source/addSource sphere11
+/gate/source/sphere11/gps/particle e+
+/gate/source/sphere11/setForcedUnstableFlag true
+/gate/source/sphere11/gps/energytype Fluor18
+/gate/source/sphere11/setForcedHalfLife 23414400 s
+/gate/source/sphere11/setActivity 1e5 becquerel
+/gate/source/sphere11/gps/type Point
+/gate/source/sphere11/gps/angtype iso
+/gate/source/sphere11/gps/centre 110.00 0.00 0.00 mm
+/gate/source/sphere11/visualize 100 green 2
+
+/gate/source/addSource sphere12
+/gate/source/sphere12/gps/particle e+
+/gate/source/sphere12/setForcedUnstableFlag true
+/gate/source/sphere12/gps/energytype Fluor18
+/gate/source/sphere12/setForcedHalfLife 23414400 s
+/gate/source/sphere12/setActivity 1e5 becquerel
+/gate/source/sphere12/gps/type Point
+/gate/source/sphere12/gps/angtype iso
+/gate/source/sphere12/gps/centre 120.00 0.00 0.00 mm
+/gate/source/sphere12/visualize 100 green 2
+
+/gate/source/addSource sphere13
+/gate/source/sphere13/gps/particle e+
+/gate/source/sphere13/setForcedUnstableFlag true
+/gate/source/sphere13/gps/energytype Fluor18
+/gate/source/sphere13/setForcedHalfLife 23414400 s
+/gate/source/sphere13/setActivity 1e5 becquerel
+/gate/source/sphere13/gps/type Point
+/gate/source/sphere13/gps/angtype iso
+/gate/source/sphere13/gps/centre 130.00 0.00 0.00 mm
+/gate/source/sphere13/visualize 100 green 2
+
+/gate/source/addSource sphere14
+/gate/source/sphere14/gps/particle e+
+/gate/source/sphere14/setForcedUnstableFlag true
+/gate/source/sphere14/gps/energytype Fluor18
+/gate/source/sphere14/setForcedHalfLife 23414400 s
+/gate/source/sphere14/setActivity 1e5 becquerel
+/gate/source/sphere14/gps/type Point
+/gate/source/sphere14/gps/angtype iso
+/gate/source/sphere14/gps/centre 140.00 0.00 0.00 mm
+/gate/source/sphere14/visualize 100 green 2
+
+/gate/source/addSource sphere15
+/gate/source/sphere15/gps/particle e+
+/gate/source/sphere15/setForcedUnstableFlag true
+/gate/source/sphere15/gps/energytype Fluor18
+/gate/source/sphere15/setForcedHalfLife 23414400 s
+/gate/source/sphere15/setActivity 1e5 becquerel
+/gate/source/sphere15/gps/type Point
+/gate/source/sphere15/gps/angtype iso
+/gate/source/sphere15/gps/centre 150.00 0.00 0.00 mm
+/gate/source/sphere15/visualize 100 green 2
+
+/gate/source/addSource sphere16
+/gate/source/sphere16/gps/particle e+
+/gate/source/sphere16/setForcedUnstableFlag true
+/gate/source/sphere16/gps/energytype Fluor18
+/gate/source/sphere16/setForcedHalfLife 23414400 s
+/gate/source/sphere16/setActivity 1e5 becquerel
+/gate/source/sphere16/gps/type Point
+/gate/source/sphere16/gps/angtype iso
+/gate/source/sphere16/gps/centre 160.00 0.00 0.00 mm
+/gate/source/sphere16/visualize 100 green 2
+
+/gate/source/addSource sphere17
+/gate/source/sphere17/gps/particle e+
+/gate/source/sphere17/setForcedUnstableFlag true
+/gate/source/sphere17/gps/energytype Fluor18
+/gate/source/sphere17/setForcedHalfLife 23414400 s
+/gate/source/sphere17/setActivity 1e5 becquerel
+/gate/source/sphere17/gps/type Point
+/gate/source/sphere17/gps/angtype iso
+/gate/source/sphere17/gps/centre 170.00 0.00 0.00 mm
+/gate/source/sphere17/visualize 100 green 2
+
+/gate/source/addSource sphere18
+/gate/source/sphere18/gps/particle e+
+/gate/source/sphere18/setForcedUnstableFlag true
+/gate/source/sphere18/gps/energytype Fluor18
+/gate/source/sphere18/setForcedHalfLife 23414400 s
+/gate/source/sphere18/setActivity 1e5 becquerel
+/gate/source/sphere18/gps/type Point
+/gate/source/sphere18/gps/angtype iso
+/gate/source/sphere18/gps/centre 180.00 0.00 0.00 mm
+/gate/source/sphere18/visualize 100 green 2
+
+/gate/source/addSource sphere19
+/gate/source/sphere19/gps/particle e+
+/gate/source/sphere19/setForcedUnstableFlag true
+/gate/source/sphere19/gps/energytype Fluor18
+/gate/source/sphere19/setForcedHalfLife 23414400 s
+/gate/source/sphere19/setActivity 1e5 becquerel
+/gate/source/sphere19/gps/type Point
+/gate/source/sphere19/gps/angtype iso
+/gate/source/sphere19/gps/centre 190.00 0.00 0.00 mm
+/gate/source/sphere19/visualize 100 green 2
+

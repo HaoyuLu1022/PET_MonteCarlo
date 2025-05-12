@@ -1,0 +1,81 @@
+/gate/world/daughters/name NEMA_IQ
+/gate/world/daughters/insert box
+/gate/NEMA_IQ/placement/setTranslation 0.0 0.0 0.0 cm
+/gate/NEMA_IQ/geometry/setXLength 30. cm
+/gate/NEMA_IQ/geometry/setYLength 23. cm
+/gate/NEMA_IQ/geometry/setZLength 22. cm
+/gate/NEMA_IQ/setMaterial Air
+/gate/NEMA_IQ/vis/forceWireframe
+/gate/NEMA_IQ/vis/setColor gray
+
+/gate/NEMA_IQ/daughters/name cyl_1
+/gate/NEMA_IQ/daughters/insert cylinder
+/gate/cyl_1/placement/setTranslation 0.0 -3.5 0.0 cm
+/gate/cyl_1/geometry/setRmax 14.7 cm
+/gate/cyl_1/geometry/setRmin  0.0 cm
+/gate/cyl_1/geometry/setHeight 21.4 cm
+/gate/cyl_1/geometry/setPhiStart 0. deg
+/gate/cyl_1/geometry/setDeltaPhi 180. deg
+/gate/cyl_1/setMaterial Water
+/gate/cyl_1/vis/forceWireframe
+/gate/cyl_1/vis/setColor blue
+
+/gate/cyl_1/daughters/name cyl_in
+/gate/cyl_1/daughters/insert cylinder
+/gate/cyl_in/placement/setTranslation 0.0 3.5 0.0 cm
+/gate/cyl_in/geometry/setRmax 2.1 cm
+/gate/cyl_in/geometry/setRmin 0.0 cm
+/gate/cyl_in/geometry/setHeight 21.4 cm
+/gate/cyl_in/setMaterial Air
+#/gate/cyl_in/vis/forceWireframe
+/gate/cyl_in/vis/setColor gray
+
+/gate/NEMA_IQ/daughters/name cyl_2
+/gate/NEMA_IQ/daughters/insert cylinder
+/gate/cyl_2/placement/setTranslation 7.0 -3.5 0.0 cm
+/gate/cyl_2/geometry/setRmax 7.7 cm
+/gate/cyl_2/geometry/setRmin 0. cm
+/gate/cyl_2/geometry/setHeight 21.4 cm
+/gate/cyl_2/geometry/setPhiStart 270. deg
+/gate/cyl_2/geometry/setDeltaPhi  90. deg
+/gate/cyl_2/setMaterial Water
+/gate/cyl_2/vis/forceWireframe
+/gate/cyl_2/vis/setColor blue
+
+/gate/NEMA_IQ/daughters/name cyl_3
+/gate/NEMA_IQ/daughters/insert cylinder
+/gate/cyl_3/placement/setTranslation -7.0 -3.5 0.0 cm
+/gate/cyl_3/geometry/setRmax 7.7 cm
+/gate/cyl_3/geometry/setRmin 0. cm
+/gate/cyl_3/geometry/setHeight 21.4 cm
+/gate/cyl_3/geometry/setPhiStart 180. deg
+/gate/cyl_3/geometry/setDeltaPhi  90. deg
+/gate/cyl_3/setMaterial Water
+/gate/cyl_3/vis/forceWireframe
+/gate/cyl_3/vis/setColor blue
+
+/gate/NEMA_IQ/daughters/name IBox
+/gate/NEMA_IQ/daughters/insert box
+/gate/IBox/placement/setTranslation 0.0 -7.35 0.0 cm
+/gate/IBox/geometry/setXLength 14. cm
+/gate/IBox/geometry/setYLength  7.7 cm
+/gate/IBox/geometry/setZLength 21.4 cm
+/gate/IBox/setMaterial Water
+/gate/IBox/vis/forceWireframe
+/gate/IBox/vis/setColor blue
+
+#      A t t a c h   P h a n t o m
+/gate/NEMA_IQ/attachPhantomSD
+/gate/cyl_1/attachPhantomSD
+/gate/cyl_in/attachPhantomSD
+/gate/cyl_2/attachPhantomSD
+/gate/cyl_3/attachPhantomSD
+/gate/IBox/attachPhantomSD
+
+/gate/actor/addActor PhaseSpaceActor MyActor
+/gate/actor/MyActor/save {root_fn}.psa.root
+/gate/actor/MyActor/attachTo NEMA_IQ
+/gate/actor/MyActor/enableProductionVolume   false
+/gate/actor/MyActor/enableProductionProcess  false
+/gate/actor/MyActor/enableParticleName       false
+/gate/actor/MyActor/enableWeight             false

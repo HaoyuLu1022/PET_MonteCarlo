@@ -1,0 +1,18 @@
+#=====================================================
+#  P H A N T O M
+#=====================================================
+#elliptical tube phantom
+
+/gate/world/daughters/name Elliptube
+/gate/world/daughters/insert eltub
+/gate/Elliptube/geometry/setLong 114 mm
+/gate/Elliptube/geometry/setShort 158 mm
+/gate/Elliptube/geometry/setHeight 400 mm
+/gate/Elliptube/placement/setTranslation 0 0 0 mm
+/gate/Elliptube/setMaterial Water
+/gate/Elliptube/vis/forceWireframe
+/gate/Elliptube/vis/setColor red
+
+/gate/Elliptube/attachPhantomSD
+
+

@@ -1,0 +1,8 @@
+-2000 100 Air
+100 220 CompressedAir
+220 500 Lung
+500 950 AdiposeTissue
+950 1000 Muscle
+1000 1150 SoftTissue
+1120 2150 Bone
+3000 3050 CarbonFiber

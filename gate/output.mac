@@ -1,0 +1,14 @@
+#=====================================================
+#  D A T A   O U T P U T   
+#=====================================================
+#binary
+#ascii
+
+/gate/output/binary/enable
+/gate/output/binary/setFileName {root_fn}
+/gate/output/binary/setOutFileHitsFlag 0
+/gate/output/binary/setOutFileSinglesFlag 1
+/gate/output/binary/setOutFileCoincidencesFlag 0 
+/gate/output/binary/setSingleMask 0 1 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0
+
+/gate/output/binary/setOutFileSizeLimit 0

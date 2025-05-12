@@ -1,0 +1,8 @@
+/vis/open OGL
+/vis/viewer/set/viewpointThetaPhi 45 135
+/vis/viewer/zoom 1
+/vis/drawVolume
+/tracking/storeTrajectory 0
+#/vis/scene/add/trajectories
+#/vis/scene/add/axes -0.04 0 -0.04 0.225 m
+/vis/scene/endOfEventAction accumulate 1

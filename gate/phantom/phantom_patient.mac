@@ -1,0 +1,6 @@
+/gate/world/daughters/name VoxAttn
+/gate/world/daughters/insert ImageNestedParametrisedVolume # Or ImageRegularParametrisedVolume
+/gate/VoxAttn/geometry/setImage phantom/patient/patient15_LuDOTATATE_attn.h33
+/gate/VoxAttn/geometry/setRangeToMaterialFile phantom/patient/Attenuation_LuPatient_Range.dat
+/gate/VoxAttn/placement/setTranslation  0. 0. 0. cm
+/gate/VoxAttn/attachPhantomSD

@@ -1,0 +1,86 @@
+#ETSI Hackathon PET scanner model
+
+#For visualization
+#/control/execute visu.mac
+
+#     W O R L D
+/gate/world/geometry/setXLength 200. cm
+/gate/world/geometry/setYLength 200. cm
+/gate/world/geometry/setZLength 220. cm
+
+#
+#     D e t e c t o r   G e o m e t r y 
+#
+#     C Y L I N D R I C A L  (detector ring, includes 1 mm gap bw each block)
+/gate/world/daughters/name cylindricalPET
+/gate/world/daughters/insert cylinder
+/gate/cylindricalPET/setMaterial Air
+/gate/cylindricalPET/geometry/setRmax 440 mm
+/gate/cylindricalPET/geometry/setRmin 390 mm
+/gate/cylindricalPET/geometry/setHeight 263.0 mm
+/gate/cylindricalPET/vis/forceWireframe
+#/gate/cylindricalPET/vis/forceSolid
+/gate/cylindricalPET/vis/setColor red
+
+#     R S E C T O R  (MODULE 2x4 blocks)
+/gate/cylindricalPET/daughters/name rsector
+/gate/cylindricalPET/daughters/insert box
+/gate/rsector/placement/setTranslation 422.0 0 0 mm
+/gate/rsector/geometry/setXLength 20.0 mm		
+/gate/rsector/geometry/setYLength 64.0 mm 
+/gate/rsector/geometry/setZLength 263.0 mm
+/gate/rsector/setMaterial Air
+/gate/rsector/vis/forceWireframe
+/gate/rsector/vis/setColor green
+#/gate/rsector/vis/forceSolid
+
+#      M O D U L E  (BLOCK 5x5 crystals)
+/gate/rsector/daughters/name module
+/gate/rsector/daughters/insert box
+/gate/module/geometry/setXLength  20.0  mm
+/gate/module/geometry/setYLength  64.0  mm
+/gate/module/geometry/setZLength  32.0  mm
+/gate/module/setMaterial Plastic
+/gate/module/vis/forceWireframe
+#/gate/module/vis/forceSolid
+/gate/module/vis/setColor blue
+
+
+#       C R Y S T A L
+# 4mm x 4mm x 20 mm  
+/gate/module/daughters/name crystal
+/gate/module/daughters/insert box
+/gate/crystal/placement/setTranslation 0 0 0 mm
+/gate/crystal/geometry/setXLength 20.00 mm
+/gate/crystal/geometry/setYLength 3.18 mm
+/gate/crystal/geometry/setZLength 3.18 mm
+/gate/crystal/setMaterial LSO
+/gate/crystal/vis/forceWireframe
+#/gate/crystal/vis/forceSolid
+/gate/crystal/vis/setColor red
+
+#       R E P E A T    C R Y S T A L
+/gate/crystal/repeaters/insert cubicArray
+/gate/crystal/cubicArray/setRepeatNumberX 1
+/gate/crystal/cubicArray/setRepeatNumberY 20
+/gate/crystal/cubicArray/setRepeatNumberZ 10
+/gate/crystal/cubicArray/setRepeatVector 0. 3.2 3.2 mm
+
+#       R E P E A T    M O D U L E
+/gate/module/repeaters/insert cubicArray
+/gate/module/cubicArray/setRepeatNumberX 1
+/gate/module/cubicArray/setRepeatNumberY 1
+/gate/module/cubicArray/setRepeatNumberZ 8
+/gate/module/cubicArray/setRepeatVector 0. 0. 33 mm
+
+#       R E P E A T    R S E C T O R 
+/gate/rsector/repeaters/insert ring
+/gate/rsector/ring/setRepeatNumber 38
+
+#       A T T A C H    S Y S T E M
+/gate/systems/cylindricalPET/rsector/attach rsector
+/gate/systems/cylindricalPET/module/attach module
+/gate/systems/cylindricalPET/crystal/attach crystal
+/gate/crystal/attachCrystalSD
+
+#/gate/run/initialize

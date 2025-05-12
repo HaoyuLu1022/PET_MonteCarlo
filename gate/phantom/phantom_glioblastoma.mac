@@ -1,0 +1,24 @@
+/gate/world/daughters/name glioblastoma_box
+/gate/world/daughters/insert box
+/gate/glioblastoma_box/placement/setTranslation 0.0 0.0 0.0 cm
+/gate/glioblastoma_box/geometry/setXLength 40. cm
+/gate/glioblastoma_box/geometry/setYLength 40. cm
+/gate/glioblastoma_box/geometry/setZLength 26.3 cm
+/gate/glioblastoma_box/setMaterial Air
+/gate/glioblastoma_box/vis/forceWireframe
+/gate/glioblastoma_box/vis/setColor gray
+
+/gate/glioblastoma_box/daughters/name VoxAttn
+/gate/glioblastoma_box/daughters/insert ImageNestedParametrisedVolume # Or ImageRegularParametrisedVolume
+/gate/VoxAttn/geometry/setImage phantom/glioblastoma/Glioblastoma_Attn_92x102x65.h33
+/gate/VoxAttn/geometry/setRangeToMaterialFile phantom/glioblastoma/Attenuation_Glioblastoma_Range.dat
+/gate/VoxAttn/placement/setTranslation  0. 0. 0. cm
+/gate/VoxAttn/attachPhantomSD
+
+/gate/actor/addActor PhaseSpaceActor MyActor
+/gate/actor/MyActor/save {root_fn}.psa.root
+/gate/actor/MyActor/attachTo glioblastoma_box
+/gate/actor/MyActor/enableProductionVolume   false
+/gate/actor/MyActor/enableProductionProcess  false
+/gate/actor/MyActor/enableParticleName       false
+/gate/actor/MyActor/enableWeight             false

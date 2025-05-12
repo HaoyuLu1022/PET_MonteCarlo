@@ -5,7 +5,7 @@ import configparser
 import glob
 
 # Command line arguments
-patient_name = sys.argv[1]
+patient_name = "derenzo_vision"
 
 # Directories
 cur_dir = os.path.dirname(os.path.realpath(__file__))
@@ -33,7 +33,7 @@ for n in range(1, num_jobs+1):
     # Determine if the current job needs to be rerun
     rerun = False
     delete_root = False
-    root_fn = os.path.join(results_dir, '%i.root' % n)
+    root_fn = os.path.join(results_dir, '%i.psa.root' % n)
     if os.path.isfile(root_fn):
         # Read current sinogram
         try:

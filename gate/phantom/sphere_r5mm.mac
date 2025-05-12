@@ -1,0 +1,17 @@
+#=====================================================
+#  P H A N T O M
+#=====================================================
+/gate/world/daughters/name small_sphere
+/gate/world/daughters/insert sphere
+/gate/small_sphere/geometry/setRmin 0 mm
+/gate/small_sphere/geometry/setRmax 5 mm
+/gate/small_sphere/placement/setTranslation 0 0 100 mm
+/gate/small_sphere/setMaterial Water
+/gate/small_sphere/vis/forceSolid
+/gate/small_sphere/vis/setColor red
+
+/gate/small_sphere/attachPhantomSD
+
+
+
+

@@ -1,0 +1,22 @@
+!INTERFILE :=
+!imaging modality := nucmed
+imaging center := The Christie NHS Foundation Trust
+program author := SophiaPells
+program version := 1.0.0
+program date := 2019:02:26
+;
+!data offset in bytes := 0
+!name of data file := phantom/patient/patient15_LuDOTATATE_attn.i33
+imagedata byte order := LITTLEENDIAN
+exam type := CT
+!total number of images := 90
+!matrix size [1] := 108
+!matrix size [2] := 70
+!number format := unsigned integer
+!number of bytes per pixel := 2
+scaling factor (mm/pixel) [1] := 3.9063
+scaling factor (mm/pixel) [2] := 3.9063
+!number of slices := 90
+slice thickness (pixels) := 4.4196
+slice orientation := Transverse
+!END OF INTERFILE :=

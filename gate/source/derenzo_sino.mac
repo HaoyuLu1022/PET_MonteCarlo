@@ -1,0 +1,1845 @@
+/gate/source/addSource rod0
+/gate/source/rod0/attachTo Elliptube
+/gate/source/rod0/setActivity +7.72805625e+04 becquerel
+/gate/source/rod0/gps/particle e+
+/gate/source/rod0/setForcedUnstableFlag true
+/gate/source/rod0/gps/energytype Fluor18
+/gate/source/rod0/setForcedHalfLife 6586 s
+/gate/source/rod0/gps/type Volume
+/gate/source/rod0/gps/shape Cylinder
+/gate/source/rod0/gps/radius +2.00000000e+00 mm
+/gate/source/rod0/gps/halfz +2.00000000e+01 mm
+/gate/source/rod0/gps/angtype iso
+/gate/source/rod0/gps/centre +8.48528099e+00 -8.48528099e+00 0 mm
+/gate/source/rod0/visualize 400 green 2
+
+/gate/source/addSource rod1
+/gate/source/rod1/attachTo Elliptube
+/gate/source/rod1/setActivity +7.72805625e+04 becquerel
+/gate/source/rod1/gps/particle e+
+/gate/source/rod1/setForcedUnstableFlag true
+/gate/source/rod1/gps/energytype Fluor18
+/gate/source/rod1/setForcedHalfLife 6586 s
+/gate/source/rod1/gps/type Volume
+/gate/source/rod1/gps/shape Cylinder
+/gate/source/rod1/gps/radius +2.00000000e+00 mm
+/gate/source/rod1/gps/halfz +2.00000000e+01 mm
+/gate/source/rod1/gps/angtype iso
+/gate/source/rod1/gps/centre +1.05558348e+01 -1.62126884e+01 0 mm
+/gate/source/rod1/visualize 400 green 2
+
+/gate/source/addSource rod2
+/gate/source/rod2/attachTo Elliptube
+/gate/source/rod2/setActivity +7.72805625e+04 becquerel
+/gate/source/rod2/gps/particle e+
+/gate/source/rod2/setForcedUnstableFlag true
+/gate/source/rod2/gps/energytype Fluor18
+/gate/source/rod2/setForcedHalfLife 6586 s
+/gate/source/rod2/gps/type Volume
+/gate/source/rod2/gps/shape Cylinder
+/gate/source/rod2/gps/radius +2.00000000e+00 mm
+/gate/source/rod2/gps/halfz +2.00000000e+01 mm
+/gate/source/rod2/gps/angtype iso
+/gate/source/rod2/gps/centre +1.62126884e+01 -1.05558338e+01 0 mm
+/gate/source/rod2/visualize 400 green 2
+
+/gate/source/addSource rod3
+/gate/source/rod3/attachTo Elliptube
+/gate/source/rod3/setActivity +7.72805625e+04 becquerel
+/gate/source/rod3/gps/particle e+
+/gate/source/rod3/setForcedUnstableFlag true
+/gate/source/rod3/gps/energytype Fluor18
+/gate/source/rod3/setForcedHalfLife 6586 s
+/gate/source/rod3/gps/type Volume
+/gate/source/rod3/gps/shape Cylinder
+/gate/source/rod3/gps/radius +2.00000000e+00 mm
+/gate/source/rod3/gps/halfz +2.00000000e+01 mm
+/gate/source/rod3/gps/angtype iso
+/gate/source/rod3/gps/centre +1.26263866e+01 -2.39400940e+01 0 mm
+/gate/source/rod3/visualize 400 green 2
+
+/gate/source/addSource rod4
+/gate/source/rod4/attachTo Elliptube
+/gate/source/rod4/setActivity +7.72805625e+04 becquerel
+/gate/source/rod4/gps/particle e+
+/gate/source/rod4/setForcedUnstableFlag true
+/gate/source/rod4/gps/energytype Fluor18
+/gate/source/rod4/setForcedHalfLife 6586 s
+/gate/source/rod4/gps/type Volume
+/gate/source/rod4/gps/shape Cylinder
+/gate/source/rod4/gps/radius +2.00000000e+00 mm
+/gate/source/rod4/gps/halfz +2.00000000e+01 mm
+/gate/source/rod4/gps/angtype iso
+/gate/source/rod4/gps/centre +1.82832413e+01 -1.82832413e+01 0 mm
+/gate/source/rod4/visualize 400 green 2
+
+/gate/source/addSource rod5
+/gate/source/rod5/attachTo Elliptube
+/gate/source/rod5/setActivity +7.72805625e+04 becquerel
+/gate/source/rod5/gps/particle e+
+/gate/source/rod5/setForcedUnstableFlag true
+/gate/source/rod5/gps/energytype Fluor18
+/gate/source/rod5/setForcedHalfLife 6586 s
+/gate/source/rod5/gps/type Volume
+/gate/source/rod5/gps/shape Cylinder
+/gate/source/rod5/gps/radius +2.00000000e+00 mm
+/gate/source/rod5/gps/halfz +2.00000000e+01 mm
+/gate/source/rod5/gps/angtype iso
+/gate/source/rod5/gps/centre +2.39400940e+01 -1.26263866e+01 0 mm
+/gate/source/rod5/visualize 400 green 2
+
+/gate/source/addSource rod6
+/gate/source/rod6/attachTo Elliptube
+/gate/source/rod6/setActivity +7.72805625e+04 becquerel
+/gate/source/rod6/gps/particle e+
+/gate/source/rod6/setForcedUnstableFlag true
+/gate/source/rod6/gps/energytype Fluor18
+/gate/source/rod6/setForcedHalfLife 6586 s
+/gate/source/rod6/gps/type Volume
+/gate/source/rod6/gps/shape Cylinder
+/gate/source/rod6/gps/radius +2.00000000e+00 mm
+/gate/source/rod6/gps/halfz +2.00000000e+01 mm
+/gate/source/rod6/gps/angtype iso
+/gate/source/rod6/gps/centre +2.03537941e+01 -2.60106449e+01 0 mm
+/gate/source/rod6/visualize 400 green 2
+
+/gate/source/addSource rod7
+/gate/source/rod7/attachTo Elliptube
+/gate/source/rod7/setActivity +7.72805625e+04 becquerel
+/gate/source/rod7/gps/particle e+
+/gate/source/rod7/setForcedUnstableFlag true
+/gate/source/rod7/gps/energytype Fluor18
+/gate/source/rod7/setForcedHalfLife 6586 s
+/gate/source/rod7/gps/type Volume
+/gate/source/rod7/gps/shape Cylinder
+/gate/source/rod7/gps/radius +2.00000000e+00 mm
+/gate/source/rod7/gps/halfz +2.00000000e+01 mm
+/gate/source/rod7/gps/angtype iso
+/gate/source/rod7/gps/centre +2.60106468e+01 -2.03537922e+01 0 mm
+/gate/source/rod7/visualize 400 green 2
+
+/gate/source/addSource rod8
+/gate/source/rod8/attachTo Elliptube
+/gate/source/rod8/setActivity +6.25972461e+04 becquerel
+/gate/source/rod8/gps/particle e+
+/gate/source/rod8/setForcedUnstableFlag true
+/gate/source/rod8/gps/energytype Fluor18
+/gate/source/rod8/setForcedHalfLife 6586 s
+/gate/source/rod8/gps/type Volume
+/gate/source/rod8/gps/shape Cylinder
+/gate/source/rod8/gps/radius +1.79999995e+00 mm
+/gate/source/rod8/gps/halfz +2.00000000e+01 mm
+/gate/source/rod8/gps/angtype iso
+/gate/source/rod8/gps/centre -3.00230241e+00 -1.12047396e+01 0 mm
+/gate/source/rod8/visualize 400 green 2
+
+/gate/source/addSource rod9
+/gate/source/rod9/attachTo Elliptube
+/gate/source/rod9/setActivity +6.25972461e+04 becquerel
+/gate/source/rod9/gps/particle e+
+/gate/source/rod9/setForcedUnstableFlag true
+/gate/source/rod9/gps/energytype Fluor18
+/gate/source/rod9/setForcedHalfLife 6586 s
+/gate/source/rod9/gps/type Volume
+/gate/source/rod9/gps/shape Cylinder
+/gate/source/rod9/gps/radius +1.79999995e+00 mm
+/gate/source/rod9/gps/halfz +2.00000000e+01 mm
+/gate/source/rod9/gps/angtype iso
+/gate/source/rod9/gps/centre -8.09347057e+00 -1.62959061e+01 0 mm
+/gate/source/rod9/visualize 400 green 2
+
+/gate/source/addSource rod10
+/gate/source/rod10/attachTo Elliptube
+/gate/source/rod10/setActivity +6.25972461e+04 becquerel
+/gate/source/rod10/gps/particle e+
+/gate/source/rod10/setForcedUnstableFlag true
+/gate/source/rod10/gps/energytype Fluor18
+/gate/source/rod10/setForcedHalfLife 6586 s
+/gate/source/rod10/gps/type Volume
+/gate/source/rod10/gps/shape Cylinder
+/gate/source/rod10/gps/radius +1.79999995e+00 mm
+/gate/source/rod10/gps/halfz +2.00000000e+01 mm
+/gate/source/rod10/gps/angtype iso
+/gate/source/rod10/gps/centre -1.13880181e+00 -1.81594048e+01 0 mm
+/gate/source/rod10/visualize 400 green 2
+
+/gate/source/addSource rod11
+/gate/source/rod11/attachTo Elliptube
+/gate/source/rod11/setActivity +6.25972461e+04 becquerel
+/gate/source/rod11/gps/particle e+
+/gate/source/rod11/setForcedUnstableFlag true
+/gate/source/rod11/gps/energytype Fluor18
+/gate/source/rod11/setForcedHalfLife 6586 s
+/gate/source/rod11/gps/type Volume
+/gate/source/rod11/gps/shape Cylinder
+/gate/source/rod11/gps/radius +1.79999995e+00 mm
+/gate/source/rod11/gps/halfz +2.00000000e+01 mm
+/gate/source/rod11/gps/angtype iso
+/gate/source/rod11/gps/centre -1.31846352e+01 -2.13870773e+01 0 mm
+/gate/source/rod11/visualize 400 green 2
+
+/gate/source/addSource rod12
+/gate/source/rod12/attachTo Elliptube
+/gate/source/rod12/setActivity +6.25972461e+04 becquerel
+/gate/source/rod12/gps/particle e+
+/gate/source/rod12/setForcedUnstableFlag true
+/gate/source/rod12/gps/energytype Fluor18
+/gate/source/rod12/setForcedHalfLife 6586 s
+/gate/source/rod12/gps/type Volume
+/gate/source/rod12/gps/shape Cylinder
+/gate/source/rod12/gps/radius +1.79999995e+00 mm
+/gate/source/rod12/gps/halfz +2.00000000e+01 mm
+/gate/source/rod12/gps/angtype iso
+/gate/source/rod12/gps/centre -6.22997522e+00 -2.32505722e+01 0 mm
+/gate/source/rod12/visualize 400 green 2
+
+/gate/source/addSource rod13
+/gate/source/rod13/attachTo Elliptube
+/gate/source/rod13/setActivity +6.25972461e+04 becquerel
+/gate/source/rod13/gps/particle e+
+/gate/source/rod13/setForcedUnstableFlag true
+/gate/source/rod13/gps/energytype Fluor18
+/gate/source/rod13/setForcedHalfLife 6586 s
+/gate/source/rod13/gps/type Volume
+/gate/source/rod13/gps/shape Cylinder
+/gate/source/rod13/gps/radius +1.79999995e+00 mm
+/gate/source/rod13/gps/halfz +2.00000000e+01 mm
+/gate/source/rod13/gps/angtype iso
+/gate/source/rod13/gps/centre +7.24691927e-01 -2.51140690e+01 0 mm
+/gate/source/rod13/visualize 400 green 2
+
+/gate/source/addSource rod14
+/gate/source/rod14/attachTo Elliptube
+/gate/source/rod14/setActivity +6.25972461e+04 becquerel
+/gate/source/rod14/gps/particle e+
+/gate/source/rod14/setForcedUnstableFlag true
+/gate/source/rod14/gps/energytype Fluor18
+/gate/source/rod14/setForcedHalfLife 6586 s
+/gate/source/rod14/gps/type Volume
+/gate/source/rod14/gps/shape Cylinder
+/gate/source/rod14/gps/radius +1.79999995e+00 mm
+/gate/source/rod14/gps/halfz +2.00000000e+01 mm
+/gate/source/rod14/gps/angtype iso
+/gate/source/rod14/gps/centre -1.82758064e+01 -2.64782429e+01 0 mm
+/gate/source/rod14/visualize 400 green 2
+
+/gate/source/addSource rod15
+/gate/source/rod15/attachTo Elliptube
+/gate/source/rod15/setActivity +6.25972461e+04 becquerel
+/gate/source/rod15/gps/particle e+
+/gate/source/rod15/setForcedUnstableFlag true
+/gate/source/rod15/gps/energytype Fluor18
+/gate/source/rod15/setForcedHalfLife 6586 s
+/gate/source/rod15/gps/type Volume
+/gate/source/rod15/gps/shape Cylinder
+/gate/source/rod15/gps/radius +1.79999995e+00 mm
+/gate/source/rod15/gps/halfz +2.00000000e+01 mm
+/gate/source/rod15/gps/angtype iso
+/gate/source/rod15/gps/centre -1.13211432e+01 -2.83417416e+01 0 mm
+/gate/source/rod15/visualize 400 green 2
+
+/gate/source/addSource rod16
+/gate/source/rod16/attachTo Elliptube
+/gate/source/rod16/setActivity +6.25972461e+04 becquerel
+/gate/source/rod16/gps/particle e+
+/gate/source/rod16/setForcedUnstableFlag true
+/gate/source/rod16/gps/energytype Fluor18
+/gate/source/rod16/setForcedHalfLife 6586 s
+/gate/source/rod16/gps/type Volume
+/gate/source/rod16/gps/shape Cylinder
+/gate/source/rod16/gps/radius +1.79999995e+00 mm
+/gate/source/rod16/gps/halfz +2.00000000e+01 mm
+/gate/source/rod16/gps/angtype iso
+/gate/source/rod16/gps/centre -4.36647320e+00 -3.02052402e+01 0 mm
+/gate/source/rod16/visualize 400 green 2
+
+/gate/source/addSource rod17
+/gate/source/rod17/attachTo Elliptube
+/gate/source/rod17/setActivity +6.25972461e+04 becquerel
+/gate/source/rod17/gps/particle e+
+/gate/source/rod17/setForcedUnstableFlag true
+/gate/source/rod17/gps/energytype Fluor18
+/gate/source/rod17/setForcedHalfLife 6586 s
+/gate/source/rod17/gps/type Volume
+/gate/source/rod17/gps/shape Cylinder
+/gate/source/rod17/gps/radius +1.79999995e+00 mm
+/gate/source/rod17/gps/halfz +2.00000000e+01 mm
+/gate/source/rod17/gps/angtype iso
+/gate/source/rod17/gps/centre +2.58819246e+00 -3.20687332e+01 0 mm
+/gate/source/rod17/visualize 400 green 2
+
+/gate/source/addSource rod18
+/gate/source/rod18/attachTo Elliptube
+/gate/source/rod18/setActivity +4.94595586e+04 becquerel
+/gate/source/rod18/gps/particle e+
+/gate/source/rod18/setForcedUnstableFlag true
+/gate/source/rod18/gps/energytype Fluor18
+/gate/source/rod18/setForcedHalfLife 6586 s
+/gate/source/rod18/gps/type Volume
+/gate/source/rod18/gps/shape Cylinder
+/gate/source/rod18/gps/radius +1.60000002e+00 mm
+/gate/source/rod18/gps/halfz +2.00000000e+01 mm
+/gate/source/rod18/gps/angtype iso
+/gate/source/rod18/gps/centre -1.08183689e+01 -2.89877415e+00 0 mm
+/gate/source/rod18/visualize 400 green 2
+
+/gate/source/addSource rod19
+/gate/source/rod19/attachTo Elliptube
+/gate/source/rod19/setActivity +4.94595586e+04 becquerel
+/gate/source/rod19/gps/particle e+
+/gate/source/rod19/setForcedUnstableFlag true
+/gate/source/rod19/gps/energytype Fluor18
+/gate/source/rod19/setForcedHalfLife 6586 s
+/gate/source/rod19/gps/type Volume
+/gate/source/rod19/gps/shape Cylinder
+/gate/source/rod19/gps/radius +1.60000002e+00 mm
+/gate/source/rod19/gps/halfz +2.00000000e+01 mm
+/gate/source/rod19/gps/angtype iso
+/gate/source/rod19/gps/centre -1.70002937e+01 -1.24233186e+00 0 mm
+/gate/source/rod19/visualize 400 green 2
+
+/gate/source/addSource rod20
+/gate/source/rod20/attachTo Elliptube
+/gate/source/rod20/setActivity +4.94595586e+04 becquerel
+/gate/source/rod20/gps/particle e+
+/gate/source/rod20/setForcedUnstableFlag true
+/gate/source/rod20/gps/energytype Fluor18
+/gate/source/rod20/setForcedHalfLife 6586 s
+/gate/source/rod20/gps/type Volume
+/gate/source/rod20/gps/shape Cylinder
+/gate/source/rod20/gps/radius +1.60000002e+00 mm
+/gate/source/rod20/gps/halfz +2.00000000e+01 mm
+/gate/source/rod20/gps/angtype iso
+/gate/source/rod20/gps/centre -1.53438520e+01 -7.42425489e+00 0 mm
+/gate/source/rod20/visualize 400 green 2
+
+/gate/source/addSource rod21
+/gate/source/rod21/attachTo Elliptube
+/gate/source/rod21/setActivity +4.94595586e+04 becquerel
+/gate/source/rod21/gps/particle e+
+/gate/source/rod21/setForcedUnstableFlag true
+/gate/source/rod21/gps/energytype Fluor18
+/gate/source/rod21/setForcedHalfLife 6586 s
+/gate/source/rod21/gps/type Volume
+/gate/source/rod21/gps/shape Cylinder
+/gate/source/rod21/gps/radius +1.60000002e+00 mm
+/gate/source/rod21/gps/halfz +2.00000000e+01 mm
+/gate/source/rod21/gps/angtype iso
+/gate/source/rod21/gps/centre -2.31822186e+01 +4.14106637e-01 0 mm
+/gate/source/rod21/visualize 400 green 2
+
+/gate/source/addSource rod22
+/gate/source/rod22/attachTo Elliptube
+/gate/source/rod22/setActivity +4.94595586e+04 becquerel
+/gate/source/rod22/gps/particle e+
+/gate/source/rod22/setForcedUnstableFlag true
+/gate/source/rod22/gps/energytype Fluor18
+/gate/source/rod22/setForcedHalfLife 6586 s
+/gate/source/rod22/gps/type Volume
+/gate/source/rod22/gps/shape Cylinder
+/gate/source/rod22/gps/radius +1.60000002e+00 mm
+/gate/source/rod22/gps/halfz +2.00000000e+01 mm
+/gate/source/rod22/gps/angtype iso
+/gate/source/rod22/gps/centre -2.15257759e+01 -5.76781654e+00 0 mm
+/gate/source/rod22/visualize 400 green 2
+
+/gate/source/addSource rod23
+/gate/source/rod23/attachTo Elliptube
+/gate/source/rod23/setActivity +4.94595586e+04 becquerel
+/gate/source/rod23/gps/particle e+
+/gate/source/rod23/setForcedUnstableFlag true
+/gate/source/rod23/gps/energytype Fluor18
+/gate/source/rod23/setForcedHalfLife 6586 s
+/gate/source/rod23/gps/type Volume
+/gate/source/rod23/gps/shape Cylinder
+/gate/source/rod23/gps/radius +1.60000002e+00 mm
+/gate/source/rod23/gps/halfz +2.00000000e+01 mm
+/gate/source/rod23/gps/angtype iso
+/gate/source/rod23/gps/centre -1.98693333e+01 -1.19497395e+01 0 mm
+/gate/source/rod23/visualize 400 green 2
+
+/gate/source/addSource rod24
+/gate/source/rod24/attachTo Elliptube
+/gate/source/rod24/setActivity +4.94595586e+04 becquerel
+/gate/source/rod24/gps/particle e+
+/gate/source/rod24/setForcedUnstableFlag true
+/gate/source/rod24/gps/energytype Fluor18
+/gate/source/rod24/setForcedHalfLife 6586 s
+/gate/source/rod24/gps/type Volume
+/gate/source/rod24/gps/shape Cylinder
+/gate/source/rod24/gps/radius +1.60000002e+00 mm
+/gate/source/rod24/gps/halfz +2.00000000e+01 mm
+/gate/source/rod24/gps/angtype iso
+/gate/source/rod24/gps/centre -2.93641434e+01 +2.07054782e+00 0 mm
+/gate/source/rod24/visualize 400 green 2
+
+/gate/source/addSource rod25
+/gate/source/rod25/attachTo Elliptube
+/gate/source/rod25/setActivity +4.94595586e+04 becquerel
+/gate/source/rod25/gps/particle e+
+/gate/source/rod25/setForcedUnstableFlag true
+/gate/source/rod25/gps/energytype Fluor18
+/gate/source/rod25/setForcedHalfLife 6586 s
+/gate/source/rod25/gps/type Volume
+/gate/source/rod25/gps/shape Cylinder
+/gate/source/rod25/gps/radius +1.60000002e+00 mm
+/gate/source/rod25/gps/halfz +2.00000000e+01 mm
+/gate/source/rod25/gps/angtype iso
+/gate/source/rod25/gps/centre -2.77077026e+01 -4.11137533e+00 0 mm
+/gate/source/rod25/visualize 400 green 2
+
+/gate/source/addSource rod26
+/gate/source/rod26/attachTo Elliptube
+/gate/source/rod26/setActivity +4.94595586e+04 becquerel
+/gate/source/rod26/gps/particle e+
+/gate/source/rod26/setForcedUnstableFlag true
+/gate/source/rod26/gps/energytype Fluor18
+/gate/source/rod26/setForcedHalfLife 6586 s
+/gate/source/rod26/gps/type Volume
+/gate/source/rod26/gps/shape Cylinder
+/gate/source/rod26/gps/radius +1.60000002e+00 mm
+/gate/source/rod26/gps/halfz +2.00000000e+01 mm
+/gate/source/rod26/gps/angtype iso
+/gate/source/rod26/gps/centre -2.60512581e+01 -1.02933016e+01 0 mm
+/gate/source/rod26/visualize 400 green 2
+
+/gate/source/addSource rod27
+/gate/source/rod27/attachTo Elliptube
+/gate/source/rod27/setActivity +4.94595586e+04 becquerel
+/gate/source/rod27/gps/particle e+
+/gate/source/rod27/setForcedUnstableFlag true
+/gate/source/rod27/gps/energytype Fluor18
+/gate/source/rod27/setForcedHalfLife 6586 s
+/gate/source/rod27/gps/type Volume
+/gate/source/rod27/gps/shape Cylinder
+/gate/source/rod27/gps/radius +1.60000002e+00 mm
+/gate/source/rod27/gps/halfz +2.00000000e+01 mm
+/gate/source/rod27/gps/angtype iso
+/gate/source/rod27/gps/centre -2.43948174e+01 -1.64752235e+01 0 mm
+/gate/source/rod27/visualize 400 green 2
+
+/gate/source/addSource rod28
+/gate/source/rod28/attachTo Elliptube
+/gate/source/rod28/setActivity +4.94595586e+04 becquerel
+/gate/source/rod28/gps/particle e+
+/gate/source/rod28/setForcedUnstableFlag true
+/gate/source/rod28/gps/energytype Fluor18
+/gate/source/rod28/setForcedHalfLife 6586 s
+/gate/source/rod28/gps/type Volume
+/gate/source/rod28/gps/shape Cylinder
+/gate/source/rod28/gps/radius +1.60000002e+00 mm
+/gate/source/rod28/gps/halfz +2.00000000e+01 mm
+/gate/source/rod28/gps/angtype iso
+/gate/source/rod28/gps/centre -3.38896255e+01 -2.45493221e+00 0 mm
+/gate/source/rod28/visualize 400 green 2
+
+/gate/source/addSource rod29
+/gate/source/rod29/attachTo Elliptube
+/gate/source/rod29/setActivity +4.94595586e+04 becquerel
+/gate/source/rod29/gps/particle e+
+/gate/source/rod29/setForcedUnstableFlag true
+/gate/source/rod29/gps/energytype Fluor18
+/gate/source/rod29/setForcedHalfLife 6586 s
+/gate/source/rod29/gps/type Volume
+/gate/source/rod29/gps/shape Cylinder
+/gate/source/rod29/gps/radius +1.60000002e+00 mm
+/gate/source/rod29/gps/halfz +2.00000000e+01 mm
+/gate/source/rod29/gps/angtype iso
+/gate/source/rod29/gps/centre -3.22331810e+01 -8.63685799e+00 0 mm
+/gate/source/rod29/visualize 400 green 2
+
+/gate/source/addSource rod30
+/gate/source/rod30/attachTo Elliptube
+/gate/source/rod30/setActivity +4.94595586e+04 becquerel
+/gate/source/rod30/gps/particle e+
+/gate/source/rod30/setForcedUnstableFlag true
+/gate/source/rod30/gps/energytype Fluor18
+/gate/source/rod30/setForcedHalfLife 6586 s
+/gate/source/rod30/gps/type Volume
+/gate/source/rod30/gps/shape Cylinder
+/gate/source/rod30/gps/radius +1.60000002e+00 mm
+/gate/source/rod30/gps/halfz +2.00000000e+01 mm
+/gate/source/rod30/gps/angtype iso
+/gate/source/rod30/gps/centre -3.05767422e+01 -1.48187771e+01 0 mm
+/gate/source/rod30/visualize 400 green 2
+
+/gate/source/addSource rod31
+/gate/source/rod31/attachTo Elliptube
+/gate/source/rod31/setActivity +2.78210039e+04 becquerel
+/gate/source/rod31/gps/particle e+
+/gate/source/rod31/setForcedUnstableFlag true
+/gate/source/rod31/gps/energytype Fluor18
+/gate/source/rod31/setForcedHalfLife 6586 s
+/gate/source/rod31/gps/type Volume
+/gate/source/rod31/gps/shape Cylinder
+/gate/source/rod31/gps/radius +1.20000005e+00 mm
+/gate/source/rod31/gps/halfz +2.00000000e+01 mm
+/gate/source/rod31/gps/angtype iso
+/gate/source/rod31/gps/centre -7.35390902e+00 +7.35391140e+00 0 mm
+/gate/source/rod31/visualize 400 green 2
+
+/gate/source/addSource rod32
+/gate/source/rod32/attachTo Elliptube
+/gate/source/rod32/setActivity +2.78210039e+04 becquerel
+/gate/source/rod32/gps/particle e+
+/gate/source/rod32/setForcedUnstableFlag true
+/gate/source/rod32/gps/energytype Fluor18
+/gate/source/rod32/setForcedHalfLife 6586 s
+/gate/source/rod32/gps/type Volume
+/gate/source/rod32/gps/shape Cylinder
+/gate/source/rod32/gps/radius +1.20000005e+00 mm
+/gate/source/rod32/gps/halfz +2.00000000e+01 mm
+/gate/source/rod32/gps/angtype iso
+/gate/source/rod32/gps/centre -8.59623718e+00 +1.19903555e+01 0 mm
+/gate/source/rod32/visualize 400 green 2
+
+/gate/source/addSource rod33
+/gate/source/rod33/attachTo Elliptube
+/gate/source/rod33/setActivity +2.78210039e+04 becquerel
+/gate/source/rod33/gps/particle e+
+/gate/source/rod33/setForcedUnstableFlag true
+/gate/source/rod33/gps/energytype Fluor18
+/gate/source/rod33/setForcedHalfLife 6586 s
+/gate/source/rod33/gps/type Volume
+/gate/source/rod33/gps/shape Cylinder
+/gate/source/rod33/gps/radius +1.20000005e+00 mm
+/gate/source/rod33/gps/halfz +2.00000000e+01 mm
+/gate/source/rod33/gps/angtype iso
+/gate/source/rod33/gps/centre -1.19903526e+01 +8.59624195e+00 0 mm
+/gate/source/rod33/visualize 400 green 2
+
+/gate/source/addSource rod34
+/gate/source/rod34/attachTo Elliptube
+/gate/source/rod34/setActivity +2.78210039e+04 becquerel
+/gate/source/rod34/gps/particle e+
+/gate/source/rod34/setForcedUnstableFlag true
+/gate/source/rod34/gps/energytype Fluor18
+/gate/source/rod34/setForcedHalfLife 6586 s
+/gate/source/rod34/gps/type Volume
+/gate/source/rod34/gps/shape Cylinder
+/gate/source/rod34/gps/radius +1.20000005e+00 mm
+/gate/source/rod34/gps/halfz +2.00000000e+01 mm
+/gate/source/rod34/gps/angtype iso
+/gate/source/rod34/gps/centre -9.83856773e+00 +1.66268005e+01 0 mm
+/gate/source/rod34/visualize 400 green 2
+
+/gate/source/addSource rod35
+/gate/source/rod35/attachTo Elliptube
+/gate/source/rod35/setActivity +2.78210039e+04 becquerel
+/gate/source/rod35/gps/particle e+
+/gate/source/rod35/setForcedUnstableFlag true
+/gate/source/rod35/gps/energytype Fluor18
+/gate/source/rod35/setForcedHalfLife 6586 s
+/gate/source/rod35/gps/type Volume
+/gate/source/rod35/gps/shape Cylinder
+/gate/source/rod35/gps/radius +1.20000005e+00 mm
+/gate/source/rod35/gps/halfz +2.00000000e+01 mm
+/gate/source/rod35/gps/angtype iso
+/gate/source/rod35/gps/centre -1.32326822e+01 +1.32326870e+01 0 mm
+/gate/source/rod35/visualize 400 green 2
+
+/gate/source/addSource rod36
+/gate/source/rod36/attachTo Elliptube
+/gate/source/rod36/setActivity +2.78210039e+04 becquerel
+/gate/source/rod36/gps/particle e+
+/gate/source/rod36/setForcedUnstableFlag true
+/gate/source/rod36/gps/energytype Fluor18
+/gate/source/rod36/setForcedHalfLife 6586 s
+/gate/source/rod36/gps/type Volume
+/gate/source/rod36/gps/shape Cylinder
+/gate/source/rod36/gps/radius +1.20000005e+00 mm
+/gate/source/rod36/gps/halfz +2.00000000e+01 mm
+/gate/source/rod36/gps/angtype iso
+/gate/source/rod36/gps/centre -1.66267967e+01 +9.83857346e+00 0 mm
+/gate/source/rod36/visualize 400 green 2
+
+/gate/source/addSource rod37
+/gate/source/rod37/attachTo Elliptube
+/gate/source/rod37/setActivity +2.78210039e+04 becquerel
+/gate/source/rod37/gps/particle e+
+/gate/source/rod37/setForcedUnstableFlag true
+/gate/source/rod37/gps/energytype Fluor18
+/gate/source/rod37/setForcedHalfLife 6586 s
+/gate/source/rod37/gps/type Volume
+/gate/source/rod37/gps/shape Cylinder
+/gate/source/rod37/gps/radius +1.20000005e+00 mm
+/gate/source/rod37/gps/halfz +2.00000000e+01 mm
+/gate/source/rod37/gps/angtype iso
+/gate/source/rod37/gps/centre -1.10808973e+01 +2.12632446e+01 0 mm
+/gate/source/rod37/visualize 400 green 2
+
+/gate/source/addSource rod38
+/gate/source/rod38/attachTo Elliptube
+/gate/source/rod38/setActivity +2.78210039e+04 becquerel
+/gate/source/rod38/gps/particle e+
+/gate/source/rod38/setForcedUnstableFlag true
+/gate/source/rod38/gps/energytype Fluor18
+/gate/source/rod38/setForcedHalfLife 6586 s
+/gate/source/rod38/gps/type Volume
+/gate/source/rod38/gps/shape Cylinder
+/gate/source/rod38/gps/radius +1.20000005e+00 mm
+/gate/source/rod38/gps/halfz +2.00000000e+01 mm
+/gate/source/rod38/gps/angtype iso
+/gate/source/rod38/gps/centre -1.44750147e+01 +1.78691292e+01 0 mm
+/gate/source/rod38/visualize 400 green 2
+
+/gate/source/addSource rod39
+/gate/source/rod39/attachTo Elliptube
+/gate/source/rod39/setActivity +2.78210039e+04 becquerel
+/gate/source/rod39/gps/particle e+
+/gate/source/rod39/setForcedUnstableFlag true
+/gate/source/rod39/gps/energytype Fluor18
+/gate/source/rod39/setForcedHalfLife 6586 s
+/gate/source/rod39/gps/type Volume
+/gate/source/rod39/gps/shape Cylinder
+/gate/source/rod39/gps/radius +1.20000005e+00 mm
+/gate/source/rod39/gps/halfz +2.00000000e+01 mm
+/gate/source/rod39/gps/angtype iso
+/gate/source/rod39/gps/centre -1.78691311e+01 +1.44750137e+01 0 mm
+/gate/source/rod39/visualize 400 green 2
+
+/gate/source/addSource rod40
+/gate/source/rod40/attachTo Elliptube
+/gate/source/rod40/setActivity +2.78210039e+04 becquerel
+/gate/source/rod40/gps/particle e+
+/gate/source/rod40/setForcedUnstableFlag true
+/gate/source/rod40/gps/energytype Fluor18
+/gate/source/rod40/setForcedHalfLife 6586 s
+/gate/source/rod40/gps/type Volume
+/gate/source/rod40/gps/shape Cylinder
+/gate/source/rod40/gps/radius +1.20000005e+00 mm
+/gate/source/rod40/gps/halfz +2.00000000e+01 mm
+/gate/source/rod40/gps/angtype iso
+/gate/source/rod40/gps/centre -2.12632408e+01 +1.10809040e+01 0 mm
+/gate/source/rod40/visualize 400 green 2
+
+/gate/source/addSource rod41
+/gate/source/rod41/attachTo Elliptube
+/gate/source/rod41/setActivity +2.78210039e+04 becquerel
+/gate/source/rod41/gps/particle e+
+/gate/source/rod41/setForcedUnstableFlag true
+/gate/source/rod41/gps/energytype Fluor18
+/gate/source/rod41/setForcedHalfLife 6586 s
+/gate/source/rod41/gps/type Volume
+/gate/source/rod41/gps/shape Cylinder
+/gate/source/rod41/gps/radius +1.20000005e+00 mm
+/gate/source/rod41/gps/halfz +2.00000000e+01 mm
+/gate/source/rod41/gps/angtype iso
+/gate/source/rod41/gps/centre -1.23232355e+01 +2.58996849e+01 0 mm
+/gate/source/rod41/visualize 400 green 2
+
+/gate/source/addSource rod42
+/gate/source/rod42/attachTo Elliptube
+/gate/source/rod42/setActivity +2.78210039e+04 becquerel
+/gate/source/rod42/gps/particle e+
+/gate/source/rod42/setForcedUnstableFlag true
+/gate/source/rod42/gps/energytype Fluor18
+/gate/source/rod42/setForcedHalfLife 6586 s
+/gate/source/rod42/gps/type Volume
+/gate/source/rod42/gps/shape Cylinder
+/gate/source/rod42/gps/radius +1.20000005e+00 mm
+/gate/source/rod42/gps/halfz +2.00000000e+01 mm
+/gate/source/rod42/gps/angtype iso
+/gate/source/rod42/gps/centre -1.57173529e+01 +2.25055676e+01 0 mm
+/gate/source/rod42/visualize 400 green 2
+
+/gate/source/addSource rod43
+/gate/source/rod43/attachTo Elliptube
+/gate/source/rod43/setActivity +2.78210039e+04 becquerel
+/gate/source/rod43/gps/particle e+
+/gate/source/rod43/setForcedUnstableFlag true
+/gate/source/rod43/gps/energytype Fluor18
+/gate/source/rod43/setForcedHalfLife 6586 s
+/gate/source/rod43/gps/type Volume
+/gate/source/rod43/gps/shape Cylinder
+/gate/source/rod43/gps/radius +1.20000005e+00 mm
+/gate/source/rod43/gps/halfz +2.00000000e+01 mm
+/gate/source/rod43/gps/angtype iso
+/gate/source/rod43/gps/centre -1.91114559e+01 +1.91114616e+01 0 mm
+/gate/source/rod43/visualize 400 green 2
+
+/gate/source/addSource rod44
+/gate/source/rod44/attachTo Elliptube
+/gate/source/rod44/setActivity +2.78210039e+04 becquerel
+/gate/source/rod44/gps/particle e+
+/gate/source/rod44/setForcedUnstableFlag true
+/gate/source/rod44/gps/energytype Fluor18
+/gate/source/rod44/setForcedHalfLife 6586 s
+/gate/source/rod44/gps/type Volume
+/gate/source/rod44/gps/shape Cylinder
+/gate/source/rod44/gps/radius +1.20000005e+00 mm
+/gate/source/rod44/gps/halfz +2.00000000e+01 mm
+/gate/source/rod44/gps/angtype iso
+/gate/source/rod44/gps/centre -2.25055695e+01 +1.57173500e+01 0 mm
+/gate/source/rod44/visualize 400 green 2
+
+/gate/source/addSource rod45
+/gate/source/rod45/attachTo Elliptube
+/gate/source/rod45/setActivity +2.78210039e+04 becquerel
+/gate/source/rod45/gps/particle e+
+/gate/source/rod45/setForcedUnstableFlag true
+/gate/source/rod45/gps/energytype Fluor18
+/gate/source/rod45/setForcedHalfLife 6586 s
+/gate/source/rod45/gps/type Volume
+/gate/source/rod45/gps/shape Cylinder
+/gate/source/rod45/gps/radius +1.20000005e+00 mm
+/gate/source/rod45/gps/halfz +2.00000000e+01 mm
+/gate/source/rod45/gps/angtype iso
+/gate/source/rod45/gps/centre -2.58996868e+01 +1.23232317e+01 0 mm
+/gate/source/rod45/visualize 400 green 2
+
+/gate/source/addSource rod46
+/gate/source/rod46/attachTo Elliptube
+/gate/source/rod46/setActivity +2.78210039e+04 becquerel
+/gate/source/rod46/gps/particle e+
+/gate/source/rod46/setForcedUnstableFlag true
+/gate/source/rod46/gps/energytype Fluor18
+/gate/source/rod46/setForcedHalfLife 6586 s
+/gate/source/rod46/gps/type Volume
+/gate/source/rod46/gps/shape Cylinder
+/gate/source/rod46/gps/radius +1.20000005e+00 mm
+/gate/source/rod46/gps/halfz +2.00000000e+01 mm
+/gate/source/rod46/gps/angtype iso
+/gate/source/rod46/gps/centre -1.35655632e+01 +3.05361290e+01 0 mm
+/gate/source/rod46/visualize 400 green 2
+
+/gate/source/addSource rod47
+/gate/source/rod47/attachTo Elliptube
+/gate/source/rod47/setActivity +2.78210039e+04 becquerel
+/gate/source/rod47/gps/particle e+
+/gate/source/rod47/setForcedUnstableFlag true
+/gate/source/rod47/gps/energytype Fluor18
+/gate/source/rod47/setForcedHalfLife 6586 s
+/gate/source/rod47/gps/type Volume
+/gate/source/rod47/gps/shape Cylinder
+/gate/source/rod47/gps/radius +1.20000005e+00 mm
+/gate/source/rod47/gps/halfz +2.00000000e+01 mm
+/gate/source/rod47/gps/angtype iso
+/gate/source/rod47/gps/centre -1.69596786e+01 +2.71420135e+01 0 mm
+/gate/source/rod47/visualize 400 green 2
+
+/gate/source/addSource rod48
+/gate/source/rod48/attachTo Elliptube
+/gate/source/rod48/setActivity +2.78210039e+04 becquerel
+/gate/source/rod48/gps/particle e+
+/gate/source/rod48/setForcedUnstableFlag true
+/gate/source/rod48/gps/energytype Fluor18
+/gate/source/rod48/setForcedHalfLife 6586 s
+/gate/source/rod48/gps/type Volume
+/gate/source/rod48/gps/shape Cylinder
+/gate/source/rod48/gps/radius +1.20000005e+00 mm
+/gate/source/rod48/gps/halfz +2.00000000e+01 mm
+/gate/source/rod48/gps/angtype iso
+/gate/source/rod48/gps/centre -2.03537903e+01 +2.37479000e+01 0 mm
+/gate/source/rod48/visualize 400 green 2
+
+/gate/source/addSource rod49
+/gate/source/rod49/attachTo Elliptube
+/gate/source/rod49/setActivity +2.78210039e+04 becquerel
+/gate/source/rod49/gps/particle e+
+/gate/source/rod49/setForcedUnstableFlag true
+/gate/source/rod49/gps/energytype Fluor18
+/gate/source/rod49/setForcedHalfLife 6586 s
+/gate/source/rod49/gps/type Volume
+/gate/source/rod49/gps/shape Cylinder
+/gate/source/rod49/gps/radius +1.20000005e+00 mm
+/gate/source/rod49/gps/halfz +2.00000000e+01 mm
+/gate/source/rod49/gps/angtype iso
+/gate/source/rod49/gps/centre -2.37479038e+01 +2.03537884e+01 0 mm
+/gate/source/rod49/visualize 400 green 2
+
+/gate/source/addSource rod50
+/gate/source/rod50/attachTo Elliptube
+/gate/source/rod50/setActivity +2.78210039e+04 becquerel
+/gate/source/rod50/gps/particle e+
+/gate/source/rod50/setForcedUnstableFlag true
+/gate/source/rod50/gps/energytype Fluor18
+/gate/source/rod50/setForcedHalfLife 6586 s
+/gate/source/rod50/gps/type Volume
+/gate/source/rod50/gps/shape Cylinder
+/gate/source/rod50/gps/radius +1.20000005e+00 mm
+/gate/source/rod50/gps/halfz +2.00000000e+01 mm
+/gate/source/rod50/gps/angtype iso
+/gate/source/rod50/gps/centre -2.71420155e+01 +1.69596748e+01 0 mm
+/gate/source/rod50/visualize 400 green 2
+
+/gate/source/addSource rod51
+/gate/source/rod51/attachTo Elliptube
+/gate/source/rod51/setActivity +2.78210039e+04 becquerel
+/gate/source/rod51/gps/particle e+
+/gate/source/rod51/setForcedUnstableFlag true
+/gate/source/rod51/gps/energytype Fluor18
+/gate/source/rod51/setForcedHalfLife 6586 s
+/gate/source/rod51/gps/type Volume
+/gate/source/rod51/gps/shape Cylinder
+/gate/source/rod51/gps/radius +1.20000005e+00 mm
+/gate/source/rod51/gps/halfz +2.00000000e+01 mm
+/gate/source/rod51/gps/angtype iso
+/gate/source/rod51/gps/centre -3.05361271e+01 +1.35655661e+01 0 mm
+/gate/source/rod51/visualize 400 green 2
+
+/gate/source/addSource rod52
+/gate/source/rod52/attachTo Elliptube
+/gate/source/rod52/setActivity +1.93201406e+04 becquerel
+/gate/source/rod52/gps/particle e+
+/gate/source/rod52/setForcedUnstableFlag true
+/gate/source/rod52/gps/energytype Fluor18
+/gate/source/rod52/setForcedHalfLife 6586 s
+/gate/source/rod52/gps/type Volume
+/gate/source/rod52/gps/shape Cylinder
+/gate/source/rod52/gps/radius +1.00000000e+00 mm
+/gate/source/rod52/gps/halfz +2.00000000e+01 mm
+/gate/source/rod52/gps/angtype iso
+/gate/source/rod52/gps/centre +2.58819008e+00 +9.65925789e+00 0 mm
+/gate/source/rod52/visualize 400 green 2
+
+/gate/source/addSource rod53
+/gate/source/rod53/attachTo Elliptube
+/gate/source/rod53/setActivity +1.93201406e+04 becquerel
+/gate/source/rod53/gps/particle e+
+/gate/source/rod53/setForcedUnstableFlag true
+/gate/source/rod53/gps/energytype Fluor18
+/gate/source/rod53/setForcedHalfLife 6586 s
+/gate/source/rod53/gps/type Volume
+/gate/source/rod53/gps/shape Cylinder
+/gate/source/rod53/gps/radius +1.00000000e+00 mm
+/gate/source/rod53/gps/halfz +2.00000000e+01 mm
+/gate/source/rod53/gps/angtype iso
+/gate/source/rod53/gps/centre +5.41661596e+00 +1.24876862e+01 0 mm
+/gate/source/rod53/visualize 400 green 2
+
+/gate/source/addSource rod54
+/gate/source/rod54/attachTo Elliptube
+/gate/source/rod54/setActivity +1.93201406e+04 becquerel
+/gate/source/rod54/gps/particle e+
+/gate/source/rod54/setForcedUnstableFlag true
+/gate/source/rod54/gps/energytype Fluor18
+/gate/source/rod54/setForcedHalfLife 6586 s
+/gate/source/rod54/gps/type Volume
+/gate/source/rod54/gps/shape Cylinder
+/gate/source/rod54/gps/radius +1.00000000e+00 mm
+/gate/source/rod54/gps/halfz +2.00000000e+01 mm
+/gate/source/rod54/gps/angtype iso
+/gate/source/rod54/gps/centre +1.55291498e+00 +1.35229616e+01 0 mm
+/gate/source/rod54/visualize 400 green 2
+
+/gate/source/addSource rod55
+/gate/source/rod55/attachTo Elliptube
+/gate/source/rod55/setActivity +1.93201406e+04 becquerel
+/gate/source/rod55/gps/particle e+
+/gate/source/rod55/setForcedUnstableFlag true
+/gate/source/rod55/gps/energytype Fluor18
+/gate/source/rod55/setForcedHalfLife 6586 s
+/gate/source/rod55/gps/type Volume
+/gate/source/rod55/gps/shape Cylinder
+/gate/source/rod55/gps/radius +1.00000000e+00 mm
+/gate/source/rod55/gps/halfz +2.00000000e+01 mm
+/gate/source/rod55/gps/angtype iso
+/gate/source/rod55/gps/centre +8.24504471e+00 +1.53161125e+01 0 mm
+/gate/source/rod55/visualize 400 green 2
+
+/gate/source/addSource rod56
+/gate/source/rod56/attachTo Elliptube
+/gate/source/rod56/setActivity +1.93201406e+04 becquerel
+/gate/source/rod56/gps/particle e+
+/gate/source/rod56/setForcedUnstableFlag true
+/gate/source/rod56/gps/energytype Fluor18
+/gate/source/rod56/setForcedHalfLife 6586 s
+/gate/source/rod56/gps/type Volume
+/gate/source/rod56/gps/shape Cylinder
+/gate/source/rod56/gps/radius +1.00000000e+00 mm
+/gate/source/rod56/gps/halfz +2.00000000e+01 mm
+/gate/source/rod56/gps/angtype iso
+/gate/source/rod56/gps/centre +4.38134098e+00 +1.63513889e+01 0 mm
+/gate/source/rod56/visualize 400 green 2
+
+/gate/source/addSource rod57
+/gate/source/rod57/attachTo Elliptube
+/gate/source/rod57/setActivity +1.93201406e+04 becquerel
+/gate/source/rod57/gps/particle e+
+/gate/source/rod57/setForcedUnstableFlag true
+/gate/source/rod57/gps/energytype Fluor18
+/gate/source/rod57/setForcedHalfLife 6586 s
+/gate/source/rod57/gps/type Volume
+/gate/source/rod57/gps/shape Cylinder
+/gate/source/rod57/gps/radius +1.00000000e+00 mm
+/gate/source/rod57/gps/halfz +2.00000000e+01 mm
+/gate/source/rod57/gps/angtype iso
+/gate/source/rod57/gps/centre +5.17636240e-01 +1.73866653e+01 0 mm
+/gate/source/rod57/visualize 400 green 2
+
+/gate/source/addSource rod58
+/gate/source/rod58/attachTo Elliptube
+/gate/source/rod58/setActivity +1.93201406e+04 becquerel
+/gate/source/rod58/gps/particle e+
+/gate/source/rod58/setForcedUnstableFlag true
+/gate/source/rod58/gps/energytype Fluor18
+/gate/source/rod58/setForcedHalfLife 6586 s
+/gate/source/rod58/gps/type Volume
+/gate/source/rod58/gps/shape Cylinder
+/gate/source/rod58/gps/radius +1.00000000e+00 mm
+/gate/source/rod58/gps/halfz +2.00000000e+01 mm
+/gate/source/rod58/gps/angtype iso
+/gate/source/rod58/gps/centre +1.10734749e+01 +1.81445370e+01 0 mm
+/gate/source/rod58/visualize 400 green 2
+
+/gate/source/addSource rod59
+/gate/source/rod59/attachTo Elliptube
+/gate/source/rod59/setActivity +1.93201406e+04 becquerel
+/gate/source/rod59/gps/particle e+
+/gate/source/rod59/setForcedUnstableFlag true
+/gate/source/rod59/gps/energytype Fluor18
+/gate/source/rod59/setForcedHalfLife 6586 s
+/gate/source/rod59/gps/type Volume
+/gate/source/rod59/gps/shape Cylinder
+/gate/source/rod59/gps/radius +1.00000000e+00 mm
+/gate/source/rod59/gps/halfz +2.00000000e+01 mm
+/gate/source/rod59/gps/angtype iso
+/gate/source/rod59/gps/centre +7.20976782e+00 +1.91798172e+01 0 mm
+/gate/source/rod59/visualize 400 green 2
+
+/gate/source/addSource rod60
+/gate/source/rod60/attachTo Elliptube
+/gate/source/rod60/setActivity +1.93201406e+04 becquerel
+/gate/source/rod60/gps/particle e+
+/gate/source/rod60/setForcedUnstableFlag true
+/gate/source/rod60/gps/energytype Fluor18
+/gate/source/rod60/setForcedHalfLife 6586 s
+/gate/source/rod60/gps/type Volume
+/gate/source/rod60/gps/shape Cylinder
+/gate/source/rod60/gps/radius +1.00000000e+00 mm
+/gate/source/rod60/gps/halfz +2.00000000e+01 mm
+/gate/source/rod60/gps/angtype iso
+/gate/source/rod60/gps/centre +3.34606457e+00 +2.02150917e+01 0 mm
+/gate/source/rod60/visualize 400 green 2
+
+/gate/source/addSource rod61
+/gate/source/rod61/attachTo Elliptube
+/gate/source/rod61/setActivity +1.93201406e+04 becquerel
+/gate/source/rod61/gps/particle e+
+/gate/source/rod61/setForcedUnstableFlag true
+/gate/source/rod61/gps/energytype Fluor18
+/gate/source/rod61/setForcedHalfLife 6586 s
+/gate/source/rod61/gps/type Volume
+/gate/source/rod61/gps/shape Cylinder
+/gate/source/rod61/gps/radius +1.00000000e+00 mm
+/gate/source/rod61/gps/halfz +2.00000000e+01 mm
+/gate/source/rod61/gps/angtype iso
+/gate/source/rod61/gps/centre -5.17633140e-01 +2.12503681e+01 0 mm
+/gate/source/rod61/visualize 400 green 2
+
+/gate/source/addSource rod62
+/gate/source/rod62/attachTo Elliptube
+/gate/source/rod62/setActivity +1.93201406e+04 becquerel
+/gate/source/rod62/gps/particle e+
+/gate/source/rod62/setForcedUnstableFlag true
+/gate/source/rod62/gps/energytype Fluor18
+/gate/source/rod62/setForcedHalfLife 6586 s
+/gate/source/rod62/gps/type Volume
+/gate/source/rod62/gps/shape Cylinder
+/gate/source/rod62/gps/radius +1.00000000e+00 mm
+/gate/source/rod62/gps/halfz +2.00000000e+01 mm
+/gate/source/rod62/gps/angtype iso
+/gate/source/rod62/gps/centre +1.39019051e+01 +2.09729652e+01 0 mm
+/gate/source/rod62/visualize 400 green 2
+
+/gate/source/addSource rod63
+/gate/source/rod63/attachTo Elliptube
+/gate/source/rod63/setActivity +1.93201406e+04 becquerel
+/gate/source/rod63/gps/particle e+
+/gate/source/rod63/setForcedUnstableFlag true
+/gate/source/rod63/gps/energytype Fluor18
+/gate/source/rod63/setForcedHalfLife 6586 s
+/gate/source/rod63/gps/type Volume
+/gate/source/rod63/gps/shape Cylinder
+/gate/source/rod63/gps/radius +1.00000000e+00 mm
+/gate/source/rod63/gps/halfz +2.00000000e+01 mm
+/gate/source/rod63/gps/angtype iso
+/gate/source/rod63/gps/centre +1.00382004e+01 +2.20082417e+01 0 mm
+/gate/source/rod63/visualize 400 green 2
+
+/gate/source/addSource rod64
+/gate/source/rod64/attachTo Elliptube
+/gate/source/rod64/setActivity +1.93201406e+04 becquerel
+/gate/source/rod64/gps/particle e+
+/gate/source/rod64/setForcedUnstableFlag true
+/gate/source/rod64/gps/energytype Fluor18
+/gate/source/rod64/setForcedHalfLife 6586 s
+/gate/source/rod64/gps/type Volume
+/gate/source/rod64/gps/shape Cylinder
+/gate/source/rod64/gps/radius +1.00000000e+00 mm
+/gate/source/rod64/gps/halfz +2.00000000e+01 mm
+/gate/source/rod64/gps/angtype iso
+/gate/source/rod64/gps/centre +6.17449188e+00 +2.30435200e+01 0 mm
+/gate/source/rod64/visualize 400 green 2
+
+/gate/source/addSource rod65
+/gate/source/rod65/attachTo Elliptube
+/gate/source/rod65/setActivity +1.93201406e+04 becquerel
+/gate/source/rod65/gps/particle e+
+/gate/source/rod65/setForcedUnstableFlag true
+/gate/source/rod65/gps/energytype Fluor18
+/gate/source/rod65/setForcedHalfLife 6586 s
+/gate/source/rod65/gps/type Volume
+/gate/source/rod65/gps/shape Cylinder
+/gate/source/rod65/gps/radius +1.00000000e+00 mm
+/gate/source/rod65/gps/halfz +2.00000000e+01 mm
+/gate/source/rod65/gps/angtype iso
+/gate/source/rod65/gps/centre +2.31079388e+00 +2.40787964e+01 0 mm
+/gate/source/rod65/visualize 400 green 2
+
+/gate/source/addSource rod66
+/gate/source/rod66/attachTo Elliptube
+/gate/source/rod66/setActivity +1.93201406e+04 becquerel
+/gate/source/rod66/gps/particle e+
+/gate/source/rod66/setForcedUnstableFlag true
+/gate/source/rod66/gps/energytype Fluor18
+/gate/source/rod66/setForcedHalfLife 6586 s
+/gate/source/rod66/gps/type Volume
+/gate/source/rod66/gps/shape Cylinder
+/gate/source/rod66/gps/radius +1.00000000e+00 mm
+/gate/source/rod66/gps/halfz +2.00000000e+01 mm
+/gate/source/rod66/gps/angtype iso
+/gate/source/rod66/gps/centre -1.55291045e+00 +2.51140728e+01 0 mm
+/gate/source/rod66/visualize 400 green 2
+
+/gate/source/addSource rod67
+/gate/source/rod67/attachTo Elliptube
+/gate/source/rod67/setActivity +1.93201406e+04 becquerel
+/gate/source/rod67/gps/particle e+
+/gate/source/rod67/setForcedUnstableFlag true
+/gate/source/rod67/gps/energytype Fluor18
+/gate/source/rod67/setForcedHalfLife 6586 s
+/gate/source/rod67/gps/type Volume
+/gate/source/rod67/gps/shape Cylinder
+/gate/source/rod67/gps/radius +1.00000000e+00 mm
+/gate/source/rod67/gps/halfz +2.00000000e+01 mm
+/gate/source/rod67/gps/angtype iso
+/gate/source/rod67/gps/centre +1.67303200e+01 +2.38013992e+01 0 mm
+/gate/source/rod67/visualize 400 green 2
+
+/gate/source/addSource rod68
+/gate/source/rod68/attachTo Elliptube
+/gate/source/rod68/setActivity +1.93201406e+04 becquerel
+/gate/source/rod68/gps/particle e+
+/gate/source/rod68/setForcedUnstableFlag true
+/gate/source/rod68/gps/energytype Fluor18
+/gate/source/rod68/setForcedHalfLife 6586 s
+/gate/source/rod68/gps/type Volume
+/gate/source/rod68/gps/shape Cylinder
+/gate/source/rod68/gps/radius +1.00000000e+00 mm
+/gate/source/rod68/gps/halfz +2.00000000e+01 mm
+/gate/source/rod68/gps/angtype iso
+/gate/source/rod68/gps/centre +1.28666191e+01 +2.48366718e+01 0 mm
+/gate/source/rod68/visualize 400 green 2
+
+/gate/source/addSource rod69
+/gate/source/rod69/attachTo Elliptube
+/gate/source/rod69/setActivity +1.93201406e+04 becquerel
+/gate/source/rod69/gps/particle e+
+/gate/source/rod69/setForcedUnstableFlag true
+/gate/source/rod69/gps/energytype Fluor18
+/gate/source/rod69/setForcedHalfLife 6586 s
+/gate/source/rod69/gps/type Volume
+/gate/source/rod69/gps/shape Cylinder
+/gate/source/rod69/gps/radius +1.00000000e+00 mm
+/gate/source/rod69/gps/halfz +2.00000000e+01 mm
+/gate/source/rod69/gps/angtype iso
+/gate/source/rod69/gps/centre +9.00292110e+00 +2.58719463e+01 0 mm
+/gate/source/rod69/visualize 400 green 2
+
+/gate/source/addSource rod70
+/gate/source/rod70/attachTo Elliptube
+/gate/source/rod70/setActivity +1.93201406e+04 becquerel
+/gate/source/rod70/gps/particle e+
+/gate/source/rod70/setForcedUnstableFlag true
+/gate/source/rod70/gps/energytype Fluor18
+/gate/source/rod70/setForcedHalfLife 6586 s
+/gate/source/rod70/gps/type Volume
+/gate/source/rod70/gps/shape Cylinder
+/gate/source/rod70/gps/radius +1.00000000e+00 mm
+/gate/source/rod70/gps/halfz +2.00000000e+01 mm
+/gate/source/rod70/gps/angtype iso
+/gate/source/rod70/gps/centre +5.13921309e+00 +2.69072227e+01 0 mm
+/gate/source/rod70/visualize 400 green 2
+
+/gate/source/addSource rod71
+/gate/source/rod71/attachTo Elliptube
+/gate/source/rod71/setActivity +1.93201406e+04 becquerel
+/gate/source/rod71/gps/particle e+
+/gate/source/rod71/setForcedUnstableFlag true
+/gate/source/rod71/gps/energytype Fluor18
+/gate/source/rod71/setForcedHalfLife 6586 s
+/gate/source/rod71/gps/type Volume
+/gate/source/rod71/gps/shape Cylinder
+/gate/source/rod71/gps/radius +1.00000000e+00 mm
+/gate/source/rod71/gps/halfz +2.00000000e+01 mm
+/gate/source/rod71/gps/angtype iso
+/gate/source/rod71/gps/centre +1.27551436e+00 +2.79424992e+01 0 mm
+/gate/source/rod71/visualize 400 green 2
+
+/gate/source/addSource rod72
+/gate/source/rod72/attachTo Elliptube
+/gate/source/rod72/setActivity +1.93201406e+04 becquerel
+/gate/source/rod72/gps/particle e+
+/gate/source/rod72/setForcedUnstableFlag true
+/gate/source/rod72/gps/energytype Fluor18
+/gate/source/rod72/setForcedHalfLife 6586 s
+/gate/source/rod72/gps/type Volume
+/gate/source/rod72/gps/shape Cylinder
+/gate/source/rod72/gps/radius +1.00000000e+00 mm
+/gate/source/rod72/gps/halfz +2.00000000e+01 mm
+/gate/source/rod72/gps/angtype iso
+/gate/source/rod72/gps/centre -2.58818531e+00 +2.89777775e+01 0 mm
+/gate/source/rod72/visualize 400 green 2
+
+/gate/source/addSource rod73
+/gate/source/rod73/attachTo Elliptube
+/gate/source/rod73/setActivity +1.93201406e+04 becquerel
+/gate/source/rod73/gps/particle e+
+/gate/source/rod73/setForcedUnstableFlag true
+/gate/source/rod73/gps/energytype Fluor18
+/gate/source/rod73/setForcedHalfLife 6586 s
+/gate/source/rod73/gps/type Volume
+/gate/source/rod73/gps/shape Cylinder
+/gate/source/rod73/gps/radius +1.00000000e+00 mm
+/gate/source/rod73/gps/halfz +2.00000000e+01 mm
+/gate/source/rod73/gps/angtype iso
+/gate/source/rod73/gps/centre +1.95587521e+01 +2.66298237e+01 0 mm
+/gate/source/rod73/visualize 400 green 2
+
+/gate/source/addSource rod74
+/gate/source/rod74/attachTo Elliptube
+/gate/source/rod74/setActivity +1.93201406e+04 becquerel
+/gate/source/rod74/gps/particle e+
+/gate/source/rod74/setForcedUnstableFlag true
+/gate/source/rod74/gps/energytype Fluor18
+/gate/source/rod74/setForcedHalfLife 6586 s
+/gate/source/rod74/gps/type Volume
+/gate/source/rod74/gps/shape Cylinder
+/gate/source/rod74/gps/radius +1.00000000e+00 mm
+/gate/source/rod74/gps/halfz +2.00000000e+01 mm
+/gate/source/rod74/gps/angtype iso
+/gate/source/rod74/gps/centre +1.56950445e+01 +2.76651001e+01 0 mm
+/gate/source/rod74/visualize 400 green 2
+
+/gate/source/addSource rod75
+/gate/source/rod75/attachTo Elliptube
+/gate/source/rod75/setActivity +1.93201406e+04 becquerel
+/gate/source/rod75/gps/particle e+
+/gate/source/rod75/setForcedUnstableFlag true
+/gate/source/rod75/gps/energytype Fluor18
+/gate/source/rod75/setForcedHalfLife 6586 s
+/gate/source/rod75/gps/type Volume
+/gate/source/rod75/gps/shape Cylinder
+/gate/source/rod75/gps/radius +1.00000000e+00 mm
+/gate/source/rod75/gps/halfz +2.00000000e+01 mm
+/gate/source/rod75/gps/angtype iso
+/gate/source/rod75/gps/centre +1.18313408e+01 +2.87003784e+01 0 mm
+/gate/source/rod75/visualize 400 green 2
+
+/gate/source/addSource rod76
+/gate/source/rod76/attachTo Elliptube
+/gate/source/rod76/setActivity +1.93201406e+04 becquerel
+/gate/source/rod76/gps/particle e+
+/gate/source/rod76/setForcedUnstableFlag true
+/gate/source/rod76/gps/energytype Fluor18
+/gate/source/rod76/setForcedHalfLife 6586 s
+/gate/source/rod76/gps/type Volume
+/gate/source/rod76/gps/shape Cylinder
+/gate/source/rod76/gps/radius +1.00000000e+00 mm
+/gate/source/rod76/gps/halfz +2.00000000e+01 mm
+/gate/source/rod76/gps/angtype iso
+/gate/source/rod76/gps/centre +7.96764278e+00 +2.97356510e+01 0 mm
+/gate/source/rod76/visualize 400 green 2
+
+/gate/source/addSource rod77
+/gate/source/rod77/attachTo Elliptube
+/gate/source/rod77/setActivity +1.93201406e+04 becquerel
+/gate/source/rod77/gps/particle e+
+/gate/source/rod77/setForcedUnstableFlag true
+/gate/source/rod77/gps/energytype Fluor18
+/gate/source/rod77/setForcedHalfLife 6586 s
+/gate/source/rod77/gps/type Volume
+/gate/source/rod77/gps/shape Cylinder
+/gate/source/rod77/gps/radius +1.00000000e+00 mm
+/gate/source/rod77/gps/halfz +2.00000000e+01 mm
+/gate/source/rod77/gps/angtype iso
+/gate/source/rod77/gps/centre +4.10394478e+00 +3.07709274e+01 0 mm
+/gate/source/rod77/visualize 400 green 2
+
+/gate/source/addSource rod78
+/gate/source/rod78/attachTo Elliptube
+/gate/source/rod78/setActivity +1.93201406e+04 becquerel
+/gate/source/rod78/gps/particle e+
+/gate/source/rod78/setForcedUnstableFlag true
+/gate/source/rod78/gps/energytype Fluor18
+/gate/source/rod78/setForcedHalfLife 6586 s
+/gate/source/rod78/gps/type Volume
+/gate/source/rod78/gps/shape Cylinder
+/gate/source/rod78/gps/radius +1.00000000e+00 mm
+/gate/source/rod78/gps/halfz +2.00000000e+01 mm
+/gate/source/rod78/gps/angtype iso
+/gate/source/rod78/gps/centre +2.40240395e-01 +3.18062019e+01 0 mm
+/gate/source/rod78/visualize 400 green 2
+
+/gate/source/addSource rod79
+/gate/source/rod79/attachTo Elliptube
+/gate/source/rod79/setActivity +1.93201406e+04 becquerel
+/gate/source/rod79/gps/particle e+
+/gate/source/rod79/setForcedUnstableFlag true
+/gate/source/rod79/gps/energytype Fluor18
+/gate/source/rod79/setForcedHalfLife 6586 s
+/gate/source/rod79/gps/type Volume
+/gate/source/rod79/gps/shape Cylinder
+/gate/source/rod79/gps/radius +1.00000000e+00 mm
+/gate/source/rod79/gps/halfz +2.00000000e+01 mm
+/gate/source/rod79/gps/angtype iso
+/gate/source/rod79/gps/centre -3.62346768e+00 +3.28414803e+01 0 mm
+/gate/source/rod79/visualize 400 green 2
+
+/gate/source/addSource rod80
+/gate/source/rod80/attachTo Elliptube
+/gate/source/rod80/setActivity +1.93201406e+04 becquerel
+/gate/source/rod80/gps/particle e+
+/gate/source/rod80/setForcedUnstableFlag true
+/gate/source/rod80/gps/energytype Fluor18
+/gate/source/rod80/setForcedHalfLife 6586 s
+/gate/source/rod80/gps/type Volume
+/gate/source/rod80/gps/shape Cylinder
+/gate/source/rod80/gps/radius +1.00000000e+00 mm
+/gate/source/rod80/gps/halfz +2.00000000e+01 mm
+/gate/source/rod80/gps/angtype iso
+/gate/source/rod80/gps/centre +1.46597681e+01 +3.15288029e+01 0 mm
+/gate/source/rod80/visualize 400 green 2
+
+/gate/source/addSource rod81
+/gate/source/rod81/attachTo Elliptube
+/gate/source/rod81/setActivity +1.93201406e+04 becquerel
+/gate/source/rod81/gps/particle e+
+/gate/source/rod81/setForcedUnstableFlag true
+/gate/source/rod81/gps/energytype Fluor18
+/gate/source/rod81/setForcedHalfLife 6586 s
+/gate/source/rod81/gps/type Volume
+/gate/source/rod81/gps/shape Cylinder
+/gate/source/rod81/gps/radius +1.00000000e+00 mm
+/gate/source/rod81/gps/halfz +2.00000000e+01 mm
+/gate/source/rod81/gps/angtype iso
+/gate/source/rod81/gps/centre +1.07960672e+01 +3.25640755e+01 0 mm
+/gate/source/rod81/visualize 400 green 2
+
+/gate/source/addSource rod82
+/gate/source/rod82/attachTo Elliptube
+/gate/source/rod82/setActivity +1.93201406e+04 becquerel
+/gate/source/rod82/gps/particle e+
+/gate/source/rod82/setForcedUnstableFlag true
+/gate/source/rod82/gps/energytype Fluor18
+/gate/source/rod82/setForcedHalfLife 6586 s
+/gate/source/rod82/gps/type Volume
+/gate/source/rod82/gps/shape Cylinder
+/gate/source/rod82/gps/radius +1.00000000e+00 mm
+/gate/source/rod82/gps/halfz +2.00000000e+01 mm
+/gate/source/rod82/gps/angtype iso
+/gate/source/rod82/gps/centre +6.93236732e+00 +3.35993500e+01 0 mm
+/gate/source/rod82/visualize 400 green 2
+
+/gate/source/addSource rod83
+/gate/source/rod83/attachTo Elliptube
+/gate/source/rod83/setActivity +1.93201406e+04 becquerel
+/gate/source/rod83/gps/particle e+
+/gate/source/rod83/setForcedUnstableFlag true
+/gate/source/rod83/gps/energytype Fluor18
+/gate/source/rod83/setForcedHalfLife 6586 s
+/gate/source/rod83/gps/type Volume
+/gate/source/rod83/gps/shape Cylinder
+/gate/source/rod83/gps/radius +1.00000000e+00 mm
+/gate/source/rod83/gps/halfz +2.00000000e+01 mm
+/gate/source/rod83/gps/angtype iso
+/gate/source/rod83/gps/centre +3.06866598e+00 +3.46346283e+01 0 mm
+/gate/source/rod83/visualize 400 green 2
+
+/gate/source/addSource rod84
+/gate/source/rod84/attachTo Elliptube
+/gate/source/rod84/setActivity +1.56493115e+04 becquerel
+/gate/source/rod84/gps/particle e+
+/gate/source/rod84/setForcedUnstableFlag true
+/gate/source/rod84/gps/energytype Fluor18
+/gate/source/rod84/setForcedHalfLife 6586 s
+/gate/source/rod84/gps/type Volume
+/gate/source/rod84/gps/shape Cylinder
+/gate/source/rod84/gps/radius +8.99999976e-01 mm
+/gate/source/rod84/gps/halfz +2.00000000e+01 mm
+/gate/source/rod84/gps/angtype iso
+/gate/source/rod84/gps/centre +9.46607399e+00 +2.53642464e+00 0 mm
+/gate/source/rod84/visualize 400 green 2
+
+/gate/source/addSource rod85
+/gate/source/rod85/attachTo Elliptube
+/gate/source/rod85/setActivity +1.56493115e+04 becquerel
+/gate/source/rod85/gps/particle e+
+/gate/source/rod85/setForcedUnstableFlag true
+/gate/source/rod85/gps/energytype Fluor18
+/gate/source/rod85/setForcedHalfLife 6586 s
+/gate/source/rod85/gps/type Volume
+/gate/source/rod85/gps/shape Cylinder
+/gate/source/rod85/gps/radius +8.99999976e-01 mm
+/gate/source/rod85/gps/halfz +2.00000000e+01 mm
+/gate/source/rod85/gps/angtype iso
+/gate/source/rod85/gps/centre +1.29434052e+01 +1.60467803e+00 0 mm
+/gate/source/rod85/visualize 400 green 2
+
+/gate/source/addSource rod86
+/gate/source/rod86/attachTo Elliptube
+/gate/source/rod86/setActivity +1.56493115e+04 becquerel
+/gate/source/rod86/gps/particle e+
+/gate/source/rod86/setForcedUnstableFlag true
+/gate/source/rod86/gps/energytype Fluor18
+/gate/source/rod86/setForcedHalfLife 6586 s
+/gate/source/rod86/gps/type Volume
+/gate/source/rod86/gps/shape Cylinder
+/gate/source/rod86/gps/radius +8.99999976e-01 mm
+/gate/source/rod86/gps/halfz +2.00000000e+01 mm
+/gate/source/rod86/gps/angtype iso
+/gate/source/rod86/gps/centre +1.20116568e+01 +5.08201122e+00 0 mm
+/gate/source/rod86/visualize 400 green 2
+
+/gate/source/addSource rod87
+/gate/source/rod87/attachTo Elliptube
+/gate/source/rod87/setActivity +1.56493115e+04 becquerel
+/gate/source/rod87/gps/particle e+
+/gate/source/rod87/setForcedUnstableFlag true
+/gate/source/rod87/gps/energytype Fluor18
+/gate/source/rod87/setForcedHalfLife 6586 s
+/gate/source/rod87/gps/type Volume
+/gate/source/rod87/gps/shape Cylinder
+/gate/source/rod87/gps/radius +8.99999976e-01 mm
+/gate/source/rod87/gps/halfz +2.00000000e+01 mm
+/gate/source/rod87/gps/angtype iso
+/gate/source/rod87/gps/centre +1.64207401e+01 +6.72932923e-01 0 mm
+/gate/source/rod87/visualize 400 green 2
+
+/gate/source/addSource rod88
+/gate/source/rod88/attachTo Elliptube
+/gate/source/rod88/setActivity +1.56493115e+04 becquerel
+/gate/source/rod88/gps/particle e+
+/gate/source/rod88/setForcedUnstableFlag true
+/gate/source/rod88/gps/energytype Fluor18
+/gate/source/rod88/setForcedHalfLife 6586 s
+/gate/source/rod88/gps/type Volume
+/gate/source/rod88/gps/shape Cylinder
+/gate/source/rod88/gps/radius +8.99999976e-01 mm
+/gate/source/rod88/gps/halfz +2.00000000e+01 mm
+/gate/source/rod88/gps/angtype iso
+/gate/source/rod88/gps/centre +1.54889917e+01 +4.15025902e+00 0 mm
+/gate/source/rod88/visualize 400 green 2
+
+/gate/source/addSource rod89
+/gate/source/rod89/attachTo Elliptube
+/gate/source/rod89/setActivity +1.56493115e+04 becquerel
+/gate/source/rod89/gps/particle e+
+/gate/source/rod89/setForcedUnstableFlag true
+/gate/source/rod89/gps/energytype Fluor18
+/gate/source/rod89/setForcedHalfLife 6586 s
+/gate/source/rod89/gps/type Volume
+/gate/source/rod89/gps/shape Cylinder
+/gate/source/rod89/gps/radius +8.99999976e-01 mm
+/gate/source/rod89/gps/halfz +2.00000000e+01 mm
+/gate/source/rod89/gps/angtype iso
+/gate/source/rod89/gps/centre +1.45572433e+01 +7.62759304e+00 0 mm
+/gate/source/rod89/visualize 400 green 2
+
+/gate/source/addSource rod90
+/gate/source/rod90/attachTo Elliptube
+/gate/source/rod90/setActivity +1.56493115e+04 becquerel
+/gate/source/rod90/gps/particle e+
+/gate/source/rod90/setForcedUnstableFlag true
+/gate/source/rod90/gps/energytype Fluor18
+/gate/source/rod90/setForcedHalfLife 6586 s
+/gate/source/rod90/gps/type Volume
+/gate/source/rod90/gps/shape Cylinder
+/gate/source/rod90/gps/radius +8.99999976e-01 mm
+/gate/source/rod90/gps/halfz +2.00000000e+01 mm
+/gate/source/rod90/gps/angtype iso
+/gate/source/rod90/gps/centre +1.98980732e+01 -2.58816600e-01 0 mm
+/gate/source/rod90/visualize 400 green 2
+
+/gate/source/addSource rod91
+/gate/source/rod91/attachTo Elliptube
+/gate/source/rod91/setActivity +1.56493115e+04 becquerel
+/gate/source/rod91/gps/particle e+
+/gate/source/rod91/setForcedUnstableFlag true
+/gate/source/rod91/gps/energytype Fluor18
+/gate/source/rod91/setForcedHalfLife 6586 s
+/gate/source/rod91/gps/type Volume
+/gate/source/rod91/gps/shape Cylinder
+/gate/source/rod91/gps/radius +8.99999976e-01 mm
+/gate/source/rod91/gps/halfz +2.00000000e+01 mm
+/gate/source/rod91/gps/angtype iso
+/gate/source/rod91/gps/centre +1.89663219e+01 +3.21851397e+00 0 mm
+/gate/source/rod91/visualize 400 green 2
+
+/gate/source/addSource rod92
+/gate/source/rod92/attachTo Elliptube
+/gate/source/rod92/setActivity +1.56493115e+04 becquerel
+/gate/source/rod92/gps/particle e+
+/gate/source/rod92/setForcedUnstableFlag true
+/gate/source/rod92/gps/energytype Fluor18
+/gate/source/rod92/setForcedHalfLife 6586 s
+/gate/source/rod92/gps/type Volume
+/gate/source/rod92/gps/shape Cylinder
+/gate/source/rod92/gps/radius +8.99999976e-01 mm
+/gate/source/rod92/gps/halfz +2.00000000e+01 mm
+/gate/source/rod92/gps/angtype iso
+/gate/source/rod92/gps/centre +1.80345726e+01 +6.69584656e+00 0 mm
+/gate/source/rod92/visualize 400 green 2
+
+/gate/source/addSource rod93
+/gate/source/rod93/attachTo Elliptube
+/gate/source/rod93/setActivity +1.56493115e+04 becquerel
+/gate/source/rod93/gps/particle e+
+/gate/source/rod93/setForcedUnstableFlag true
+/gate/source/rod93/gps/energytype Fluor18
+/gate/source/rod93/setForcedHalfLife 6586 s
+/gate/source/rod93/gps/type Volume
+/gate/source/rod93/gps/shape Cylinder
+/gate/source/rod93/gps/radius +8.99999976e-01 mm
+/gate/source/rod93/gps/halfz +2.00000000e+01 mm
+/gate/source/rod93/gps/angtype iso
+/gate/source/rod93/gps/centre +1.71028271e+01 +1.01731787e+01 0 mm
+/gate/source/rod93/visualize 400 green 2
+
+/gate/source/addSource rod94
+/gate/source/rod94/attachTo Elliptube
+/gate/source/rod94/setActivity +1.56493115e+04 becquerel
+/gate/source/rod94/gps/particle e+
+/gate/source/rod94/setForcedUnstableFlag true
+/gate/source/rod94/gps/energytype Fluor18
+/gate/source/rod94/setForcedHalfLife 6586 s
+/gate/source/rod94/gps/type Volume
+/gate/source/rod94/gps/shape Cylinder
+/gate/source/rod94/gps/radius +8.99999976e-01 mm
+/gate/source/rod94/gps/halfz +2.00000000e+01 mm
+/gate/source/rod94/gps/angtype iso
+/gate/source/rod94/gps/centre +2.33754044e+01 -1.19057214e+00 0 mm
+/gate/source/rod94/visualize 400 green 2
+
+/gate/source/addSource rod95
+/gate/source/rod95/attachTo Elliptube
+/gate/source/rod95/setActivity +1.56493115e+04 becquerel
+/gate/source/rod95/gps/particle e+
+/gate/source/rod95/setForcedUnstableFlag true
+/gate/source/rod95/gps/energytype Fluor18
+/gate/source/rod95/setForcedHalfLife 6586 s
+/gate/source/rod95/gps/type Volume
+/gate/source/rod95/gps/shape Cylinder
+/gate/source/rod95/gps/radius +8.99999976e-01 mm
+/gate/source/rod95/gps/halfz +2.00000000e+01 mm
+/gate/source/rod95/gps/angtype iso
+/gate/source/rod95/gps/centre +2.24436550e+01 +2.28676963e+00 0 mm
+/gate/source/rod95/visualize 400 green 2
+
+/gate/source/addSource rod96
+/gate/source/rod96/attachTo Elliptube
+/gate/source/rod96/setActivity +1.56493115e+04 becquerel
+/gate/source/rod96/gps/particle e+
+/gate/source/rod96/setForcedUnstableFlag true
+/gate/source/rod96/gps/energytype Fluor18
+/gate/source/rod96/setForcedHalfLife 6586 s
+/gate/source/rod96/gps/type Volume
+/gate/source/rod96/gps/shape Cylinder
+/gate/source/rod96/gps/radius +8.99999976e-01 mm
+/gate/source/rod96/gps/halfz +2.00000000e+01 mm
+/gate/source/rod96/gps/angtype iso
+/gate/source/rod96/gps/centre +2.15119076e+01 +5.76409340e+00 0 mm
+/gate/source/rod96/visualize 400 green 2
+
+/gate/source/addSource rod97
+/gate/source/rod97/attachTo Elliptube
+/gate/source/rod97/setActivity +1.56493115e+04 becquerel
+/gate/source/rod97/gps/particle e+
+/gate/source/rod97/setForcedUnstableFlag true
+/gate/source/rod97/gps/energytype Fluor18
+/gate/source/rod97/setForcedHalfLife 6586 s
+/gate/source/rod97/gps/type Volume
+/gate/source/rod97/gps/shape Cylinder
+/gate/source/rod97/gps/radius +8.99999976e-01 mm
+/gate/source/rod97/gps/halfz +2.00000000e+01 mm
+/gate/source/rod97/gps/angtype iso
+/gate/source/rod97/gps/centre +2.05801601e+01 +9.24142742e+00 0 mm
+/gate/source/rod97/visualize 400 green 2
+
+/gate/source/addSource rod98
+/gate/source/rod98/attachTo Elliptube
+/gate/source/rod98/setActivity +1.56493115e+04 becquerel
+/gate/source/rod98/gps/particle e+
+/gate/source/rod98/setForcedUnstableFlag true
+/gate/source/rod98/gps/energytype Fluor18
+/gate/source/rod98/setForcedHalfLife 6586 s
+/gate/source/rod98/gps/type Volume
+/gate/source/rod98/gps/shape Cylinder
+/gate/source/rod98/gps/radius +8.99999976e-01 mm
+/gate/source/rod98/gps/halfz +2.00000000e+01 mm
+/gate/source/rod98/gps/angtype iso
+/gate/source/rod98/gps/centre +1.96484146e+01 +1.27187586e+01 0 mm
+/gate/source/rod98/visualize 400 green 2
+
+/gate/source/addSource rod99
+/gate/source/rod99/attachTo Elliptube
+/gate/source/rod99/setActivity +1.56493115e+04 becquerel
+/gate/source/rod99/gps/particle e+
+/gate/source/rod99/setForcedUnstableFlag true
+/gate/source/rod99/gps/energytype Fluor18
+/gate/source/rod99/setForcedHalfLife 6586 s
+/gate/source/rod99/gps/type Volume
+/gate/source/rod99/gps/shape Cylinder
+/gate/source/rod99/gps/radius +8.99999976e-01 mm
+/gate/source/rod99/gps/halfz +2.00000000e+01 mm
+/gate/source/rod99/gps/angtype iso
+/gate/source/rod99/gps/centre +2.68527374e+01 -2.12231636e+00 0 mm
+/gate/source/rod99/visualize 400 green 2
+
+/gate/source/addSource rod100
+/gate/source/rod100/attachTo Elliptube
+/gate/source/rod100/setActivity +1.56493115e+04 becquerel
+/gate/source/rod100/gps/particle e+
+/gate/source/rod100/setForcedUnstableFlag true
+/gate/source/rod100/gps/energytype Fluor18
+/gate/source/rod100/setForcedHalfLife 6586 s
+/gate/source/rod100/gps/type Volume
+/gate/source/rod100/gps/shape Cylinder
+/gate/source/rod100/gps/radius +8.99999976e-01 mm
+/gate/source/rod100/gps/halfz +2.00000000e+01 mm
+/gate/source/rod100/gps/angtype iso
+/gate/source/rod100/gps/centre +2.59209881e+01 +1.35501599e+00 0 mm
+/gate/source/rod100/visualize 400 green 2
+
+/gate/source/addSource rod101
+/gate/source/rod101/attachTo Elliptube
+/gate/source/rod101/setActivity +1.56493115e+04 becquerel
+/gate/source/rod101/gps/particle e+
+/gate/source/rod101/setForcedUnstableFlag true
+/gate/source/rod101/gps/energytype Fluor18
+/gate/source/rod101/setForcedHalfLife 6586 s
+/gate/source/rod101/gps/type Volume
+/gate/source/rod101/gps/shape Cylinder
+/gate/source/rod101/gps/radius +8.99999976e-01 mm
+/gate/source/rod101/gps/halfz +2.00000000e+01 mm
+/gate/source/rod101/gps/angtype iso
+/gate/source/rod101/gps/centre +2.49892406e+01 +4.83234692e+00 0 mm
+/gate/source/rod101/visualize 400 green 2
+
+/gate/source/addSource rod102
+/gate/source/rod102/attachTo Elliptube
+/gate/source/rod102/setActivity +1.56493115e+04 becquerel
+/gate/source/rod102/gps/particle e+
+/gate/source/rod102/setForcedUnstableFlag true
+/gate/source/rod102/gps/energytype Fluor18
+/gate/source/rod102/setForcedHalfLife 6586 s
+/gate/source/rod102/gps/type Volume
+/gate/source/rod102/gps/shape Cylinder
+/gate/source/rod102/gps/radius +8.99999976e-01 mm
+/gate/source/rod102/gps/halfz +2.00000000e+01 mm
+/gate/source/rod102/gps/angtype iso
+/gate/source/rod102/gps/centre +2.40574932e+01 +8.30967426e+00 0 mm
+/gate/source/rod102/visualize 400 green 2
+
+/gate/source/addSource rod103
+/gate/source/rod103/attachTo Elliptube
+/gate/source/rod103/setActivity +1.56493115e+04 becquerel
+/gate/source/rod103/gps/particle e+
+/gate/source/rod103/setForcedUnstableFlag true
+/gate/source/rod103/gps/energytype Fluor18
+/gate/source/rod103/setForcedHalfLife 6586 s
+/gate/source/rod103/gps/type Volume
+/gate/source/rod103/gps/shape Cylinder
+/gate/source/rod103/gps/radius +8.99999976e-01 mm
+/gate/source/rod103/gps/halfz +2.00000000e+01 mm
+/gate/source/rod103/gps/angtype iso
+/gate/source/rod103/gps/centre +2.31257420e+01 +1.17870169e+01 0 mm
+/gate/source/rod103/visualize 400 green 2
+
+/gate/source/addSource rod104
+/gate/source/rod104/attachTo Elliptube
+/gate/source/rod104/setActivity +1.56493115e+04 becquerel
+/gate/source/rod104/gps/particle e+
+/gate/source/rod104/setForcedUnstableFlag true
+/gate/source/rod104/gps/energytype Fluor18
+/gate/source/rod104/setForcedHalfLife 6586 s
+/gate/source/rod104/gps/type Volume
+/gate/source/rod104/gps/shape Cylinder
+/gate/source/rod104/gps/radius +8.99999976e-01 mm
+/gate/source/rod104/gps/halfz +2.00000000e+01 mm
+/gate/source/rod104/gps/angtype iso
+/gate/source/rod104/gps/centre +2.21939945e+01 +1.52643499e+01 0 mm
+/gate/source/rod104/visualize 400 green 2
+
+/gate/source/addSource rod105
+/gate/source/rod105/attachTo Elliptube
+/gate/source/rod105/setActivity +1.56493115e+04 becquerel
+/gate/source/rod105/gps/particle e+
+/gate/source/rod105/setForcedUnstableFlag true
+/gate/source/rod105/gps/energytype Fluor18
+/gate/source/rod105/setForcedHalfLife 6586 s
+/gate/source/rod105/gps/type Volume
+/gate/source/rod105/gps/shape Cylinder
+/gate/source/rod105/gps/radius +8.99999976e-01 mm
+/gate/source/rod105/gps/halfz +2.00000000e+01 mm
+/gate/source/rod105/gps/angtype iso
+/gate/source/rod105/gps/centre +3.03300724e+01 -3.05405831e+00 0 mm
+/gate/source/rod105/visualize 400 green 2
+
+/gate/source/addSource rod106
+/gate/source/rod106/attachTo Elliptube
+/gate/source/rod106/setActivity +1.56493115e+04 becquerel
+/gate/source/rod106/gps/particle e+
+/gate/source/rod106/setForcedUnstableFlag true
+/gate/source/rod106/gps/energytype Fluor18
+/gate/source/rod106/setForcedHalfLife 6586 s
+/gate/source/rod106/gps/type Volume
+/gate/source/rod106/gps/shape Cylinder
+/gate/source/rod106/gps/radius +8.99999976e-01 mm
+/gate/source/rod106/gps/halfz +2.00000000e+01 mm
+/gate/source/rod106/gps/angtype iso
+/gate/source/rod106/gps/centre +2.93983192e+01 +4.23261940e-01 0 mm
+/gate/source/rod106/visualize 400 green 2
+
+/gate/source/addSource rod107
+/gate/source/rod107/attachTo Elliptube
+/gate/source/rod107/setActivity +1.56493115e+04 becquerel
+/gate/source/rod107/gps/particle e+
+/gate/source/rod107/setForcedUnstableFlag true
+/gate/source/rod107/gps/energytype Fluor18
+/gate/source/rod107/setForcedHalfLife 6586 s
+/gate/source/rod107/gps/type Volume
+/gate/source/rod107/gps/shape Cylinder
+/gate/source/rod107/gps/radius +8.99999976e-01 mm
+/gate/source/rod107/gps/halfz +2.00000000e+01 mm
+/gate/source/rod107/gps/angtype iso
+/gate/source/rod107/gps/centre +2.84665737e+01 +3.90060282e+00 0 mm
+/gate/source/rod107/visualize 400 green 2
+
+/gate/source/addSource rod108
+/gate/source/rod108/attachTo Elliptube
+/gate/source/rod108/setActivity +1.56493115e+04 becquerel
+/gate/source/rod108/gps/particle e+
+/gate/source/rod108/setForcedUnstableFlag true
+/gate/source/rod108/gps/energytype Fluor18
+/gate/source/rod108/setForcedHalfLife 6586 s
+/gate/source/rod108/gps/type Volume
+/gate/source/rod108/gps/shape Cylinder
+/gate/source/rod108/gps/radius +8.99999976e-01 mm
+/gate/source/rod108/gps/halfz +2.00000000e+01 mm
+/gate/source/rod108/gps/angtype iso
+/gate/source/rod108/gps/centre +2.75348244e+01 +7.37792778e+00 0 mm
+/gate/source/rod108/visualize 400 green 2
+
+/gate/source/addSource rod109
+/gate/source/rod109/attachTo Elliptube
+/gate/source/rod109/setActivity +1.56493115e+04 becquerel
+/gate/source/rod109/gps/particle e+
+/gate/source/rod109/setForcedUnstableFlag true
+/gate/source/rod109/gps/energytype Fluor18
+/gate/source/rod109/setForcedHalfLife 6586 s
+/gate/source/rod109/gps/type Volume
+/gate/source/rod109/gps/shape Cylinder
+/gate/source/rod109/gps/radius +8.99999976e-01 mm
+/gate/source/rod109/gps/halfz +2.00000000e+01 mm
+/gate/source/rod109/gps/angtype iso
+/gate/source/rod109/gps/centre +2.66030769e+01 +1.08552656e+01 0 mm
+/gate/source/rod109/visualize 400 green 2
+
+/gate/source/addSource rod110
+/gate/source/rod110/attachTo Elliptube
+/gate/source/rod110/setActivity +1.56493115e+04 becquerel
+/gate/source/rod110/gps/particle e+
+/gate/source/rod110/setForcedUnstableFlag true
+/gate/source/rod110/gps/energytype Fluor18
+/gate/source/rod110/setForcedHalfLife 6586 s
+/gate/source/rod110/gps/type Volume
+/gate/source/rod110/gps/shape Cylinder
+/gate/source/rod110/gps/radius +8.99999976e-01 mm
+/gate/source/rod110/gps/halfz +2.00000000e+01 mm
+/gate/source/rod110/gps/angtype iso
+/gate/source/rod110/gps/centre +2.56713257e+01 +1.43326063e+01 0 mm
+/gate/source/rod110/visualize 400 green 2
+
+/gate/source/addSource rod111
+/gate/source/rod111/attachTo Elliptube
+/gate/source/rod111/setActivity +1.56493115e+04 becquerel
+/gate/source/rod111/gps/particle e+
+/gate/source/rod111/setForcedUnstableFlag true
+/gate/source/rod111/gps/energytype Fluor18
+/gate/source/rod111/setForcedHalfLife 6586 s
+/gate/source/rod111/gps/type Volume
+/gate/source/rod111/gps/shape Cylinder
+/gate/source/rod111/gps/radius +8.99999976e-01 mm
+/gate/source/rod111/gps/halfz +2.00000000e+01 mm
+/gate/source/rod111/gps/angtype iso
+/gate/source/rod111/gps/centre +2.47395821e+01 +1.78099289e+01 0 mm
+/gate/source/rod111/visualize 400 green 2
+
+/gate/source/addSource rod112
+/gate/source/rod112/attachTo Elliptube
+/gate/source/rod112/setActivity +1.56493115e+04 becquerel
+/gate/source/rod112/gps/particle e+
+/gate/source/rod112/setForcedUnstableFlag true
+/gate/source/rod112/gps/energytype Fluor18
+/gate/source/rod112/setForcedHalfLife 6586 s
+/gate/source/rod112/gps/type Volume
+/gate/source/rod112/gps/shape Cylinder
+/gate/source/rod112/gps/radius +8.99999976e-01 mm
+/gate/source/rod112/gps/halfz +2.00000000e+01 mm
+/gate/source/rod112/gps/angtype iso
+/gate/source/rod112/gps/centre +3.38073997e+01 -3.98581624e+00 0 mm
+/gate/source/rod112/visualize 400 green 2
+
+/gate/source/addSource rod113
+/gate/source/rod113/attachTo Elliptube
+/gate/source/rod113/setActivity +1.56493115e+04 becquerel
+/gate/source/rod113/gps/particle e+
+/gate/source/rod113/setForcedUnstableFlag true
+/gate/source/rod113/gps/energytype Fluor18
+/gate/source/rod113/setForcedHalfLife 6586 s
+/gate/source/rod113/gps/type Volume
+/gate/source/rod113/gps/shape Cylinder
+/gate/source/rod113/gps/radius +8.99999976e-01 mm
+/gate/source/rod113/gps/halfz +2.00000000e+01 mm
+/gate/source/rod113/gps/angtype iso
+/gate/source/rod113/gps/centre +3.28756523e+01 -5.08476794e-01 0 mm
+/gate/source/rod113/visualize 400 green 2
+
+/gate/source/addSource rod114
+/gate/source/rod114/attachTo Elliptube
+/gate/source/rod114/setActivity +1.56493115e+04 becquerel
+/gate/source/rod114/gps/particle e+
+/gate/source/rod114/setForcedUnstableFlag true
+/gate/source/rod114/gps/energytype Fluor18
+/gate/source/rod114/setForcedHalfLife 6586 s
+/gate/source/rod114/gps/type Volume
+/gate/source/rod114/gps/shape Cylinder
+/gate/source/rod114/gps/radius +8.99999976e-01 mm
+/gate/source/rod114/gps/halfz +2.00000000e+01 mm
+/gate/source/rod114/gps/angtype iso
+/gate/source/rod114/gps/centre +3.19439049e+01 +2.96884561e+00 0 mm
+/gate/source/rod114/visualize 400 green 2
+
+/gate/source/addSource rod115
+/gate/source/rod115/attachTo Elliptube
+/gate/source/rod115/setActivity +1.56493115e+04 becquerel
+/gate/source/rod115/gps/particle e+
+/gate/source/rod115/setForcedUnstableFlag true
+/gate/source/rod115/gps/energytype Fluor18
+/gate/source/rod115/setForcedHalfLife 6586 s
+/gate/source/rod115/gps/type Volume
+/gate/source/rod115/gps/shape Cylinder
+/gate/source/rod115/gps/radius +8.99999976e-01 mm
+/gate/source/rod115/gps/halfz +2.00000000e+01 mm
+/gate/source/rod115/gps/angtype iso
+/gate/source/rod115/gps/centre +3.10121574e+01 +6.44618273e+00 0 mm
+/gate/source/rod115/visualize 400 green 2
+
+/gate/source/addSource rod116
+/gate/source/rod116/attachTo Elliptube
+/gate/source/rod116/setActivity +1.56493115e+04 becquerel
+/gate/source/rod116/gps/particle e+
+/gate/source/rod116/setForcedUnstableFlag true
+/gate/source/rod116/gps/energytype Fluor18
+/gate/source/rod116/setForcedHalfLife 6586 s
+/gate/source/rod116/gps/type Volume
+/gate/source/rod116/gps/shape Cylinder
+/gate/source/rod116/gps/radius +8.99999976e-01 mm
+/gate/source/rod116/gps/halfz +2.00000000e+01 mm
+/gate/source/rod116/gps/angtype iso
+/gate/source/rod116/gps/centre +3.00804062e+01 +9.92352104e+00 0 mm
+/gate/source/rod116/visualize 400 green 2
+
+/gate/source/addSource rod117
+/gate/source/rod117/attachTo Elliptube
+/gate/source/rod117/setActivity +1.56493115e+04 becquerel
+/gate/source/rod117/gps/particle e+
+/gate/source/rod117/setForcedUnstableFlag true
+/gate/source/rod117/gps/energytype Fluor18
+/gate/source/rod117/setForcedHalfLife 6586 s
+/gate/source/rod117/gps/type Volume
+/gate/source/rod117/gps/shape Cylinder
+/gate/source/rod117/gps/radius +8.99999976e-01 mm
+/gate/source/rod117/gps/halfz +2.00000000e+01 mm
+/gate/source/rod117/gps/angtype iso
+/gate/source/rod117/gps/centre +2.91486549e+01 +1.34008579e+01 0 mm
+/gate/source/rod117/visualize 400 green 2
+
+/gate/source/addSource rod118
+/gate/source/rod118/attachTo Elliptube
+/gate/source/rod118/setActivity +1.56493115e+04 becquerel
+/gate/source/rod118/gps/particle e+
+/gate/source/rod118/setForcedUnstableFlag true
+/gate/source/rod118/gps/energytype Fluor18
+/gate/source/rod118/setForcedHalfLife 6586 s
+/gate/source/rod118/gps/type Volume
+/gate/source/rod118/gps/shape Cylinder
+/gate/source/rod118/gps/radius +8.99999976e-01 mm
+/gate/source/rod118/gps/halfz +2.00000000e+01 mm
+/gate/source/rod118/gps/angtype iso
+/gate/source/rod118/gps/centre +2.82169113e+01 +1.68781815e+01 0 mm
+/gate/source/rod118/visualize 400 green 2
+
+/gate/source/addSource rod119
+/gate/source/rod119/attachTo Elliptube
+/gate/source/rod119/setActivity +1.56493115e+04 becquerel
+/gate/source/rod119/gps/particle e+
+/gate/source/rod119/setForcedUnstableFlag true
+/gate/source/rod119/gps/energytype Fluor18
+/gate/source/rod119/setForcedHalfLife 6586 s
+/gate/source/rod119/gps/type Volume
+/gate/source/rod119/gps/shape Cylinder
+/gate/source/rod119/gps/radius +8.99999976e-01 mm
+/gate/source/rod119/gps/halfz +2.00000000e+01 mm
+/gate/source/rod119/gps/angtype iso
+/gate/source/rod119/gps/centre +2.72851696e+01 +2.03555069e+01 0 mm
+/gate/source/rod119/visualize 400 green 2
+
+/gate/source/addSource rod120
+/gate/source/rod120/attachTo Elliptube
+/gate/source/rod120/setActivity +1.56493115e+04 becquerel
+/gate/source/rod120/gps/particle e+
+/gate/source/rod120/setForcedUnstableFlag true
+/gate/source/rod120/gps/energytype Fluor18
+/gate/source/rod120/setForcedHalfLife 6586 s
+/gate/source/rod120/gps/type Volume
+/gate/source/rod120/gps/shape Cylinder
+/gate/source/rod120/gps/radius +8.99999976e-01 mm
+/gate/source/rod120/gps/halfz +2.00000000e+01 mm
+/gate/source/rod120/gps/angtype iso
+/gate/source/rod120/gps/centre +3.44894905e+01 +5.51442957e+00 0 mm
+/gate/source/rod120/visualize 400 green 2
+
+/gate/source/addSource rod121
+/gate/source/rod121/attachTo Elliptube
+/gate/source/rod121/setActivity +1.56493115e+04 becquerel
+/gate/source/rod121/gps/particle e+
+/gate/source/rod121/setForcedUnstableFlag true
+/gate/source/rod121/gps/energytype Fluor18
+/gate/source/rod121/setForcedHalfLife 6586 s
+/gate/source/rod121/gps/type Volume
+/gate/source/rod121/gps/shape Cylinder
+/gate/source/rod121/gps/radius +8.99999976e-01 mm
+/gate/source/rod121/gps/halfz +2.00000000e+01 mm
+/gate/source/rod121/gps/angtype iso
+/gate/source/rod121/gps/centre +3.35577431e+01 +8.99176311e+00 0 mm
+/gate/source/rod121/visualize 400 green 2
+
+/gate/source/addSource rod122
+/gate/source/rod122/attachTo Elliptube
+/gate/source/rod122/setActivity +1.56493115e+04 becquerel
+/gate/source/rod122/gps/particle e+
+/gate/source/rod122/setForcedUnstableFlag true
+/gate/source/rod122/gps/energytype Fluor18
+/gate/source/rod122/setForcedHalfLife 6586 s
+/gate/source/rod122/gps/type Volume
+/gate/source/rod122/gps/shape Cylinder
+/gate/source/rod122/gps/radius +8.99999976e-01 mm
+/gate/source/rod122/gps/halfz +2.00000000e+01 mm
+/gate/source/rod122/gps/angtype iso
+/gate/source/rod122/gps/centre +3.26259880e+01 +1.24691095e+01 0 mm
+/gate/source/rod122/visualize 100000 green 2
+

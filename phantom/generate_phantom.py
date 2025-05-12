@@ -49,7 +49,7 @@ scan_time = float(config['Simulation']['scan_time'])
 if (ph_type.lower()=='nema_vox'):
     
     sys.path.append(os.path.join(cur_dir, 'nema'))
-    from generate_digital_nema import create_phantom, save_phantom, save_header, save_ranges, save_atten_map
+    from nema.generate_digital_nema import create_phantom, save_phantom, save_header, save_ranges, save_atten_map
     
     # Activity concentrations in Bq/mL
     sph_act = float(config['NEMA']['sph_act_conc'])
@@ -92,7 +92,7 @@ if (ph_type.lower()=='nema_vox'):
 elif ph_type.lower()=='uniform_vox':
     
     sys.path.append(os.path.join(cur_dir, 'uniform_vox'))
-    from generate_digital_uniform import create_phantom, save_phantom, save_header, save_ranges, save_atten_map
+    from uniform.generate_digital_uniform import create_phantom, save_phantom, save_header, save_ranges, save_atten_map
     
     # Activity concentrations in Bq/mL
     cyl_act = float(config['Uniform']['cyl_act_conc'])

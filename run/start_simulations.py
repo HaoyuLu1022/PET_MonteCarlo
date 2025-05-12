@@ -31,7 +31,7 @@ scripts_dir = os.path.join(patient_dir, 'scripts')
 
 # Compute-canada goodies command
 cmd = 'python ../../../compute-canada-goodies/python/queue_cc.py '
-cmd += '--account "%s" --todo_dir "../scripts" ' % (account)
+cmd += '--todo_dir "../scripts" '
 cmd += '--done_dir "../done" --output_dir "../stdout" '
 cmd += '--num_jobs %i --num_runs 1 --num_gpu 0 ' % (num_jobs)
 cmd += '--num_cpu 1 --mem %sG --time_limit "%s"' % (mem, job_time)

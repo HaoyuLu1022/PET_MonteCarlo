@@ -1,0 +1,34 @@
+#=====================================================
+#  P H A N T O M
+#=====================================================
+#elliptical tube phantom
+
+/gate/world/daughters/name QC_box
+/gate/world/daughters/insert box
+/gate/QC_box/placement/setTranslation 0.0 0.0 0.0 cm
+/gate/QC_box/geometry/setXLength 40. cm
+/gate/QC_box/geometry/setYLength 40. cm
+/gate/QC_box/geometry/setZLength 26.3 cm
+/gate/QC_box/setMaterial Air
+/gate/QC_box/vis/forceWireframe
+/gate/QC_box/vis/setColor gray
+
+/gate/QC_box/daughters/name Elliptube
+/gate/QC_box/daughters/insert cylinder
+/gate/Elliptube/geometry/setRmax 180 mm
+/gate/Elliptube/geometry/setHeight 263 mm
+/gate/Elliptube/placement/setTranslation 0 0 0 mm
+/gate/Elliptube/setMaterial Water
+/gate/Elliptube/vis/forceSolid
+/gate/Elliptube/vis/setColor blue
+/gate/Elliptube/vis/setVisible 1
+
+/gate/Elliptube/attachPhantomSD
+
+/gate/actor/addActor PhaseSpaceActor MyActor
+/gate/actor/MyActor/save {root_fn}.psa.root
+/gate/actor/MyActor/attachTo QC_box
+/gate/actor/MyActor/enableProductionVolume   false
+/gate/actor/MyActor/enableProductionProcess  false
+/gate/actor/MyActor/enableParticleName       false
+/gate/actor/MyActor/enableWeight             false

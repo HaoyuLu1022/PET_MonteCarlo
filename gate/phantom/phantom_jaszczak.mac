@@ -1,0 +1,24 @@
+/gate/world/daughters/name jaszczak_box
+/gate/world/daughters/insert box
+/gate/jaszczak_box/placement/setTranslation 0.0 0.0 0.0 cm
+/gate/jaszczak_box/geometry/setXLength 40. cm
+/gate/jaszczak_box/geometry/setYLength 40. cm
+/gate/jaszczak_box/geometry/setZLength 26.3 cm
+/gate/jaszczak_box/setMaterial Air
+/gate/jaszczak_box/vis/forceWireframe
+/gate/jaszczak_box/vis/setColor gray
+
+/gate/jaszczak_box/daughters/name VoxAttn
+/gate/jaszczak_box/daughters/insert ImageNestedParametrisedVolume # Or ImageRegularParametrisedVolume
+/gate/VoxAttn/geometry/setImage phantom/fill_jaszczak/Fillable_Jaszczak_238x237x134_Atn.h33
+/gate/VoxAttn/geometry/setRangeToMaterialFile phantom/fill_jaszczak/Attenuation_Jaszczak_Range.dat
+/gate/VoxAttn/placement/setTranslation  0. 0. 0. cm
+/gate/VoxAttn/attachPhantomSD
+
+#/gate/actor/addActor PhaseSpaceActor MyActor
+#/gate/actor/MyActor/save {root_fn}.psa.root
+#/gate/actor/MyActor/attachTo jaszczak_box
+#/gate/actor/MyActor/enableProductionVolume   false
+#/gate/actor/MyActor/enableProductionProcess  false
+#/gate/actor/MyActor/enableParticleName       false
+#/gate/actor/MyActor/enableWeight             false

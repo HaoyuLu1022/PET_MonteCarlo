@@ -83,6 +83,17 @@ cluster_config = {
             "threads_per_gpu": 7,
             "ram_per_node": 191000,
             "ram_per_gpu": 23875,
+        },
+    "spartan":
+        {   
+            "gpu_model": "feit-gpu-a100",
+            "gpus_per_node": 4,
+            "cpu_cores_per_node": 32,
+            "threads_per_node": 64,
+            "cpu_cores_per_gpu": 8,
+            "threads_per_gpu": 16,
+            "ram_per_node": 495000,
+            "ram_per_gpu": 81920,
         }
 }
 
@@ -192,12 +203,14 @@ def main(config):
         cluster = "beluga"
     elif hostname.startswith("stirk"):
         cluster = "moo"
+    elif hostname.startswith("spartan"):
+        cluster = "spartan"
     else:
         raise ValueError("Unknown cluster {}".format(hostname))
 
     # Get gpu usage statistics
     num_gpu = config.num_gpu
-
+    gpu_model = cluster_config[cluster]["gpu_model"]
     # Set options or automatically infer CPU and MEM
     num_cpu = config.num_cpu
     if num_cpu.lower() == "auto":
@@ -256,16 +269,22 @@ def main(config):
         for idx_run in range(config.num_runs):
             com = ["sbatch"]
             com += ["--cpus-per-task={}".format(num_cpu)]
+            com += ["--partition=sapphire"]
             if num_gpu > 0:
+                com += ["--partition={}".format(gpu_model)]
                 com += ["--gres=gpu:{}".format(num_gpu)]
+                com += ["--qos=feit"]
             com += ["--mem={}".format(mem)]
             com += ["--time={}".format(time_limit)]
             if len(dep_str) > 0:
                 com += ["--dependency=afterany:{}".format(dep_str)]
-            com += ["--account={}".format(config.account)]
+            # com += ["--account={}".format(config.account)]
+            # For interactive jobs please comment this following lines
             com += ["--output={}/%x-%j.out".format(config.output_dir)]
             com += ["--export=ALL"]
             com += [os.path.join(config.done_dir, job_script)]
+            com += ["--mail-user={}".format("haoyulu@student.unimelb.edu.au")]
+            com += ["--mail-type=ALL"]
             slurm_res = subprocess.run(com, stdout=subprocess.PIPE)
             print(slurm_res.stdout.decode())
             # Get job ID

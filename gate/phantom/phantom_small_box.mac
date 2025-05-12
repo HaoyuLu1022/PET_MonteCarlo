@@ -1,0 +1,18 @@
+#=====================================================
+#  P H A N T O M
+#=====================================================
+#elliptical tube phantom
+
+/gate/world/daughters/name Elliptube
+/gate/world/daughters/insert box
+/gate/Elliptube/placement/setTranslation 249.5 249.5 0.5 mm
+/gate/Elliptube/geometry/setXLength 10.0 mm
+/gate/Elliptube/geometry/setYLength 10.0 mm
+/gate/Elliptube/geometry/setZLength 10.0 mm
+/gate/Elliptube/setMaterial Water
+/gate/Elliptube/vis/forceSolid
+/gate/Elliptube/vis/setColor blue
+/gate/Elliptube/vis/setVisible 1
+
+/gate/Elliptube/attachPhantomSD
+

@@ -40,7 +40,7 @@ def run_setup(patient_name, cur_dir, config):
     time_blur = float(config['Simulation']['time_blur'])
 
     # Phantom type dependent parametes
-    if (ph_type=='nema_vox'):
+    if (ph_type=='nema_vox' or ph_type == "nema_vision"):
         # NEMA voxelized phantom
         source_mac = 'source_voxelized.mac'
         attn_mac = 'attenuation_voxelized.mac'
@@ -49,6 +49,8 @@ def run_setup(patient_name, cur_dir, config):
         bed_pos_atten = bed_pos + 1170 # mm
         x_off_src = x_off - 200
         y_off_src = y_off - 200
+    elif ("63" in ph_type): 
+        source63_mac = config['Phantom']['source63_mac']
     elif (ph_type=='uniform_vox'):
         # Uniform cylindrical voxelized phantom
         source_mac = 'source_voxelized.mac'
@@ -107,7 +109,7 @@ def run_setup(patient_name, cur_dir, config):
     elif multi_policy=='winner':
         multi_policy = 'takeWinnerOfGoods'
 
-    if 'vox' in ph_type:
+    if 'vox' in ph_type or 'vision' in ph_type:
         # Filenames for the phantoms
         atn_rng_fn = os.path.join(data_dir, 'AttenuationRange.dat')
         atn_fn = os.path.join(data_dir, '%s_attn.h33'% ph_type.split('_')[0])
@@ -134,7 +136,6 @@ def run_setup(patient_name, cur_dir, config):
             if ph_type=='uniform_shape':
                 # Gate call for this script
                 cmd = ('Gate -a "[root_fn,%s]' % (root_fn)+
-                       ' [source_mac,%s] [attn_mac,%s]' % (source_mac, attn_mac)+
                        ' [TimeSlice,%0.5f] [TimeStart,%0.5f] [TimeStop,%0.5f]' % (time_slice, start_time, end_time)+
                        ' [bed_pos,%0.3f] [cyl_half_len,%0.3f] [cyl_end_len,%0.3f]' % (bed_pos, cyl_half_len, cyl_end_len)+
                        ' [x_off,%0.3f] [y_off,%0.3f]' % (x_off, y_off)+
@@ -146,8 +147,8 @@ def run_setup(patient_name, cur_dir, config):
                        ' [housing_material,%s] [coinc_window,%0.4f]' % (housing_material, coinc_window)+
                        ' [time_blur,%0.6f]' % (time_blur)+
                        ' [ener_res,%0.3f] [cryst_res_min,%0.3f] [cryst_res_max,%0.3f]' % (ener_res, cryst_res[0], cryst_res[1])+
-                       ' [multi_policy,%s] [quant_eff,%0.3f]" main.mac\n' % (multi_policy, quant_eff))
-            elif 'vox' in ph_type:
+                       ' [multi_policy,%s] [quant_eff,%0.3f]" Main.mac\n' % (multi_policy, quant_eff))
+            elif 'nema' in ph_type and 'vision' not in ph_type:
                 # Gate call for this script
                 cmd = ('Gate -a "[root_fn,%s] [atn_fn,%s]' % (root_fn, atn_fn)+
                        ' [atn_rng_fn,%s] [act_fn,%s] [act_rng_fn,%s]' % (atn_rng_fn, act_fn, act_rng_fn)+
@@ -159,7 +160,16 @@ def run_setup(patient_name, cur_dir, config):
                        ' [coinc_window,%0.4f]' % (coinc_window)+
                        ' [time_blur,%0.6f]' % (time_blur)+
                        ' [ener_res,%0.3f] [cryst_res_min,%0.3f] [cryst_res_max,%0.3f]' % (ener_res, cryst_res[0], cryst_res[1])+
-                       ' [multi_policy,%s] [quant_eff,%0.3f]" main.mac\n' % (multi_policy, quant_eff))
+                       ' [multi_policy,%s] [quant_eff,%0.3f]" Main.mac\n' % (multi_policy, quant_eff))
+            elif '63' in ph_type:
+                cmd = ('Gate -a "[root_fn,%s]' % (root_fn)+
+                       ' [source_mac,%s]' % source63_mac + 
+                       ' [TimeSlice,%0.5f] [TimeStart,%0.5f] [TimeStop,%0.5f]' % (time_slice, start_time, end_time)+
+                       ' [multi_policy,%s] [quant_eff,%0.3f]" Main.mac\n' % (multi_policy, quant_eff))
+            elif "vision" in ph_type:
+                cmd = ('Gate -a "[root_fn,%s]' % (root_fn)+
+                       ' [TimeSlice,%0.5f] [TimeStart,%0.5f] [TimeStop,%0.5f]' % (time_slice, start_time, end_time)+
+                       ' [multi_policy,%s] [quant_eff,%0.3f]" Main.mac\n' % (multi_policy, quant_eff))
 
             # Create Compute-Canada script by adjusting template script
             with open(script_fn, 'wt') as new_script:

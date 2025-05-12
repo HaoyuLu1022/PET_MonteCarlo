@@ -1,0 +1,57 @@
+#=====================================================
+#  P H A N T O M
+#=====================================================
+#elliptical tube phantom
+
+/gate/world/daughters/name Elliptube
+/gate/world/daughters/insert box
+/gate/Elliptube/placement/setTranslation 0.0 -195.0 0.0 mm
+/gate/Elliptube/geometry/setXLength  263.0 mm
+/gate/Elliptube/geometry/setYLength 10.0 mm
+/gate/Elliptube/geometry/setZLength 129.0 mm
+/gate/Elliptube/setMaterial Air
+/gate/Elliptube/vis/forceWireframe
+/gate/Elliptube/vis/setColor white
+/gate/Elliptube/vis/setVisible 0
+
+/gate/Elliptube/daughters/name module_Insert
+/gate/Elliptube/daughters/insert box
+/gate/module_Insert/placement/setTranslation 0.0 0.0 0.0 mm
+/gate/module_Insert/geometry/setXLength 32.0 mm
+/gate/module_Insert/geometry/setYLength 10.0 mm
+/gate/module_Insert/geometry/setZLength 64.0 mm
+/gate/module_Insert/setMaterial Air
+/gate/module_Insert/vis/forceWireframe
+/gate/module_Insert/vis/setColor grey
+/gate/module_Insert/vis/setVisible 0
+
+#	LSO layer-Back
+/gate/module_Insert/daughters/name LSO_Insert
+/gate/module_Insert/daughters/insert box
+/gate/LSO_Insert/placement/setTranslation 0 0.0 0.0 mm
+/gate/LSO_Insert/geometry/setXLength 0.98 mm
+/gate/LSO_Insert/geometry/setYLength 10.0 mm
+/gate/LSO_Insert/geometry/setZLength 0.98 mm
+/gate/LSO_Insert/setMaterial LSO
+/gate/LSO_Insert/vis/forceSolid
+/gate/LSO_Insert/vis/setColor red
+/gate/LSO_Insert/vis/setVisible 1
+
+/gate/LSO_Insert/repeaters/insert cubicArray
+/gate/LSO_Insert/cubicArray/setRepeatNumberX 32
+/gate/LSO_Insert/cubicArray/setRepeatNumberY 1
+/gate/LSO_Insert/cubicArray/setRepeatNumberZ 64
+/gate/LSO_Insert/cubicArray/setRepeatVector 1.0 0.0 1.0 mm
+
+#	R E P E A T MODULE
+/gate/module_Insert/repeaters/insert cubicArray
+/gate/module_Insert/cubicArray/setRepeatNumberX 8
+/gate/module_Insert/cubicArray/setRepeatNumberY 1
+/gate/module_Insert/cubicArray/setRepeatNumberZ 2
+/gate/module_Insert/cubicArray/setRepeatVector 33.0 0.0 65.0 mm
+
+/gate/Elliptube/attachPhantomSD
+
+
+
+

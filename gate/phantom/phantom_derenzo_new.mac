@@ -1,0 +1,24 @@
+/gate/world/daughters/name derenzo_box
+/gate/world/daughters/insert box
+/gate/derenzo_box/placement/setTranslation 0.0 0.0 0.0 cm
+/gate/derenzo_box/geometry/setXLength 40. cm
+/gate/derenzo_box/geometry/setYLength 40. cm
+/gate/derenzo_box/geometry/setZLength 26.3 cm
+/gate/derenzo_box/setMaterial Air
+/gate/derenzo_box/vis/forceWireframe
+/gate/derenzo_box/vis/setColor gray
+
+/gate/derenzo_box/daughters/name VoxAttn
+/gate/derenzo_box/daughters/insert ImageNestedParametrisedVolume # Or ImageRegularParametrisedVolume
+/gate/VoxAttn/geometry/setImage phantom/derenzo/Derenzo_222x222x161_Attn.h33
+/gate/VoxAttn/geometry/setRangeToMaterialFile phantom/derenzo/Attenuation_Derenzo_Range.dat
+/gate/VoxAttn/placement/setTranslation  0. 0. 0. cm
+/gate/VoxAttn/attachPhantomSD
+
+/gate/actor/addActor PhaseSpaceActor MyActor
+/gate/actor/MyActor/save {root_fn}.psa.root
+/gate/actor/MyActor/attachTo derenzo_box
+/gate/actor/MyActor/enableProductionVolume   false
+/gate/actor/MyActor/enableProductionProcess  false
+/gate/actor/MyActor/enableParticleName       false
+/gate/actor/MyActor/enableWeight             false

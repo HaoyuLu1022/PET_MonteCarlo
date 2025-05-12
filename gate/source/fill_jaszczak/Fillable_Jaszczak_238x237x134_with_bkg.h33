@@ -1,0 +1,14 @@
+!INTERFILE :=
+!data offset in bytes := 0
+!name of data file := source/fill_jaszczak/Fillable_Jaszczak_238x237x134_with_bkg.i33
+imagedata byte order := LITTLEENDIAN
+!matrix size [1] := 238
+!matrix size [2] := 237
+!number format := unsigned integer
+!number of bytes per pixel := 2
+scaling factor (mm/pixel) [1] :=0.939453
+scaling factor (mm/pixel) [2] :=0.939453
+!number of slices := 134
+slice thickness (pixels) :=1.25
+centre-centre slice separation (pixels) :=1.25
+!END OF INTERFILE :=

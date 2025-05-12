@@ -63,13 +63,25 @@
 # OUTPUT
 /gate/output/verbose 0
 /gate/output/root/enable
-/gate/output/ascii/disable
+/gate/output/binary/disable
 # Set filename for output root file
 /gate/output/root/setFileName {root_fn}
+# /gate/output/binary/setFileName {root_fn}
 
 /gate/output/root/setRootHitFlag 0
-/gate/output/root/setRootSinglesFlag 0
-/gate/output/root/setRootCoincidencesFlag 1
+/gate/output/root/setRootSinglesFlag 1
+/gate/output/root/setRootCoincidencesFlag 0
+
+# enable binary output for hits
+# /gate/output/binary/setOutFileHitsFlag   0
+
+# enable binary output for Singles (end of digitizer chain)
+# /gate/output/binary/setOutFileSinglesFlag   1
+
+# enable binary output for coincidences
+# /gate/output/binary/setOutFileCoincidencesFlag   0
+
+# /gate/output/binary/setSingleMask 0 1 0 0 0 0 1 1 0 1 1 1 1
 
 # START
 /gate/application/setTimeSlice     {TimeSlice} s

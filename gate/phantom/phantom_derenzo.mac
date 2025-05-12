@@ -1,0 +1,35 @@
+#=====================================================
+#  P H A N T O M
+#=====================================================
+#elliptical tube phantom
+
+/gate/world/daughters/name derenzo_box
+/gate/world/daughters/insert box
+/gate/derenzo_box/placement/setTranslation 0.0 0.0 0.0 cm
+/gate/derenzo_box/geometry/setXLength 40. cm
+/gate/derenzo_box/geometry/setYLength 40. cm
+/gate/derenzo_box/geometry/setZLength 26.3 cm
+/gate/derenzo_box/setMaterial Air
+/gate/derenzo_box/vis/forceWireframe
+/gate/derenzo_box/vis/setColor gray
+
+/gate/derenzo_box/daughters/name Elliptube
+/gate/derenzo_box/daughters/insert cylinder
+/gate/Elliptube/geometry/setRmax 40 mm
+/gate/Elliptube/geometry/setHeight 50 mm
+/gate/Elliptube/placement/setTranslation 160 160 0 mm
+/gate/Elliptube/setMaterial Water
+/gate/Elliptube/vis/forceWireframe
+/gate/Elliptube/vis/setColor red
+
+/gate/Elliptube/attachPhantomSD
+
+/gate/actor/addActor PhaseSpaceActor MyActor
+/gate/actor/MyActor/save {root_fn}.psa.root
+/gate/actor/MyActor/attachTo derenzo_box
+/gate/actor/MyActor/enableProductionVolume   false
+/gate/actor/MyActor/enableProductionProcess  false
+/gate/actor/MyActor/enableParticleName       false
+/gate/actor/MyActor/enableWeight             false
+
+

@@ -1,9 +1,10 @@
 #!/bin/bash
 
 # System specific module loads 
-module load StdEnv/2016.4
-module load arch/avx2
-module load nixpkgs/16.09 gcc/5.4.0 gate/9.0
+# module load StdEnv/2016.4
+# module load arch/avx2
+# module load nixpkgs/16.09 gcc/5.4.0 gate/9.0
+module load foss/2022a GATE/9.0-gpu
 source `which geant4.sh`
 
 # Run Monte-Carlo simulation

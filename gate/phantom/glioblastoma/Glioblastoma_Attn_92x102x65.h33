@@ -1,0 +1,14 @@
+!INTERFILE :=
+!data offset in bytes := 0
+!name of data file := phantom/glioblastoma/Glioblastoma_Attn_92x102x65.i33
+imagedata byte order := LITTLEENDIAN
+!matrix size [1] := 92
+!matrix size [2] := 102
+!number format := unsigned integer
+!number of bytes per pixel := 2
+scaling factor (mm/pixel) [1] :=2.0
+scaling factor (mm/pixel) [2] :=2.0
+!number of slices := 65
+slice thickness (pixels) :=2.0
+centre-centre slice separation (pixels) :=2.0
+!END OF INTERFILE :=

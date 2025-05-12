@@ -1,0 +1,108 @@
+#
+#     W O R L D
+#
+/gate/world/geometry/setXLength 1000.0 mm
+/gate/world/geometry/setYLength 1000.0 mm
+/gate/world/geometry/setZLength 4000.0 mm
+/gate/world/vis/setVisible 0
+
+
+#-------------------oooooOOOOO00000OOOOOooooo---------------------#
+#                                                                 #
+#     D E F I N I T I O N   A N D   D E S C R I T I O N           #
+#        O F   Y O U R   P E T   D E V I C E                      #
+#                                                                 #
+#-------------------oooooOOOOO00000OOOOOooooo---------------------#
+
+#	Ring
+/gate/world/daughters/name Scanner_WB
+/gate/world/daughters/systemType cylindricalPET
+/gate/world/daughters/insert cylinder
+/gate/Scanner_WB/placement/setTranslation 0.0 0.0 0.0 mm
+/gate/Scanner_WB/geometry/setRmax 440.0 mm
+/gate/Scanner_WB/geometry/setRmin 390.0 mm
+/gate/Scanner_WB/geometry/setHeight 263.0 mm
+/gate/Scanner_WB/setMaterial Air
+/gate/Scanner_WB/vis/forceWireframe
+/gate/Scanner_WB/vis/setColor white
+/gate/Scanner_WB/vis/setVisible 0
+
+#	HEAD-Front
+/gate/Scanner_WB/daughters/name head_WB
+/gate/Scanner_WB/daughters/insert box
+/gate/head_WB/placement/setTranslation 0.0 -422.0 0.0 mm
+/gate/head_WB/geometry/setXLength 64.0 mm
+/gate/head_WB/geometry/setYLength 20.0 mm
+/gate/head_WB/geometry/setZLength 263.0 mm
+/gate/head_WB/setMaterial Air
+/gate/head_WB/vis/forceWireframe
+/gate/head_WB/vis/setColor blue
+/gate/head_WB/vis/setVisible 0
+
+#	MODULE-Front
+/gate/head_WB/daughters/name module_WB
+/gate/head_WB/daughters/insert box
+/gate/module_WB/placement/setTranslation 0.0 0.0 0.0 mm
+/gate/module_WB/geometry/setXLength 64.0 mm
+/gate/module_WB/geometry/setYLength 20.0 mm
+/gate/module_WB/geometry/setZLength 32.0 mm
+/gate/module_WB/setMaterial Air
+/gate/module_WB/vis/forceWireframe
+/gate/module_WB/vis/setColor grey
+/gate/module_WB/vis/setVisible 0
+
+#	CRYSTAL-Front
+/gate/module_WB/daughters/name crystal_WB
+/gate/module_WB/daughters/insert box
+/gate/crystal_WB/placement/setTranslation 0.0 0.0 0.0 mm
+/gate/crystal_WB/geometry/setXLength 3.18 mm
+/gate/crystal_WB/geometry/setYLength 20.0 mm
+/gate/crystal_WB/geometry/setZLength 3.18 mm
+/gate/crystal_WB/setMaterial Air
+/gate/crystal_WB/vis/forceWireframe
+/gate/crystal_WB/vis/setColor magenta
+/gate/crystal_WB/vis/setVisible 0
+
+#	LSO layer-Front
+/gate/crystal_WB/daughters/name LSO_WB
+/gate/crystal_WB/daughters/insert box
+/gate/LSO_WB/placement/setTranslation 0 0.0 0.0 mm
+/gate/LSO_WB/geometry/setXLength 3.18 mm
+/gate/LSO_WB/geometry/setYLength 19.98 mm
+/gate/LSO_WB/geometry/setZLength 3.18 mm
+/gate/LSO_WB/setMaterial LSO
+/gate/LSO_WB/vis/forceSolid
+/gate/LSO_WB/vis/setColor yellow
+/gate/LSO_WB/vis/setVisible 1
+
+#	R E P E A T    C R Y S T A L
+/gate/crystal_WB/repeaters/insert cubicArray
+/gate/crystal_WB/cubicArray/setRepeatNumberX 20
+/gate/crystal_WB/cubicArray/setRepeatNumberY 1
+/gate/crystal_WB/cubicArray/setRepeatNumberZ 10
+/gate/crystal_WB/cubicArray/setRepeatVector 3.2 0.0 3.2 mm
+
+#	R E P E A T MODULE
+/gate/module_WB/repeaters/insert cubicArray
+/gate/module_WB/cubicArray/setRepeatNumberX 1
+/gate/module_WB/cubicArray/setRepeatNumberY 1
+/gate/module_WB/cubicArray/setRepeatNumberZ 8
+/gate/module_WB/cubicArray/setRepeatVector 0.0 0.0 33.0 mm
+
+#	R E P E A T HEAD
+/gate/head_WB/repeaters/insert ring
+/gate/head_WB/ring/setRepeatNumber 38
+/gate/head_WB/ring/setFirstAngle 4.736842105263158 deg
+/gate/head_WB/ring/setAngularSpan 350.5263157894737 deg
+
+
+#	A T T A C H    S Y S T E M 
+/gate/systems/Scanner_WB/rsector/attach head_WB
+/gate/systems/Scanner_WB/module/attach module_WB
+/gate/systems/Scanner_WB/crystal/attach crystal_WB
+/gate/systems/Scanner_WB/layer0/attach LSO_WB
+
+/gate/LSO_WB/attachCrystalSD
+
+#/gate/Scanner_WB/moves/insert translation
+#/gate/Scanner_WB/translation/setSpeed 0 0 13 mm/s
