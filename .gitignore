@@ -1,0 +1,4 @@
+patient/*
+
+!patient/configs/
+!patient/configs/*
