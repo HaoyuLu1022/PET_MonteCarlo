@@ -51,6 +51,9 @@ def run_setup(patient_name, cur_dir, config):
         y_off_src = y_off - 200
     elif ("63" in ph_type): 
         source63_mac = config['Phantom']['source63_mac']
+    elif "patient" in ph_type:
+        source_mac = config['Phantom']['source_mac']
+        attn_mac = config['Phantom']['attn_mac']
     elif (ph_type=='uniform_vox'):
         # Uniform cylindrical voxelized phantom
         source_mac = 'source_voxelized.mac'
@@ -168,6 +171,7 @@ def run_setup(patient_name, cur_dir, config):
                        ' [multi_policy,%s] [quant_eff,%0.3f]" Main.mac\n' % (multi_policy, quant_eff))
             elif "vision" in ph_type:
                 cmd = ('Gate -a "[root_fn,%s]' % (root_fn)+
+                       ' [source_mac,%s]' % source_mac + ' [attn_mac,%s]' % attn_mac + 
                        ' [TimeSlice,%0.5f] [TimeStart,%0.5f] [TimeStop,%0.5f]' % (time_slice, start_time, end_time)+
                        ' [multi_policy,%s] [quant_eff,%0.3f]" Main.mac\n' % (multi_policy, quant_eff))
 

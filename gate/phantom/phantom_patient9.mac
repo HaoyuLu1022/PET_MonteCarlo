@@ -10,7 +10,7 @@
 
 /gate/patient_box/daughters/name VoxAttn
 /gate/patient_box/daughters/insert ImageNestedParametrisedVolume # Or ImageRegularParametrisedVolume
-/gate/VoxAttn/geometry/setImage phantom/patient9/patient9_attn_181x181x217.h33
+/gate/VoxAttn/geometry/setImage phantom/patient9/patient9_attn_181x217x181.h33
 /gate/VoxAttn/geometry/setRangeToMaterialFile phantom/patient9/Attenuation_Patient9_Range.dat
 /gate/VoxAttn/placement/setTranslation  0. 0. 0. cm
 /gate/VoxAttn/attachPhantomSD

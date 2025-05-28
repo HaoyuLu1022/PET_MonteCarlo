@@ -5,21 +5,9 @@
 
 /control/execute geometry.mac
 
-/control/execute phantom/phantom_patient8.mac
-#/control/execute phantom/phantom_patient9.mac
-#/control/execute phantom/phantom_patient10.mac
-#/control/execute phantom/phantom_patient11.mac
-#/control/execute phantom/phantom_jaszczak.mac
-#/control/execute phantom/phantom_dat.mac
-#/control/execute phantom/phantom_patient.mac
-#/control/execute phantom/phantom_defrise.mac
-#/control/execute phantom/phantom_glioblastoma.mac
-#/control/execute phantom/phantom_brain_perf.mac
 #/control/execute phantom/phantom_long63.mac
-#/control/execute phantom/phantom_derenzo_new.mac
-#/control/execute phantom/phantom_QC.mac
 #/control/execute phantom/phantom_nema.mac
-#/control/execute {attn_mac}
+/control/execute {attn_mac}
 
 /control/execute physics_vision.mac
 
@@ -30,23 +18,11 @@
 /control/execute digitizer_vision.mac
 
 #	S O U R C E
-/control/execute source/patient8.mac
-#/control/execute source/patient9.mac
-#/control/execute source/patient10.mac
-#/control/execute source/patient11.mac
-#/control/execute source/jaszczak.mac
-#/control/execute source/dat.mac
-#/control/execute source/patient.mac
-#/control/execute source/defrise.mac
-#/control/execute source/glioblastoma.mac
-#/control/execute source/brain_perf.mac
 #/control/execute source/long63/SrcBkg_voxel.mac
 #/control/execute source/long63/{source_mac}
-#/control/execute source/derenzo_new.mac
-#/control/execute source/QC.mac
 #/control/execute source/nema/SrcBkg_voxel.mac
 #/control/execute source/nema/nema_spheres.mac
-#/control/execute {source_mac}
+/control/execute {source_mac}
 
 #	V E R B O S I T Y
 /control/execute Verbose.mac
@@ -58,83 +34,6 @@
 /gate/output/root/setRootHitFlag 0
 /gate/output/root/setRootSinglesFlag 0
 /gate/output/root/setRootCoincidencesFlag 1
-
-#/gate/output/tree/enable
-#/gate/output/tree/addFileName {root_fn}.root
-#/gate/output/tree/hits/enable
-##/gate/output/tree/addCollection Coincidences
-#/gate/output/tree/hits/branches/PDGEncoding/disable
-#/gate/output/tree/hits/branches/trackID/disable
-#/gate/output/tree/hits/branches/parentID/disable
-#/gate/output/tree/hits/branches/trackLocalTime/disable
-##/gate/output/tree/hits/branches/time/enable
-#/gate/output/tree/hits/branches/runID/disable
-#/gate/output/tree/hits/branches/eventID/disable
-#/gate/output/tree/hits/branches/sourceID/disable
-#/gate/output/tree/hits/branches/primaryID/disable
-##/gate/output/tree/hits/branches/posX/enable
-##/gate/output/tree/hits/branches/posY/enable
-##/gate/output/tree/hits/branches/posZ/enable
-#/gate/output/tree/hits/branches/localPosX/disable
-#/gate/output/tree/hits/branches/localPosY/disable
-#/gate/output/tree/hits/branches/localPosZ/disable
-##/gate/output/tree/hits/branches/momDirX/enable
-##/gate/output/tree/hits/branches/momDirY/enable
-##/gate/output/tree/hits/branches/momDirZ/enable
-##/gate/output/tree/hits/branches/edep/enable
-#/gate/output/tree/hits/branches/stepLength/disable
-#/gate/output/tree/hits/branches/trackLength/disable
-#/gate/output/tree/hits/branches/rotationAngle/disable
-#/gate/output/tree/hits/branches/axialPos/disable
-#/gate/output/tree/hits/branches/processName/disable
-#/gate/output/tree/hits/branches/comptVolName/disable
-#/gate/output/tree/hits/branches/RayleighVolName/disable
-#/gate/output/tree/hits/branches/volumeIDs/disable
-#/gate/output/tree/hits/branches/sourcePosX/disable
-#/gate/output/tree/hits/branches/sourcePosY/disable
-#/gate/output/tree/hits/branches/sourcePosZ/disable
-#/gate/output/tree/hits/branches/nPhantomCompton/disable
-#/gate/output/tree/hits/branches/nCrystalCompton/disable
-#/gate/output/tree/hits/branches/nPhantomRayleigh/disable
-#/gate/output/tree/hits/branches/nCrystalRayleigh/disable
-##/gate/output/tree/hits/branches/gantryID/disable
-##/gate/output/tree/hits/branches/rsectorID/disable
-##/gate/output/tree/hits/branches/moduleID/disable
-##/gate/output/tree/hits/branches/submoduleID/disable
-##/gate/output/tree/hits/branches/crystalID/disable
-##/gate/output/tree/hits/branches/layerID/disable
-#/gate/output/tree/hits/branches/photonID/disable
-##/gate/output/tree/hits/branches/gammaType/disable
-##/gate/output/tree/hits/branches/decayType/disable
-##/gate/output/tree/hits/branches/sourceType/disable
-
-#/gate/output/tree/Coincidences/branches/runID/disable
-#/gate/output/tree/Coincidences/branches/eventID/disable
-#/gate/output/tree/Coincidences/branches/sourceID/disable
-##/gate/output/tree/Coincidences/branches/sourcePosX/enable
-##/gate/output/tree/Coincidences/branches/sourcePosY/enable
-##/gate/output/tree/Coincidences/branches/sourcePosZ/enable
-#/gate/output/tree/Coincidences/branches/rotationAngle/disable
-#/gate/output/tree/Coincidences/branches/axialPos/disable
-#/gate/output/tree/Coincidences/branches/globalPosX/disable
-#/gate/output/tree/Coincidences/branches/globalPosY/disable
-#/gate/output/tree/Coincidences/branches/globalPosZ/disable
-##/gate/output/tree/Coincidences/branches/time/enable
-#/gate/output/tree/Coincidences/branches/energy/disable
-#/gate/output/tree/Coincidences/branches/comptVolName/disable
-#/gate/output/tree/Coincidences/branches/RayleighVolName/disable
-##/gate/output/tree/Coincidences/branches/comptonPhantom/enable
-#/gate/output/tree/Coincidences/branches/comptonCrystal/disable
-##/gate/output/tree/Coincidences/branches/RayleighPhantom/enable
-#/gate/output/tree/Coincidences/branches/RayleighCrystal/disable
-##/gate/output/tree/Coincidences/branches/gantryID/enable
-##/gate/output/tree/Coincidences/branches/rsectorID/enable
-##/gate/output/tree/Coincidences/branches/moduleID/enable
-##/gate/output/tree/Coincidences/branches/submoduleID/enable
-##/gate/output/tree/Coincidences/branches/crystalID/enable
-##/gate/output/tree/Coincidences/branches/layerID/enable
-#/gate/output/tree/Coincidences/branches/sinogramTheta/disable
-#/gate/output/tree/Coincidences/branches/sinogramS/disable
 
 #====================================================
 #  R A N D O M   E N G I N E  A N D  S E E D
