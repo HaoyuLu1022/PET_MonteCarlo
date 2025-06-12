@@ -2,7 +2,7 @@
 
 # Name of patient corresponding to the config file you have created
 # in the PETRecML/patients/configs/ directory
-patient_name="patient9_vision"
+patient_name="$1"
 module load foss/2022a GATE/9.0-gpu
 
 # Check if name was provided

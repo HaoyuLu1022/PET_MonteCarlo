@@ -15,10 +15,10 @@
 /gate/VoxAttn/placement/setTranslation  0. 0. 0. cm
 /gate/VoxAttn/attachPhantomSD
 
-/gate/actor/addActor PhaseSpaceActor MyActor
-/gate/actor/MyActor/save {root_fn}.psa.root
-/gate/actor/MyActor/attachTo derenzo_box
-/gate/actor/MyActor/enableProductionVolume   false
-/gate/actor/MyActor/enableProductionProcess  false
-/gate/actor/MyActor/enableParticleName       false
-/gate/actor/MyActor/enableWeight             false
+#/gate/actor/addActor PhaseSpaceActor MyActor
+#/gate/actor/MyActor/save {root_fn}.psa.root
+#/gate/actor/MyActor/attachTo derenzo_box
+#/gate/actor/MyActor/enableProductionVolume   false
+#/gate/actor/MyActor/enableProductionProcess  false
+#/gate/actor/MyActor/enableParticleName       false
+#/gate/actor/MyActor/enableWeight             false

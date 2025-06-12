@@ -1,0 +1,24 @@
+/gate/world/daughters/name patient_box
+/gate/world/daughters/insert box
+/gate/patient_box/placement/setTranslation 0.0 0.0 0.0 cm
+/gate/patient_box/geometry/setXLength 40. cm
+/gate/patient_box/geometry/setYLength 40. cm
+/gate/patient_box/geometry/setZLength 26.3 cm
+/gate/patient_box/setMaterial Air
+/gate/patient_box/vis/forceWireframe
+/gate/patient_box/vis/setColor gray
+
+/gate/patient_box/daughters/name VoxAttn
+/gate/patient_box/daughters/insert ImageNestedParametrisedVolume # Or ImageRegularParametrisedVolume
+/gate/VoxAttn/geometry/setImage phantom/patient14/patient14_attn_181x181x217.h33
+/gate/VoxAttn/geometry/setRangeToMaterialFile phantom/patient14/Attenuation_Patient14_Range.dat
+/gate/VoxAttn/placement/setTranslation  0. 0. 0. cm
+/gate/VoxAttn/attachPhantomSD
+
+#/gate/actor/addActor PhaseSpaceActor MyActor
+#/gate/actor/MyActor/save {root_fn}.psa.root
+#/gate/actor/MyActor/attachTo patient_box
+#/gate/actor/MyActor/enableProductionVolume   false
+#/gate/actor/MyActor/enableProductionProcess  false
+#/gate/actor/MyActor/enableParticleName       false
+#/gate/actor/MyActor/enableWeight             false

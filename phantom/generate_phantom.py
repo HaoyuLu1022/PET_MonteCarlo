@@ -22,13 +22,14 @@ config.read(os.path.join(config_dir, patient_name+'.ini'))
 
 # Determine phantom type
 ph_type = config['Phantom']['type']
+scan_time = float(config['Simulation']['scan_time'])
 if 'vox' in ph_type:
     # Resolution of source phantom
     src_res = float(config['Phantom']['source_resolution'])
     # Resolution of attenuation phantom
     attn_res = float(config['Phantom']['attn_resolution'])
     
-patient_dir = os.path.join(cur_dir, '../patients/', patient_name)
+patient_dir = os.path.join(cur_dir, '../patients/', f'{patient_name}_{int(scan_time)}')
 data_dir = os.path.join(patient_dir, 'phantom')
 
 # Create directories

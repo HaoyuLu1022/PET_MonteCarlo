@@ -23,8 +23,9 @@ account = config['Simulation']['account']
 job_time = config['Simulation']['job_time']
 # Memory per job in GB
 mem = config['Simulation']['mem']
+scan_time = float(config['Simulation']['scan_time'])
 
-patient_dir = os.path.join(cur_dir, '../patients/', patient_name)
+patient_dir = os.path.join(cur_dir, '../patients/', f'{patient_name}_{int(scan_time)}')
 data_dir = os.path.join(patient_dir, 'phantom')
 results_dir = os.path.join(patient_dir, 'results')
 scripts_dir = os.path.join(patient_dir, 'scripts')

@@ -4,8 +4,22 @@ import sys
 import configparser
 
 def run_setup(patient_name, cur_dir, config):
-    # Directories for patient
-    patient_dir = os.path.join(cur_dir, '../patients/', patient_name)
+    # Load the configuration
+    ph_type = config['Phantom']['type'].lower()
+    scan_time = float(config['Simulation']['scan_time']) # s
+    num_jobs = int(config['Simulation']['num_jobs'])
+    bed_pos = float(config['Setup']['bed_pos']) # mm
+    x_off = float(config['Setup']['x_off']) # mm
+    y_off = float(config['Setup']['y_off']) # mm
+    quant_eff = float(config['Simulation']['quantum_eff'])
+    ener_res = float(config['Simulation']['ener_res'])
+    cryst_res = eval(config['Simulation']['cryst_res'])
+    multi_policy = config['Simulation']['multi_policy']
+    coinc_window = float(config['Simulation']['coinc_window'])
+    time_blur = float(config['Simulation']['time_blur'])
+
+     # Directories for patient
+    patient_dir = os.path.join(cur_dir, '../patients/', f'{patient_name}_{int(scan_time)}')
     data_dir = os.path.join(patient_dir, 'phantom')
     results_dir = os.path.join(patient_dir, 'results')
     scripts_dir = os.path.join(patient_dir, 'scripts')
@@ -25,19 +39,6 @@ def run_setup(patient_name, cur_dir, config):
     if not os.path.exists(stdout_dir):
         os.mkdir(stdout_dir)
 
-    # Load the configuration
-    ph_type = config['Phantom']['type'].lower()
-    scan_time = float(config['Simulation']['scan_time']) # s
-    num_jobs = int(config['Simulation']['num_jobs'])
-    bed_pos = float(config['Setup']['bed_pos']) # mm
-    x_off = float(config['Setup']['x_off']) # mm
-    y_off = float(config['Setup']['y_off']) # mm
-    quant_eff = float(config['Simulation']['quantum_eff'])
-    ener_res = float(config['Simulation']['ener_res'])
-    cryst_res = eval(config['Simulation']['cryst_res'])
-    multi_policy = config['Simulation']['multi_policy']
-    coinc_window = float(config['Simulation']['coinc_window'])
-    time_blur = float(config['Simulation']['time_blur'])
 
     # Phantom type dependent parametes
     if (ph_type=='nema_vox' or ph_type == "nema_vision"):
@@ -51,7 +52,7 @@ def run_setup(patient_name, cur_dir, config):
         y_off_src = y_off - 200
     elif ("63" in ph_type): 
         source63_mac = config['Phantom']['source63_mac']
-    elif "patient" in ph_type:
+    elif "vision" in ph_type:
         source_mac = config['Phantom']['source_mac']
         attn_mac = config['Phantom']['attn_mac']
     elif (ph_type=='uniform_vox'):
